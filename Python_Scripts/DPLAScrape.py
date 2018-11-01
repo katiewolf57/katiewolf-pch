@@ -5,8 +5,10 @@ import csv
 
 
 ## putting in my API key
-dpla_token = json.load(open('api.json', 'r'))
-dpla_token = dpla_token['DPLA_Token']
+keykey = json.load(open('api.json', 'r'))
+dpla_token = keykey['DPLA_token']
+
+print (dpla_token)
 
 ## making an empty list so I can fill it with all my search results
 dpla_all_data = []
@@ -14,25 +16,25 @@ dpla_all_data = []
 planets = ['mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune', 'pluto']
 
 
-## looping through my planet list
-## page size is 500 and there are NOT more than 500 results for each planet --> don't have to loop through multiple pages
+# looping through my planet list
+# page size is 500 and there are NOT more than 500 results for each planet --> don't have to loop through multiple pages
 
-# for planet in planets:
-# 	payload = {'q': 'planet+AND+' + planet, 'page_size':500, 'api_key': dpla_token}
-# 	r = requests.get('https://api.dp.la/v2/items', params = payload)
+for planet in planets:
+	payload = {'q': 'planet+AND+' + planet, 'page_size':500, 'api_key': dpla_token}
+	r = requests.get('https://api.dp.la/v2/items', params = payload)
 
-# 	dpla_data = json.loads(r.text)
-# 	## adding the search results for this planet to my results list
-# 	dpla_all_data.append(dpla_data)
+	dpla_data = json.loads(r.text)
+	## adding the search results for this planet to my results list
+	dpla_all_data.append(dpla_data)
 
-# 	## writing out the data for each planet it it's own JSON file for easier searching
-# 	json.dump(dpla_data, open(planet+'.json', 'w'), indent=4)
+	## writing out the data for each planet it it's own JSON file for easier searching
+	json.dump(dpla_data, open(planet+'.json', 'w'), indent=4)
 
-# 	with open (planet+'.csv', 'w') as planet_data:
-# 		writer = csv.writer(planet_data)
+	with open (planet+'.csv', 'w') as planet_data:
+		writer = csv.writer(planet_data)
 
 
 
-# json.dump(dpla_all_data, open('dpla_data.json', 'w'), indent=4)
+json.dump(dpla_all_data, open('dpla_data.json', 'w'), indent=4)
 
 
