@@ -4,15 +4,25 @@ import json
 import csv
 
 
-f = open('uranus.json', 'r')
+f = open('/Users/kwolf10/Desktop/PCH/GitHub/katiewolf-pch/JSON_files/saturn.json', 'r')
 planet_data = json.load(f)
 planet_data = planet_data['docs']
 
-data = []
+object_urls = []
+titles = []
+
+## "object" will give you the link to the actual picture!
 
 for item in planet_data:
-	butt = item['sourceResource']
-	data.append(butt)
+	butt = item['isShownAt']
+	object_urls.append(butt)
 	
 
-json.dump(data, open('testing.json', 'w'), indent=4)
+for item in planet_data:
+	butt = item['sourceResource']['title']
+	titles.append(butt)
+
+
+with open('output.csv', 'w') as results:
+	wr = csv.writer(results)
+	wr.writerows(zip(object_urls, titles))
