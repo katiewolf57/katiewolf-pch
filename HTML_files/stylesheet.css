@@ -3,9 +3,8 @@
 
 /*index styling*/
 
-body{
+#homebody{
 	background-color: black
-
 
 }
 
@@ -43,3 +42,43 @@ body{
 	font-size: 10pt;
 	
 }
+
+
+
+/* Planet Page Styling */
+
+#planetbody{
+	background:white;
+}
+
+#intro{
+	margin-top: 50px;
+ 	justify-content: center;
+ 	align-items: center;
+ 	text-align:center;
+	vertical-align:middle;
+  	display: flex;
+
+}
+
+.image_row{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 4px;
+	justify-content: center;
+	margin-top: 50px;
+ 	align-items: center;
+	vertical-align: middle;
+}
+
+.column {
+	padding: 4px;
+}
+
+.image_row img{
+	height: 300px;
+	margin-top: 8px;
+	padding: 4px;
+
+}
+
