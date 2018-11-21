@@ -1,0 +1,2266 @@
+{
+    "count": 13,
+    "start": 1,
+    "limit": 500,
+    "docs": [
+        {
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/6351e068e0757c492050d784e19eecee",
+            "object": "http://fedora.library.cofc.edu:8080/fedora/objects/lcdl:1391/datastreams/THUMB1/content",
+            "aggregatedCHO": "#sourceResource",
+            "ingestDate": "2018-02-28T15:16:08.503159Z",
+            "@type": "ore:Aggregation",
+            "isShownAt": "http://lcdl.library.cofc.edu/lcdl/catalog/lcdl:1391",
+            "provider": {
+                "@id": "http://dp.la/api/contributor/scdl",
+                "name": "South Carolina Digital Library"
+            },
+            "sourceResource": {
+                "rights": [
+                    "Digital image copyright 2007, The College of Charleston. All rights reserved. For more information contact The College of Charleston Library, Charleston, SC 29424."
+                ],
+                "description": "Title and \"598 (16765)\" on label.",
+                "language": [
+                    {
+                        "iso639_3": "eng",
+                        "name": "English"
+                    }
+                ],
+                "format": "Images",
+                "@id": "http://dp.la/api/items/6351e068e0757c492050d784e19eecee#sourceResource",
+                "title": "Planet Uranus and Two of Its Moons, Copyright Yerkes Observ",
+                "collection": [
+                    {
+                        "title": "Keystone View Company Lantern Slides, 1892-1912"
+                    }
+                ],
+                "date": {
+                    "begin": "1892",
+                    "end": "1912",
+                    "displayDate": "1892-1912"
+                },
+                "spatial": [
+                    {
+                        "name": "Uranus (Planet)"
+                    },
+                    {
+                        "name": "Pictorial works"
+                    }
+                ],
+                "stateLocatedIn": [
+                    {
+                        "name": "South Carolina"
+                    }
+                ],
+                "type": [
+                    "image"
+                ],
+                "subject": [
+                    {
+                        "name": "Lantern slides"
+                    }
+                ]
+            },
+            "ingestType": "item",
+            "dataProvider": "College of Charleston Libraries",
+            "originalRecord": {
+                "status": [],
+                "publisher": "College of Charleston Libraries",
+                "medium": "Images",
+                "handle": "http://lcdl.library.cofc.edu/lcdl/catalog/lcdl:1391",
+                "description": "Title and \"598 (16765)\" on label.",
+                "language": "English",
+                "title": "Planet Uranus and Two of Its Moons, Copyright Yerkes Observ.",
+                "rights": "Digital image copyright 2007, The College of Charleston. All rights reserved. For more information contact The College of Charleston Library, Charleston, SC 29424.",
+                "label": "Planet Uranus and Two of Its Moons, Copyright Yerkes Observ.",
+                "hasFormat": "http://fedora.library.cofc.edu:8080/fedora/objects/lcdl:1391/datastreams/THUMB1/content",
+                "date": "1892-1912",
+                "datestamp": "2017-05-12T17:17:48Z",
+                "spatial": "Uranus (Planet)--Pictorial works",
+                "provider": {
+                    "@id": "http://dp.la/api/contributor/scdl",
+                    "name": "South Carolina Digital Library"
+                },
+                "isPartOf": "Keystone View Company Lantern Slides, 1892-1912",
+                "type": "StillImage",
+                "id": "oai:scmemory-search.org/lcdl-1391",
+                "subject": "Lantern slides"
+            },
+            "id": "6351e068e0757c492050d784e19eecee"
+        },
+        {
+            "id": "21b52e360a08cc8d36b735eb6a20e1f9",
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/21b52e360a08cc8d36b735eb6a20e1f9",
+            "aggregatedCHO": "#sourceResource",
+            "dataProvider": "California Institute of Technology",
+            "ingestDate": "2018-10-22T23:41:22.031Z",
+            "ingestType": "item",
+            "isShownAt": "http://archives-dc.library.caltech.edu/islandora/object/ct1%3A9805",
+            "object": "https://thumbnails.calisphere.org/clip/150x150/feac29352958a414cb22c38d8b25072e",
+            "originalRecord": {
+                "stringValue": "{\n  \"sort_title\" : \"this view of uranus was recorded by voyager 2 as the spacecraft left the planet behind and set forth on its cruise to neptune\",\n  \"sort_date_end\" : \"1986-01-28T00:00:00Z\",\n  \"sort_date_start\" : \"1986-01-28T00:00:00Z\",\n  \"repository_url\" : [ \"https://registry.cdlib.org/api/v1/repository/157/\" ],\n  \"id\" : \"d7ca3765d32b323890ae3b9fe33e2119\",\n  \"title\" : [ \"This view of Uranus was recorded by Voyager 2 as the spacecraft left the planet behind and set forth on its cruise to Neptune\" ],\n  \"title_ss\" : [ \"This view of Uranus was recorded by Voyager 2 as the spacecraft left the planet behind and set forth on its cruise to Neptune\" ],\n  \"reference_image_dimensions\" : \"769:1009\",\n  \"collection_data\" : [ \"https://registry.cdlib.org/api/v1/collection/26951/::Image Archive\" ],\n  \"type\" : [ \"Image\" ],\n  \"type_ss\" : [ \"Image\" ],\n  \"url_item\" : \"http://archives-dc.library.caltech.edu/islandora/object/ct1%3A9805\",\n  \"description\" : [ \"Photo by JPL/NASA. Marvin Goldberger Papers.\", \"January 28, 1986\" ],\n  \"format\" : [ \"Photographs\" ],\n  \"format_ss\" : [ \"Photographs\" ],\n  \"facet_decade\" : [ \"1980s\" ],\n  \"date\" : [ \"1986-01-28\" ],\n  \"date_ss\" : [ \"1986-01-28\" ],\n  \"collection_url\" : [ \"https://registry.cdlib.org/api/v1/collection/26951/\" ],\n  \"repository_name\" : [ \"California Institute of Technology\" ],\n  \"reference_image_md5\" : \"feac29352958a414cb22c38d8b25072e\",\n  \"repository_data\" : [ \"https://registry.cdlib.org/api/v1/repository/157/::California Institute of Technology\" ],\n  \"rights\" : [ \"Materials from the Caltech Archives are made available online for research purposes. Permission for reproduction, distribution, public display, performance, or publication must be obtained in writing from the Head of Archives. The Caltech Archives makes no representation that it is the copyright owner in all of its holdings. It is the responsibility of the user to obtain all necessary rights and clearances for use of materials. For questions, contact Head of Archives.\" ],\n  \"rights_ss\" : [ \"Materials from the Caltech Archives are made available online for research purposes. Permission for reproduction, distribution, public display, performance, or publication must be obtained in writing from the Head of Archives. The Caltech Archives makes no representation that it is the copyright owner in all of its holdings. It is the responsibility of the user to obtain all necessary rights and clearances for use of materials. For questions, contact Head of Archives.\" ],\n  \"collection_name\" : [ \"Image Archive\" ],\n  \"sort_collection_data\" : [ \"image archive:Image Archive:https://registry.cdlib.org/api/v1/collection/26951/\" ],\n  \"harvest_id_s\" : \"26951--oai:archives-dc.library.caltech.edu:ct1_9805\",\n  \"identifier\" : [ \"ct1:9805\", \"http://archives-dc.library.caltech.edu/islandora/object/ct1%3A9805\" ],\n  \"identifier_ss\" : [ \"ct1:9805\", \"http://archives-dc.library.caltech.edu/islandora/object/ct1%3A9805\" ],\n  \"_version_\" : 1579715110437388288,\n  \"timestamp\" : \"2017-09-27T17:35:28.063Z\"\n}"
+            },
+            "provider": {
+                "@id": "http://dp.la/api/contributor/cdl",
+                "name": "California Digital Library"
+            },
+            "sourceResource": {
+                "@id": "http://dp.la/api/items/21b52e360a08cc8d36b735eb6a20e1f9#SourceResource",
+                "collection": [
+                    {
+                        "title": "Image Archive"
+                    }
+                ],
+                "date": [
+                    {
+                        "displayDate": "1986-01-28"
+                    }
+                ],
+                "description": [
+                    "Photo by JPL/NASA. Marvin Goldberger Papers.",
+                    "January 28, 1986"
+                ],
+                "format": [
+                    "Photographs"
+                ],
+                "identifier": [
+                    "ct1:9805",
+                    "http://archives-dc.library.caltech.edu/islandora/object/ct1%3A9805"
+                ],
+                "rights": [
+                    "Materials from the Caltech Archives are made available online for research purposes. Permission for reproduction, distribution, public display, performance, or publication must be obtained in writing from the Head of Archives. The Caltech Archives makes no representation that it is the copyright owner in all of its holdings. It is the responsibility of the user to obtain all necessary rights and clearances for use of materials. For questions, contact Head of Archives."
+                ],
+                "title": [
+                    "This view of Uranus was recorded by Voyager 2 as the spacecraft left the planet behind and set forth on its cruise to Neptune"
+                ],
+                "type": [
+                    "image"
+                ]
+            },
+            "@type": "ore:Aggregation"
+        },
+        {
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/0352163f993105fa0dc38a5e9b0c2627",
+            "object": "http://www.idaillinois.org/utils/getthumbnail/collection/ism/id/1387",
+            "aggregatedCHO": "#sourceResource",
+            "ingestDate": "2018-11-14T20:33:28.104230Z",
+            "@type": "ore:Aggregation",
+            "isShownAt": "http://www.idaillinois.org/cdm/ref/collection/ism/id/1387",
+            "provider": {
+                "@id": "http://dp.la/api/contributor/il",
+                "name": "Illinois Digital Heritage Hub"
+            },
+            "sourceResource": {
+                "description": "Acquiring art; Ecological habitat exhibits; R.G. Larson: an artist and naturalist; Uranus: a look back at the 7th planet; Calendar; Page for discovery: Arachnids; Curator's bookshelf",
+                "stateLocatedIn": [
+                    {
+                        "name": "Illinois"
+                    }
+                ],
+                "rights": "The ownership of the content and images presented here is retained by the Illinois State Museum. Permission is granted for the use of these materials in non-profit, educational presentations. Queries for commercial or other uses should be made to the ISM editorial office (EDITOR@MUSEUM.STATE.IL.US)",
+                "type": "image",
+                "creator": "Illinois State Museum",
+                "collection": {
+                    "title": "The Living Museum",
+                    "@id": "http://dp.la/api/collections/a3a0559be4bae688990f143221f31252",
+                    "description": "",
+                    "id": "a3a0559be4bae688990f143221f31252"
+                },
+                "contributor": "Smith, Kent; Larson, Robert G.; Munyer, Edward; Schweighauser, Charles",
+                "relation": "The Living Museum vol. 50, no. 1, 1988",
+                "spatial": [
+                    {
+                        "country": "United States",
+                        "state": "Illinois",
+                        "name": "Illinois",
+                        "coordinates": "40.00032, -89.25037"
+                    }
+                ],
+                "date": {
+                    "begin": "1988",
+                    "end": "1988",
+                    "displayDate": "1988"
+                },
+                "title": "The Living Museum vol. 50, no. 01, 1988",
+                "@id": "http://dp.la/api/items/0352163f993105fa0dc38a5e9b0c2627#sourceResource",
+                "subject": [
+                    {
+                        "name": "Museums--acquisitions"
+                    },
+                    {
+                        "name": "Museum techniques - exhibit artists"
+                    },
+                    {
+                        "name": "Naturalists--Larson, Robert"
+                    },
+                    {
+                        "name": "Astronomy--Uranus"
+                    },
+                    {
+                        "name": "Museum exhibits--calendar"
+                    },
+                    {
+                        "name": "Arachnids"
+                    },
+                    {
+                        "name": "Museum publications"
+                    }
+                ]
+            },
+            "ingestType": "item",
+            "dataProvider": "Illinois State Museum",
+            "originalRecord": {
+                "creator": "Illinois State Museum",
+                "datestamp": "2018-11-09",
+                "relation": "The Living Museum vol. 50, no. 1, 1988",
+                "contributor": "Smith, Kent; Larson, Robert G.; Munyer, Edward; Schweighauser, Charles",
+                "id": "urn:dpla-repox.carli.illinois.edu:ida_ism:oai:www.idaillinois.org:ism/1387",
+                "setSpec": "ida_ism",
+                "subject": "Museums -- acquisitions; Museum techniques - exhibit artists ; Naturalists -- Larson, Robert; Astronomy -- Uranus; Museum exhibits -- calendar; Arachnids; Museum publications",
+                "title": "The Living Museum vol. 50, no. 01, 1988",
+                "provenance": "Illinois State Museum",
+                "label": "The Living Museum vol. 50, no. 01, 1988",
+                "spatial": "Illinois",
+                "isPartOf": "The Living Museum",
+                "preview": {
+                    "#text": "http://www.idaillinois.org/utils/getthumbnail/collection/ism/id/1387",
+                    "xmlns:edm": "http://www.europeana.eu/schemas/edm/"
+                },
+                "type": "Text",
+                "status": [],
+                "medium": "JPEG",
+                "handle": "http://www.idaillinois.org/cdm/ref/collection/ism/id/1387",
+                "description": "Acquiring art; Ecological habitat exhibits; R.G. Larson: an artist and naturalist; Uranus: a look back at the 7th planet; Calendar; Page for discovery: Arachnids; Curator's bookshelf",
+                "provider": {
+                    "@id": "http://dp.la/api/contributor/il",
+                    "name": "Illinois Digital Heritage Hub"
+                },
+                "collection": {
+                    "title": "The Living Museum",
+                    "@id": "http://dp.la/api/collections/a3a0559be4bae688990f143221f31252",
+                    "description": "",
+                    "id": "a3a0559be4bae688990f143221f31252"
+                },
+                "isShownAt": {
+                    "#text": "http://www.idaillinois.org/cdm/ref/collection/ism/id/1387",
+                    "xmlns:edm": "http://www.europeana.eu/schemas/edm/"
+                },
+                "rights": "The ownership of the content and images presented here is retained by the Illinois State Museum. Permission is granted for the use of these materials in non-profit, educational presentations. Queries for commercial or other uses should be made to the ISM editorial office (EDITOR@MUSEUM.STATE.IL.US)",
+                "created": "1988"
+            },
+            "id": "0352163f993105fa0dc38a5e9b0c2627"
+        },
+        {
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/bbe2e8e59e465328223631c48929746f",
+            "object": "https://airandspace.si.edu/webimages/collections/thumbnails/A19990062001CU01.jpg",
+            "aggregatedCHO": "#sourceResource",
+            "ingestDate": "2018-10-17T19:12:10.078640Z",
+            "@type": "ore:Aggregation",
+            "isShownAt": "http://collections.si.edu/search/results.htm?q=record_ID%3Anasm_A19990062001&repo=DPLA",
+            "provider": {
+                "@id": "http://dp.la/api/contributor/smithsonian",
+                "name": "Smithsonian Institution"
+            },
+            "sourceResource": {
+                "description": [
+                    "This Scan Actuator Motor, built by the Jet Propulsion Laboratory of Pasadena, California, is part of the Voyager 2 attitude and control system. It was used to \"slew\" the sensors (rotate them slowly, so that they stayed focused on a target) as the spacecraft passed by the planet Uranus. This motor is a flight-qualified spare, used in laboratory simulations to resolve in-flight problems encountered by the Voyager spacecraft.",
+                    "Voyager 2 was an unmanned space probe which, in 1986, passed close to the planet Uranus, when it transmitted images of its surface back to Earth.",
+                    "Donated by the Jet Propulsion Laboratory."
+                ],
+                "title": "Scan Actuator Motor, Voyager Spacecraft",
+                "@id": "http://dp.la/api/items/bbe2e8e59e465328223631c48929746f#sourceResource",
+                "rights": [
+                    "Transfer from the Jet Propulsion Laboratory, California Institute of Technology"
+                ],
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/c349831fbbb138b7176675dc83b12460",
+                        "id": "c349831fbbb138b7176675dc83b12460",
+                        "title": "National Air and Space Museum Collection"
+                    }
+                ],
+                "extent": [
+                    "Overall: 4 1/2 in. long x 3 1/4 in. diameter (11.43 x 8.26cm)",
+                    "Other (aluminum frame): 8 in. tall x 9 in. wide x 8 in. deep (20.32 x 22.86 x 20.32cm)"
+                ],
+                "spatial": [
+                    {
+                        "country": "United States",
+                        "name": "United States"
+                    }
+                ],
+                "stateLocatedIn": [
+                    {
+                        "name": "Washington, D.C."
+                    }
+                ],
+                "type": [
+                    "image"
+                ],
+                "subject": [
+                    {
+                        "name": "Jet Propulsion Laboratory, California Institute of Technology"
+                    }
+                ]
+            },
+            "ingestType": "item",
+            "dataProvider": "National Air and Space Museum",
+            "originalRecord": {
+                "freetext": {
+                    "physicalDescription": [
+                        {
+                            "#text": "Steel, Aluminum, Rubber (Silicone), Brass, Epoxy, Mylar (Polyester), Synthetic Fabric, Adhesive, Plastic",
+                            "@label": "Materials"
+                        },
+                        {
+                            "#text": "Overall: 4 1/2 in. long x 3 1/4 in. diameter (11.43 x 8.26cm)",
+                            "@label": "Dimensions"
+                        },
+                        {
+                            "#text": "Other (aluminum frame): 8 in. tall x 9 in. wide x 8 in. deep (20.32 x 22.86 x 20.32cm)",
+                            "@label": "Dimensions"
+                        }
+                    ],
+                    "name": {
+                        "#text": "Jet Propulsion Laboratory, California Institute of Technology",
+                        "@label": "Manufacturer"
+                    },
+                    "setName": {
+                        "#text": "National Air and Space Museum Collection",
+                        "@label": "See more items in"
+                    },
+                    "creditLine": {
+                        "#text": "Transfer from the Jet Propulsion Laboratory, California Institute of Technology",
+                        "@label": "Credit Line"
+                    },
+                    "notes": [
+                        {
+                            "#text": "This Scan Actuator Motor, built by the Jet Propulsion Laboratory of Pasadena, California, is part of the Voyager 2 attitude and control system. It was used to \"slew\" the sensors (rotate them slowly, so that they stayed focused on a target) as the spacecraft passed by the planet Uranus. This motor is a flight-qualified spare, used in laboratory simulations to resolve in-flight problems encountered by the Voyager spacecraft.",
+                            "@label": "Summary"
+                        },
+                        {
+                            "#text": "Voyager 2 was an unmanned space probe which, in 1986, passed close to the planet Uranus, when it transmitted images of its surface back to Earth.",
+                            "@label": "Summary"
+                        },
+                        {
+                            "#text": "Donated by the Jet Propulsion Laboratory.",
+                            "@label": "Summary"
+                        }
+                    ],
+                    "place": {
+                        "#text": "United States of America",
+                        "@label": "Country of Origin"
+                    },
+                    "dataSource": {
+                        "#text": "National Air and Space Museum",
+                        "@label": "Data Source"
+                    },
+                    "identifier": {
+                        "#text": "A19990062001",
+                        "@label": "Inventory Number"
+                    },
+                    "objectRights": {
+                        "#text": "Do not reproduce without permission from the Smithsonian Institution, National Air and Space Museum",
+                        "@label": "Restrictions & Rights"
+                    },
+                    "objectType": {
+                        "#text": "SPACECRAFT-Unmanned-Parts & Structural Components",
+                        "@label": "Type"
+                    }
+                },
+                "indexedStructured": {
+                    "usage_flag": [
+                        "Planetary",
+                        "Solar System",
+                        "Exploration",
+                        "Space"
+                    ],
+                    "object_type": [
+                        "Unmanned spacecraft",
+                        "Components (objects)"
+                    ],
+                    "place": "United States of America",
+                    "name": "Jet Propulsion Laboratory, California Institute of Technology",
+                    "online_media_type": "Images"
+                },
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/c349831fbbb138b7176675dc83b12460",
+                        "id": "c349831fbbb138b7176675dc83b12460",
+                        "title": "National Air and Space Museum Collection"
+                    }
+                ],
+                "descriptiveNonRepeating": {
+                    "data_source": "National Air and Space Museum",
+                    "title": {
+                        "#text": "Scan Actuator Motor, Voyager Spacecraft",
+                        "@label": "Object Name"
+                    },
+                    "record_link": "http://collections.si.edu/search/results.htm?q=record_ID%3Anasm_A19990062001&repo=DPLA",
+                    "title_sort": "SCAN ACTUATOR MOTOR, VOYAGER SPACECRAFT",
+                    "online_media": {
+                        "media": {
+                            "#text": "https://airandspace.si.edu/webimages/collections/full/A19990062001CU01.jpg",
+                            "@idsId": "https://airandspace.si.edu/webimages/collections/full/A19990062001CU01.jpg",
+                            "@thumbnail": "https://airandspace.si.edu/webimages/collections/thumbnails/A19990062001CU01.jpg",
+                            "@type": "Images"
+                        },
+                        "@mediaCount": "1"
+                    },
+                    "record_ID": "nasm_A19990062001",
+                    "unit_code": "NASM"
+                },
+                "provider": {
+                    "@id": "http://dp.la/api/contributor/smithsonian",
+                    "name": "Smithsonian Institution"
+                }
+            },
+            "id": "bbe2e8e59e465328223631c48929746f"
+        },
+        {
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/5b79abf2ef9e5915e2c9f6f032f1e4d1",
+            "object": "https://airandspace.si.edu/webimages/collections/thumbnails/A19990065004cp01.jpg",
+            "aggregatedCHO": "#sourceResource",
+            "ingestDate": "2018-10-17T19:12:10.954165Z",
+            "@type": "ore:Aggregation",
+            "isShownAt": "http://collections.si.edu/search/results.htm?q=record_ID%3Anasm_A19990065004&repo=DPLA",
+            "provider": {
+                "@id": "http://dp.la/api/contributor/smithsonian",
+                "name": "Smithsonian Institution"
+            },
+            "sourceResource": {
+                "description": [
+                    "This circuit board is a flight-qualified spare from the Voyager 2 spacecraft's attitude and control system. It was manufactured by the Jet Propulsion Laboratory of Pasadena, California and was used in laboratory simulations to resolve in-flight problems encountered by the Voyager spacecraft.",
+                    "In 1986, Voyager 2 passed close to the planet Uranus and transmitted images of its surface back to Earth.",
+                    "Transferred from the Jet Propulsion Laboratory."
+                ],
+                "title": "Memory Subassembly Board, Voyager",
+                "@id": "http://dp.la/api/items/5b79abf2ef9e5915e2c9f6f032f1e4d1#sourceResource",
+                "rights": [
+                    "Transferred from NASA"
+                ],
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/c349831fbbb138b7176675dc83b12460",
+                        "id": "c349831fbbb138b7176675dc83b12460",
+                        "title": "National Air and Space Museum Collection"
+                    }
+                ],
+                "extent": [
+                    "17 5/8\" x 8 1/8\" x 4 1/2"
+                ],
+                "spatial": [
+                    {
+                        "country": "United States",
+                        "name": "United States"
+                    }
+                ],
+                "stateLocatedIn": [
+                    {
+                        "name": "Washington, D.C."
+                    }
+                ],
+                "type": [
+                    "image"
+                ],
+                "subject": [
+                    {
+                        "name": "Jet Propulsion Laboratory, California Institute of Technology"
+                    }
+                ]
+            },
+            "ingestType": "item",
+            "dataProvider": "National Air and Space Museum",
+            "originalRecord": {
+                "freetext": {
+                    "physicalDescription": [
+                        {
+                            "#text": "Anodized Aluminum",
+                            "@label": "Materials"
+                        },
+                        {
+                            "#text": "Aluminum",
+                            "@label": "Materials"
+                        },
+                        {
+                            "#text": "Epoxy Resin",
+                            "@label": "Materials"
+                        },
+                        {
+                            "#text": "Adhesive",
+                            "@label": "Materials"
+                        },
+                        {
+                            "#text": "Plastic",
+                            "@label": "Materials"
+                        },
+                        {
+                            "#text": "Copper Alloy",
+                            "@label": "Materials"
+                        },
+                        {
+                            "#text": "Paint",
+                            "@label": "Materials"
+                        },
+                        {
+                            "#text": "17 5/8\" x 8 1/8\" x 4 1/2\"",
+                            "@label": "Dimensions"
+                        }
+                    ],
+                    "name": {
+                        "#text": "Jet Propulsion Laboratory, California Institute of Technology",
+                        "@label": "Manufacturer"
+                    },
+                    "setName": {
+                        "#text": "National Air and Space Museum Collection",
+                        "@label": "See more items in"
+                    },
+                    "creditLine": {
+                        "#text": "Transferred from NASA",
+                        "@label": "Credit Line"
+                    },
+                    "notes": [
+                        {
+                            "#text": "This circuit board is a flight-qualified spare from the Voyager 2 spacecraft's attitude and control system. It was manufactured by the Jet Propulsion Laboratory of Pasadena, California and was used in laboratory simulations to resolve in-flight problems encountered by the Voyager spacecraft.",
+                            "@label": "Summary"
+                        },
+                        {
+                            "#text": "In 1986, Voyager 2 passed close to the planet Uranus and transmitted images of its surface back to Earth.",
+                            "@label": "Summary"
+                        },
+                        {
+                            "#text": "Transferred from the Jet Propulsion Laboratory.",
+                            "@label": "Summary"
+                        }
+                    ],
+                    "place": {
+                        "#text": "United States of America",
+                        "@label": "Country of Origin"
+                    },
+                    "dataSource": {
+                        "#text": "National Air and Space Museum",
+                        "@label": "Data Source"
+                    },
+                    "identifier": {
+                        "#text": "A19990065004",
+                        "@label": "Inventory Number"
+                    },
+                    "objectRights": {
+                        "#text": "Do not reproduce without permission from the Smithsonian Institution, National Air and Space Museum",
+                        "@label": "Restrictions & Rights"
+                    },
+                    "objectType": {
+                        "#text": "SPACECRAFT-Unmanned-Parts & Structural Components",
+                        "@label": "Type"
+                    }
+                },
+                "indexedStructured": {
+                    "usage_flag": [
+                        "Planetary",
+                        "Solar System",
+                        "Exploration",
+                        "Space"
+                    ],
+                    "object_type": [
+                        "Unmanned spacecraft",
+                        "Components (objects)"
+                    ],
+                    "place": "United States of America",
+                    "name": "Jet Propulsion Laboratory, California Institute of Technology",
+                    "online_media_type": "Images"
+                },
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/c349831fbbb138b7176675dc83b12460",
+                        "id": "c349831fbbb138b7176675dc83b12460",
+                        "title": "National Air and Space Museum Collection"
+                    }
+                ],
+                "descriptiveNonRepeating": {
+                    "data_source": "National Air and Space Museum",
+                    "title": {
+                        "#text": "Memory Subassembly Board, Voyager",
+                        "@label": "Object Name"
+                    },
+                    "record_link": "http://collections.si.edu/search/results.htm?q=record_ID%3Anasm_A19990065004&repo=DPLA",
+                    "title_sort": "MEMORY SUBASSEMBLY BOARD, VOYAGER",
+                    "online_media": {
+                        "media": {
+                            "#text": "https://airandspace.si.edu/webimages/collections/full/A19990065004cp01.jpg",
+                            "@idsId": "https://airandspace.si.edu/webimages/collections/full/A19990065004cp01.jpg",
+                            "@thumbnail": "https://airandspace.si.edu/webimages/collections/thumbnails/A19990065004cp01.jpg",
+                            "@type": "Images"
+                        },
+                        "@mediaCount": "1"
+                    },
+                    "record_ID": "nasm_A19990065004",
+                    "unit_code": "NASM"
+                },
+                "provider": {
+                    "@id": "http://dp.la/api/contributor/smithsonian",
+                    "name": "Smithsonian Institution"
+                }
+            },
+            "id": "5b79abf2ef9e5915e2c9f6f032f1e4d1"
+        },
+        {
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/75de7c7f703bc619240103c80cdabce4",
+            "object": "https://airandspace.si.edu/webimages/collections/thumbnails/A19990064001cp01.jpg",
+            "aggregatedCHO": "#sourceResource",
+            "ingestDate": "2018-10-17T19:12:10.873638Z",
+            "@type": "ore:Aggregation",
+            "isShownAt": "http://collections.si.edu/search/results.htm?q=record_ID%3Anasm_A19990064001&repo=DPLA",
+            "provider": {
+                "@id": "http://dp.la/api/contributor/smithsonian",
+                "name": "Smithsonian Institution"
+            },
+            "sourceResource": {
+                "description": [
+                    "This circuit board is a component of the Voyager 2 spacecraft's attitude and control system. Built by the jet Propulsion Laboratory of Pasadena, California, it is a flight-qualified spare, which were used in laboratory simulations to resolve in-flight problems encountered by the Voyager spacecraft.",
+                    "In 1986, Voyager 2 passed close to the planet Uranus and transmitted images of its surface back to Earth.",
+                    "Transferred from the Jet Propulsion Laboratory."
+                ],
+                "title": "Subchassis Assembly, DAS, Voyager Spacecraft",
+                "@id": "http://dp.la/api/items/75de7c7f703bc619240103c80cdabce4#sourceResource",
+                "rights": [
+                    "Transfer from NASA"
+                ],
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/c349831fbbb138b7176675dc83b12460",
+                        "id": "c349831fbbb138b7176675dc83b12460",
+                        "title": "National Air and Space Museum Collection"
+                    }
+                ],
+                "extent": [
+                    "Overall: 1 1/16in. x 7 1/4in. x 1ft 3 1/8in. (2.7 x 18.42 x 38.42cm)"
+                ],
+                "spatial": [
+                    {
+                        "country": "United States",
+                        "name": "United States"
+                    }
+                ],
+                "stateLocatedIn": [
+                    {
+                        "name": "Washington, D.C."
+                    }
+                ],
+                "type": [
+                    "image"
+                ],
+                "subject": [
+                    {
+                        "name": "Jet Propulsion Laboratory, California Institute of Technology"
+                    }
+                ]
+            },
+            "ingestType": "item",
+            "dataProvider": "National Air and Space Museum",
+            "originalRecord": {
+                "freetext": {
+                    "physicalDescription": [
+                        {
+                            "#text": "Anodized Aluminum",
+                            "@label": "Materials"
+                        },
+                        {
+                            "#text": "Phenolic",
+                            "@label": "Materials"
+                        },
+                        {
+                            "#text": "Epoxy",
+                            "@label": "Materials"
+                        },
+                        {
+                            "#text": "Aluminum",
+                            "@label": "Materials"
+                        },
+                        {
+                            "#text": "Plastic",
+                            "@label": "Materials"
+                        },
+                        {
+                            "#text": "Copper",
+                            "@label": "Materials"
+                        },
+                        {
+                            "#text": "Gold",
+                            "@label": "Materials"
+                        },
+                        {
+                            "#text": "Steel",
+                            "@label": "Materials"
+                        },
+                        {
+                            "#text": "Overall: 1 1/16in. x 7 1/4in. x 1ft 3 1/8in. (2.7 x 18.42 x 38.42cm)",
+                            "@label": "Dimensions"
+                        }
+                    ],
+                    "name": {
+                        "#text": "Jet Propulsion Laboratory, California Institute of Technology",
+                        "@label": "Manufacturer"
+                    },
+                    "setName": {
+                        "#text": "National Air and Space Museum Collection",
+                        "@label": "See more items in"
+                    },
+                    "creditLine": {
+                        "#text": "Transfer from NASA",
+                        "@label": "Credit Line"
+                    },
+                    "notes": [
+                        {
+                            "#text": "This circuit board is a component of the Voyager 2 spacecraft's attitude and control system. Built by the jet Propulsion Laboratory of Pasadena, California, it is a flight-qualified spare, which were used in laboratory simulations to resolve in-flight problems encountered by the Voyager spacecraft.",
+                            "@label": "Summary"
+                        },
+                        {
+                            "#text": "In 1986, Voyager 2 passed close to the planet Uranus and transmitted images of its surface back to Earth.",
+                            "@label": "Summary"
+                        },
+                        {
+                            "#text": "Transferred from the Jet Propulsion Laboratory.",
+                            "@label": "Summary"
+                        }
+                    ],
+                    "place": {
+                        "#text": "United States of America",
+                        "@label": "Country of Origin"
+                    },
+                    "dataSource": {
+                        "#text": "National Air and Space Museum",
+                        "@label": "Data Source"
+                    },
+                    "identifier": {
+                        "#text": "A19990064001",
+                        "@label": "Inventory Number"
+                    },
+                    "objectRights": {
+                        "#text": "Do not reproduce without permission from the Smithsonian Institution, National Air and Space Museum",
+                        "@label": "Restrictions & Rights"
+                    },
+                    "objectType": {
+                        "#text": "SPACECRAFT-Unmanned-Parts & Structural Components",
+                        "@label": "Type"
+                    }
+                },
+                "indexedStructured": {
+                    "usage_flag": [
+                        "Planetary",
+                        "Solar System",
+                        "Exploration",
+                        "Space"
+                    ],
+                    "object_type": [
+                        "Unmanned spacecraft",
+                        "Components (objects)"
+                    ],
+                    "place": "United States of America",
+                    "name": "Jet Propulsion Laboratory, California Institute of Technology",
+                    "online_media_type": "Images"
+                },
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/c349831fbbb138b7176675dc83b12460",
+                        "id": "c349831fbbb138b7176675dc83b12460",
+                        "title": "National Air and Space Museum Collection"
+                    }
+                ],
+                "descriptiveNonRepeating": {
+                    "data_source": "National Air and Space Museum",
+                    "title": {
+                        "#text": "Subchassis Assembly, DAS, Voyager Spacecraft",
+                        "@label": "Object Name"
+                    },
+                    "record_link": "http://collections.si.edu/search/results.htm?q=record_ID%3Anasm_A19990064001&repo=DPLA",
+                    "title_sort": "SUBCHASSIS ASSEMBLY, DAS, VOYAGER SPACECRAFT",
+                    "online_media": {
+                        "media": {
+                            "#text": "https://airandspace.si.edu/webimages/collections/full/A19990064001cp01.jpg",
+                            "@idsId": "https://airandspace.si.edu/webimages/collections/full/A19990064001cp01.jpg",
+                            "@thumbnail": "https://airandspace.si.edu/webimages/collections/thumbnails/A19990064001cp01.jpg",
+                            "@type": "Images"
+                        },
+                        "@mediaCount": "1"
+                    },
+                    "record_ID": "nasm_A19990064001",
+                    "unit_code": "NASM"
+                },
+                "provider": {
+                    "@id": "http://dp.la/api/contributor/smithsonian",
+                    "name": "Smithsonian Institution"
+                }
+            },
+            "id": "75de7c7f703bc619240103c80cdabce4"
+        },
+        {
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/bc3cc814beb6e552303519eead0be6f6",
+            "object": "https://airandspace.si.edu/webimages/collections/thumbnails/A19990065002cp02.jpg",
+            "aggregatedCHO": "#sourceResource",
+            "ingestDate": "2018-10-17T19:12:10.150619Z",
+            "@type": "ore:Aggregation",
+            "isShownAt": "http://collections.si.edu/search/results.htm?q=record_ID%3Anasm_A19990065002&repo=DPLA",
+            "provider": {
+                "@id": "http://dp.la/api/contributor/smithsonian",
+                "name": "Smithsonian Institution"
+            },
+            "sourceResource": {
+                "description": [
+                    "This is a sun sensor from the Voyager 2 spacecraft program. This and related items are flight-qualified spare hardware, which were used in laboratory simulations to resolve in-flight problems encountered by the Voyager spacecraft.",
+                    "Voyager 2 was an unmanned space probe which, in 1986, passed close to the planet Uranus to transmit images of its surface.",
+                    "NASA's Jet Propulsion Laboratory transferred this artifact to the Smithsonian in 1999."
+                ],
+                "title": "Sun Sensor and Hood Assembly Support Equipment, Voyager Spacecraft",
+                "@id": "http://dp.la/api/items/bc3cc814beb6e552303519eead0be6f6#sourceResource",
+                "rights": [
+                    "Transfer from the Jet Propulsion Laboratory, California Institute of Technology"
+                ],
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/c349831fbbb138b7176675dc83b12460",
+                        "id": "c349831fbbb138b7176675dc83b12460",
+                        "title": "National Air and Space Museum Collection"
+                    }
+                ],
+                "extent": [
+                    "Overall (aluminum box): 7 in. tall x 7 in. wide x 5 in. deep (17.78 x 17.78 x 12.7cm)",
+                    "Other: 4 1/2 x 7 x 5in. (11.43 x 17.78 x 12.7cm)"
+                ],
+                "spatial": [
+                    {
+                        "country": "United States",
+                        "name": "United States"
+                    }
+                ],
+                "stateLocatedIn": [
+                    {
+                        "name": "Washington, D.C."
+                    }
+                ],
+                "type": [
+                    "image"
+                ],
+                "subject": [
+                    {
+                        "name": "Jet Propulsion Laboratory, California Institute of Technology"
+                    }
+                ]
+            },
+            "ingestType": "item",
+            "dataProvider": "National Air and Space Museum",
+            "originalRecord": {
+                "freetext": {
+                    "physicalDescription": [
+                        {
+                            "#text": "Plastic, Magnesium, Aluminum, Paper, Foam, Gold Plating",
+                            "@label": "Materials"
+                        },
+                        {
+                            "#text": "Overall (aluminum box): 7 in. tall x 7 in. wide x 5 in. deep (17.78 x 17.78 x 12.7cm)",
+                            "@label": "Dimensions"
+                        },
+                        {
+                            "#text": "Other: 4 1/2 x 7 x 5in. (11.43 x 17.78 x 12.7cm)",
+                            "@label": "Dimensions"
+                        }
+                    ],
+                    "name": {
+                        "#text": "Jet Propulsion Laboratory, California Institute of Technology",
+                        "@label": "Manufacturer"
+                    },
+                    "setName": {
+                        "#text": "National Air and Space Museum Collection",
+                        "@label": "See more items in"
+                    },
+                    "creditLine": {
+                        "#text": "Transfer from the Jet Propulsion Laboratory, California Institute of Technology",
+                        "@label": "Credit Line"
+                    },
+                    "notes": [
+                        {
+                            "#text": "This is a sun sensor from the Voyager 2 spacecraft program. This and related items are flight-qualified spare hardware, which were used in laboratory simulations to resolve in-flight problems encountered by the Voyager spacecraft.",
+                            "@label": "Summary"
+                        },
+                        {
+                            "#text": "Voyager 2 was an unmanned space probe which, in 1986, passed close to the planet Uranus to transmit images of its surface.",
+                            "@label": "Summary"
+                        },
+                        {
+                            "#text": "NASA's Jet Propulsion Laboratory transferred this artifact to the Smithsonian in 1999.",
+                            "@label": "Summary"
+                        }
+                    ],
+                    "place": {
+                        "#text": "United States of America",
+                        "@label": "Country of Origin"
+                    },
+                    "dataSource": {
+                        "#text": "National Air and Space Museum",
+                        "@label": "Data Source"
+                    },
+                    "identifier": {
+                        "#text": "A19990065002",
+                        "@label": "Inventory Number"
+                    },
+                    "objectRights": {
+                        "#text": "Do not reproduce without permission from the Smithsonian Institution, National Air and Space Museum",
+                        "@label": "Restrictions & Rights"
+                    },
+                    "objectType": {
+                        "#text": "SPACECRAFT-Unmanned-Parts & Structural Components",
+                        "@label": "Type"
+                    }
+                },
+                "indexedStructured": {
+                    "usage_flag": [
+                        "Planetary",
+                        "Solar System",
+                        "Exploration",
+                        "Space"
+                    ],
+                    "object_type": [
+                        "Unmanned spacecraft",
+                        "Components (objects)"
+                    ],
+                    "place": "United States of America",
+                    "name": "Jet Propulsion Laboratory, California Institute of Technology",
+                    "online_media_type": "Images"
+                },
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/c349831fbbb138b7176675dc83b12460",
+                        "id": "c349831fbbb138b7176675dc83b12460",
+                        "title": "National Air and Space Museum Collection"
+                    }
+                ],
+                "descriptiveNonRepeating": {
+                    "data_source": "National Air and Space Museum",
+                    "title": {
+                        "#text": "Sun Sensor and Hood Assembly Support Equipment, Voyager Spacecraft",
+                        "@label": "Object Name"
+                    },
+                    "record_link": "http://collections.si.edu/search/results.htm?q=record_ID%3Anasm_A19990065002&repo=DPLA",
+                    "title_sort": "SUN SENSOR AND HOOD ASSEMBLY SUPPORT EQUIPMENT, VOYAGER SPACECRAFT",
+                    "online_media": {
+                        "media": {
+                            "#text": "https://airandspace.si.edu/webimages/collections/full/A19990065002cp02.jpg",
+                            "@idsId": "https://airandspace.si.edu/webimages/collections/full/A19990065002cp02.jpg",
+                            "@thumbnail": "https://airandspace.si.edu/webimages/collections/thumbnails/A19990065002cp02.jpg",
+                            "@type": "Images"
+                        },
+                        "@mediaCount": "1"
+                    },
+                    "record_ID": "nasm_A19990065002",
+                    "unit_code": "NASM"
+                },
+                "provider": {
+                    "@id": "http://dp.la/api/contributor/smithsonian",
+                    "name": "Smithsonian Institution"
+                }
+            },
+            "id": "bc3cc814beb6e552303519eead0be6f6"
+        },
+        {
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/76c7981ae93627fa4afe0df9edcbcb41",
+            "object": "https://airandspace.si.edu/webimages/collections/thumbnails/A19990064000a.JPG",
+            "aggregatedCHO": "#sourceResource",
+            "ingestDate": "2018-10-17T06:00:00.693463Z",
+            "@type": "ore:Aggregation",
+            "isShownAt": "http://collections.si.edu/search/results.htm?q=record_ID%3Anasm_A19990064000&repo=DPLA",
+            "provider": {
+                "@id": "http://dp.la/api/contributor/smithsonian",
+                "name": "Smithsonian Institution"
+            },
+            "sourceResource": {
+                "description": [
+                    "This circuit board, built by the Jet Propulsion Laboratory in Pasadena, California, is a component of the Voyager 2 attitude and control system. It is a flight-qualified piece of spare hardware, which was used in laboratory simulations to resolve in-flight problems encountered by the Voyager spacecraft. In 1986, the Voyager 2 space probe passed close to the planet Uranus, and transmitted high-quality images of its surface back to Earth.",
+                    "Transferred from the Jet Propulsion Laboratory."
+                ],
+                "title": "Subassembly Board, DAS Logic, Voyager Spacecraft",
+                "@id": "http://dp.la/api/items/76c7981ae93627fa4afe0df9edcbcb41#sourceResource",
+                "rights": [
+                    "Transferred from NASA"
+                ],
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/c349831fbbb138b7176675dc83b12460",
+                        "id": "c349831fbbb138b7176675dc83b12460",
+                        "title": "National Air and Space Museum Collection"
+                    }
+                ],
+                "extent": [
+                    "Storage container:18 1/2\" x 14\" x 5 1/4",
+                    "Overall: 1 5/8in. x 6 5/8in. x 1ft 2in. (4.1 x 16.8 x 35.6cm)"
+                ],
+                "spatial": [
+                    {
+                        "country": "United States",
+                        "name": "United States"
+                    }
+                ],
+                "stateLocatedIn": [
+                    {
+                        "name": "Washington, D.C."
+                    }
+                ],
+                "type": [
+                    "image"
+                ],
+                "subject": [
+                    {
+                        "name": "Electronic apparatus and appliances"
+                    },
+                    {
+                        "name": "Jet Propulsion Laboratory, California Institute of Technology"
+                    }
+                ]
+            },
+            "ingestType": "item",
+            "dataProvider": "National Air and Space Museum",
+            "originalRecord": {
+                "freetext": {
+                    "physicalDescription": [
+                        {
+                            "#text": "Aluminum, phenolic, epoxy",
+                            "@label": "Materials"
+                        },
+                        {
+                            "#text": "Storage container:18 1/2\" x 14\" x 5 1/4\"",
+                            "@label": "Dimensions"
+                        },
+                        {
+                            "#text": "Overall: 1 5/8in. x 6 5/8in. x 1ft 2in. (4.1 x 16.8 x 35.6cm)",
+                            "@label": "Dimensions"
+                        }
+                    ],
+                    "name": {
+                        "#text": "Jet Propulsion Laboratory, California Institute of Technology",
+                        "@label": "Manufacturer"
+                    },
+                    "setName": {
+                        "#text": "National Air and Space Museum Collection",
+                        "@label": "See more items in"
+                    },
+                    "creditLine": {
+                        "#text": "Transferred from NASA",
+                        "@label": "Credit Line"
+                    },
+                    "notes": [
+                        {
+                            "#text": "This circuit board, built by the Jet Propulsion Laboratory in Pasadena, California, is a component of the Voyager 2 attitude and control system. It is a flight-qualified piece of spare hardware, which was used in laboratory simulations to resolve in-flight problems encountered by the Voyager spacecraft. In 1986, the Voyager 2 space probe passed close to the planet Uranus, and transmitted high-quality images of its surface back to Earth.",
+                            "@label": "Summary"
+                        },
+                        {
+                            "#text": "Transferred from the Jet Propulsion Laboratory.",
+                            "@label": "Summary"
+                        }
+                    ],
+                    "place": {
+                        "#text": "United States of America",
+                        "@label": "Country of Origin"
+                    },
+                    "dataSource": {
+                        "#text": "National Air and Space Museum",
+                        "@label": "Data Source"
+                    },
+                    "identifier": {
+                        "#text": "A19990064000",
+                        "@label": "Inventory Number"
+                    },
+                    "objectRights": {
+                        "#text": "Do not reproduce without permission from the Smithsonian Institution, National Air and Space Museum",
+                        "@label": "Restrictions & Rights"
+                    },
+                    "objectType": {
+                        "#text": "EQUIPMENT-Electronics",
+                        "@label": "Type"
+                    }
+                },
+                "indexedStructured": {
+                    "usage_flag": [
+                        "Planetary",
+                        "Equipment",
+                        "Space"
+                    ],
+                    "name": "Jet Propulsion Laboratory, California Institute of Technology",
+                    "object_type": [
+                        "Equipment",
+                        "Electrical systems"
+                    ],
+                    "topic": "Electronic apparatus and appliances",
+                    "place": "United States of America",
+                    "online_media_type": "Images"
+                },
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/c349831fbbb138b7176675dc83b12460",
+                        "id": "c349831fbbb138b7176675dc83b12460",
+                        "title": "National Air and Space Museum Collection"
+                    }
+                ],
+                "descriptiveNonRepeating": {
+                    "data_source": "National Air and Space Museum",
+                    "title": {
+                        "#text": "Subassembly Board, DAS Logic, Voyager Spacecraft",
+                        "@label": "Object Name"
+                    },
+                    "record_link": "http://collections.si.edu/search/results.htm?q=record_ID%3Anasm_A19990064000&repo=DPLA",
+                    "title_sort": "SUBASSEMBLY BOARD, DAS LOGIC, VOYAGER SPACECRAFT",
+                    "online_media": {
+                        "media": {
+                            "#text": "https://airandspace.si.edu/webimages/collections/full/A19990064000a.JPG",
+                            "@idsId": "https://airandspace.si.edu/webimages/collections/full/A19990064000a.JPG",
+                            "@thumbnail": "https://airandspace.si.edu/webimages/collections/thumbnails/A19990064000a.JPG",
+                            "@type": "Images"
+                        },
+                        "@mediaCount": "1"
+                    },
+                    "record_ID": "nasm_A19990064000",
+                    "unit_code": "NASM"
+                },
+                "provider": {
+                    "@id": "http://dp.la/api/contributor/smithsonian",
+                    "name": "Smithsonian Institution"
+                }
+            },
+            "id": "76c7981ae93627fa4afe0df9edcbcb41"
+        },
+        {
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/f91d94b76b2e16720238b06db7600cd5",
+            "object": "https://airandspace.si.edu/webimages/collections/thumbnails/A19990065003CU01.jpg",
+            "aggregatedCHO": "#sourceResource",
+            "ingestDate": "2018-10-17T19:12:10.249309Z",
+            "@type": "ore:Aggregation",
+            "isShownAt": "http://collections.si.edu/search/results.htm?q=record_ID%3Anasm_A19990065003&repo=DPLA",
+            "provider": {
+                "@id": "http://dp.la/api/contributor/smithsonian",
+                "name": "Smithsonian Institution"
+            },
+            "sourceResource": {
+                "description": [
+                    "This is a star tracker, a component from the Voyager 2 spacecraft program. This and related items are flight-qualified spare hardware, which were used in laboratory simulations to resolve in-flight problems encountered by the Voyager spacecraft. In flight, the device found and locked on to the star Canopus, providing a reference for guidance and navigation.",
+                    "Voyager 2 was an unmanned space probe which, in 1986, passed close to the planet Uranus to transmit images of its surface.",
+                    "NASA's Jet Propulsion Laboratory transferred this object to the Smithsonian in 1999."
+                ],
+                "title": "Star Tracker and Hood Assembly Support Equipment, Voyager Spacecraft",
+                "@id": "http://dp.la/api/items/f91d94b76b2e16720238b06db7600cd5#sourceResource",
+                "rights": [
+                    "Transfer from the Jet Propulsion Laboratory, California Institute of technology."
+                ],
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/c349831fbbb138b7176675dc83b12460",
+                        "id": "c349831fbbb138b7176675dc83b12460",
+                        "title": "National Air and Space Museum Collection"
+                    }
+                ],
+                "extent": [
+                    "Overall: 5 in. tall x 1 ft. 4 1/2 in. wide x 7 in. deep (12.7 x 41.91 x 17.78cm)",
+                    "Other (handling fixture): 1 ft. tall x 1 ft. 8 1/2 in. wide x 10 in. deep (30.48 x 52.07 x 25.4cm)"
+                ],
+                "spatial": [
+                    {
+                        "country": "United States",
+                        "name": "United States"
+                    }
+                ],
+                "stateLocatedIn": [
+                    {
+                        "name": "Washington, D.C."
+                    }
+                ],
+                "type": [
+                    "image"
+                ],
+                "subject": [
+                    {
+                        "name": "Jet Propulsion Laboratory, California Institute of Technology"
+                    }
+                ]
+            },
+            "ingestType": "item",
+            "dataProvider": "National Air and Space Museum",
+            "originalRecord": {
+                "freetext": {
+                    "physicalDescription": [
+                        {
+                            "#text": "Plastic, Steel, Aluminum, Mylar (Polyester), Adhesive, Gold Plating, Natural Fabric, Stainless Steel, Rubber (Silicone)",
+                            "@label": "Materials"
+                        },
+                        {
+                            "#text": "Overall: 5 in. tall x 1 ft. 4 1/2 in. wide x 7 in. deep (12.7 x 41.91 x 17.78cm)",
+                            "@label": "Dimensions"
+                        },
+                        {
+                            "#text": "Other (handling fixture): 1 ft. tall x 1 ft. 8 1/2 in. wide x 10 in. deep (30.48 x 52.07 x 25.4cm)",
+                            "@label": "Dimensions"
+                        }
+                    ],
+                    "name": {
+                        "#text": "Jet Propulsion Laboratory, California Institute of Technology",
+                        "@label": "Manufacturer"
+                    },
+                    "setName": {
+                        "#text": "National Air and Space Museum Collection",
+                        "@label": "See more items in"
+                    },
+                    "creditLine": {
+                        "#text": "Transfer from the Jet Propulsion Laboratory, California Institute of technology.",
+                        "@label": "Credit Line"
+                    },
+                    "notes": [
+                        {
+                            "#text": "This is a star tracker, a component from the Voyager 2 spacecraft program. This and related items are flight-qualified spare hardware, which were used in laboratory simulations to resolve in-flight problems encountered by the Voyager spacecraft. In flight, the device found and locked on to the star Canopus, providing a reference for guidance and navigation.",
+                            "@label": "Summary"
+                        },
+                        {
+                            "#text": "Voyager 2 was an unmanned space probe which, in 1986, passed close to the planet Uranus to transmit images of its surface.",
+                            "@label": "Summary"
+                        },
+                        {
+                            "#text": "NASA's Jet Propulsion Laboratory transferred this object to the Smithsonian in 1999.",
+                            "@label": "Summary"
+                        }
+                    ],
+                    "place": {
+                        "#text": "United States of America",
+                        "@label": "Country of Origin"
+                    },
+                    "dataSource": {
+                        "#text": "National Air and Space Museum",
+                        "@label": "Data Source"
+                    },
+                    "identifier": {
+                        "#text": "A19990065003",
+                        "@label": "Inventory Number"
+                    },
+                    "objectRights": {
+                        "#text": "Do not reproduce without permission from the Smithsonian Institution, National Air and Space Museum",
+                        "@label": "Restrictions & Rights"
+                    },
+                    "objectType": {
+                        "#text": "SPACECRAFT-Unmanned-Parts & Structural Components",
+                        "@label": "Type"
+                    }
+                },
+                "indexedStructured": {
+                    "usage_flag": [
+                        "Planetary",
+                        "Solar System",
+                        "Exploration",
+                        "Space"
+                    ],
+                    "object_type": [
+                        "Unmanned spacecraft",
+                        "Components (objects)"
+                    ],
+                    "place": "United States of America",
+                    "name": "Jet Propulsion Laboratory, California Institute of Technology",
+                    "online_media_type": "Images"
+                },
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/c349831fbbb138b7176675dc83b12460",
+                        "id": "c349831fbbb138b7176675dc83b12460",
+                        "title": "National Air and Space Museum Collection"
+                    }
+                ],
+                "descriptiveNonRepeating": {
+                    "data_source": "National Air and Space Museum",
+                    "title": {
+                        "#text": "Star Tracker and Hood Assembly Support Equipment, Voyager Spacecraft",
+                        "@label": "Object Name"
+                    },
+                    "record_link": "http://collections.si.edu/search/results.htm?q=record_ID%3Anasm_A19990065003&repo=DPLA",
+                    "title_sort": "STAR TRACKER AND HOOD ASSEMBLY SUPPORT EQUIPMENT, VOYAGER SPACECRAFT",
+                    "online_media": {
+                        "media": {
+                            "#text": "https://airandspace.si.edu/webimages/collections/full/A19990065003CU01.jpg",
+                            "@idsId": "https://airandspace.si.edu/webimages/collections/full/A19990065003CU01.jpg",
+                            "@thumbnail": "https://airandspace.si.edu/webimages/collections/thumbnails/A19990065003CU01.jpg",
+                            "@type": "Images"
+                        },
+                        "@mediaCount": "1"
+                    },
+                    "record_ID": "nasm_A19990065003",
+                    "unit_code": "NASM"
+                },
+                "provider": {
+                    "@id": "http://dp.la/api/contributor/smithsonian",
+                    "name": "Smithsonian Institution"
+                }
+            },
+            "id": "f91d94b76b2e16720238b06db7600cd5"
+        },
+        {
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/4f26e70d562f61c4c9c7eeec23d2209a",
+            "object": "https://airandspace.si.edu/webimages/collections/thumbnails/A19990065001cp01.jpg",
+            "aggregatedCHO": "#sourceResource",
+            "ingestDate": "2018-10-17T19:12:09.988461Z",
+            "@type": "ore:Aggregation",
+            "isShownAt": "http://collections.si.edu/search/results.htm?q=record_ID%3Anasm_A19990065001&repo=DPLA",
+            "provider": {
+                "@id": "http://dp.la/api/contributor/smithsonian",
+                "name": "Smithsonian Institution"
+            },
+            "sourceResource": {
+                "description": [
+                    "This is the \"Flight Data Subassembly,\" one of several components of the Voyager 2 attitude and control system. It was mounted in one of the segments of the main Voyager spacecraft frame. The items are flight-qualified spare hardware which were used in laboratory simulations to resolve in-flight problems encountered by the Voyager spacecraft.",
+                    "Voyager 2 was an unmanned space probe which, in 1986, passed close to the planet Uranus to transmit images of its surface.",
+                    "NASA's Jet Propulsion Laboratory tranferred this object to the Smithsonian in 1999."
+                ],
+                "title": "Flight Data Subassembly Bay, Voyager Spacecraft",
+                "@id": "http://dp.la/api/items/4f26e70d562f61c4c9c7eeec23d2209a#sourceResource",
+                "rights": [
+                    "Transfer from the Jet Propulsion Laboratory, California Institute of Technology"
+                ],
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/c349831fbbb138b7176675dc83b12460",
+                        "id": "c349831fbbb138b7176675dc83b12460",
+                        "title": "National Air and Space Museum Collection"
+                    }
+                ],
+                "extent": [
+                    "Storage (Rehoused on aluminum pallet with three additional objects): 153.7 \u00d7 179.1 \u00d7 104.1cm, 222.3kg (60 1/2 \u00d7 70 1/2 \u00d7 41 in., 490lb.)"
+                ],
+                "spatial": [
+                    {
+                        "country": "United States",
+                        "name": "United States"
+                    }
+                ],
+                "stateLocatedIn": [
+                    {
+                        "name": "Washington, D.C."
+                    }
+                ],
+                "type": [
+                    "image"
+                ],
+                "subject": [
+                    {
+                        "name": "Jet Propulsion Laboratory, California Institute of Technology"
+                    }
+                ]
+            },
+            "ingestType": "item",
+            "dataProvider": "National Air and Space Museum",
+            "originalRecord": {
+                "freetext": {
+                    "physicalDescription": [
+                        {
+                            "#text": "Aluminum, Steel, Plastic, Copper, Gold Plating, Rubber (Silicone), Nylon, Acrylic (Plexiglas), Paint, Aluminized Kapton, Foam, Magnesium, Brass",
+                            "@label": "Materials"
+                        },
+                        {
+                            "#text": "Storage (Rehoused on aluminum pallet with three additional objects): 153.7 \u00d7 179.1 \u00d7 104.1cm, 222.3kg (60 1/2 \u00d7 70 1/2 \u00d7 41 in., 490lb.)",
+                            "@label": "Dimensions"
+                        }
+                    ],
+                    "name": {
+                        "#text": "Jet Propulsion Laboratory, California Institute of Technology",
+                        "@label": "Manufacturer"
+                    },
+                    "setName": {
+                        "#text": "National Air and Space Museum Collection",
+                        "@label": "See more items in"
+                    },
+                    "creditLine": {
+                        "#text": "Transfer from the Jet Propulsion Laboratory, California Institute of Technology",
+                        "@label": "Credit Line"
+                    },
+                    "notes": [
+                        {
+                            "#text": "This is the \"Flight Data Subassembly,\" one of several components of the Voyager 2 attitude and control system. It was mounted in one of the segments of the main Voyager spacecraft frame. The items are flight-qualified spare hardware which were used in laboratory simulations to resolve in-flight problems encountered by the Voyager spacecraft.",
+                            "@label": "Summary"
+                        },
+                        {
+                            "#text": "Voyager 2 was an unmanned space probe which, in 1986, passed close to the planet Uranus to transmit images of its surface.",
+                            "@label": "Summary"
+                        },
+                        {
+                            "#text": "NASA's Jet Propulsion Laboratory tranferred this object to the Smithsonian in 1999.",
+                            "@label": "Summary"
+                        }
+                    ],
+                    "place": {
+                        "#text": "United States of America",
+                        "@label": "Country of Origin"
+                    },
+                    "dataSource": {
+                        "#text": "National Air and Space Museum",
+                        "@label": "Data Source"
+                    },
+                    "identifier": {
+                        "#text": "A19990065001",
+                        "@label": "Inventory Number"
+                    },
+                    "objectRights": {
+                        "#text": "Do not reproduce without permission from the Smithsonian Institution, National Air and Space Museum",
+                        "@label": "Restrictions & Rights"
+                    },
+                    "objectType": {
+                        "#text": "SPACECRAFT-Unmanned-Parts & Structural Components",
+                        "@label": "Type"
+                    }
+                },
+                "indexedStructured": {
+                    "usage_flag": [
+                        "Planetary",
+                        "Solar System",
+                        "Exploration",
+                        "Space"
+                    ],
+                    "object_type": [
+                        "Unmanned spacecraft",
+                        "Components (objects)"
+                    ],
+                    "place": "United States of America",
+                    "name": "Jet Propulsion Laboratory, California Institute of Technology",
+                    "online_media_type": "Images"
+                },
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/c349831fbbb138b7176675dc83b12460",
+                        "id": "c349831fbbb138b7176675dc83b12460",
+                        "title": "National Air and Space Museum Collection"
+                    }
+                ],
+                "descriptiveNonRepeating": {
+                    "data_source": "National Air and Space Museum",
+                    "title": {
+                        "#text": "Flight Data Subassembly Bay, Voyager Spacecraft",
+                        "@label": "Object Name"
+                    },
+                    "record_link": "http://collections.si.edu/search/results.htm?q=record_ID%3Anasm_A19990065001&repo=DPLA",
+                    "title_sort": "FLIGHT DATA SUBASSEMBLY BAY, VOYAGER SPACECRAFT",
+                    "online_media": {
+                        "media": {
+                            "#text": "https://airandspace.si.edu/webimages/collections/full/A19990065001cp01.jpg",
+                            "@idsId": "https://airandspace.si.edu/webimages/collections/full/A19990065001cp01.jpg",
+                            "@thumbnail": "https://airandspace.si.edu/webimages/collections/thumbnails/A19990065001cp01.jpg",
+                            "@type": "Images"
+                        },
+                        "@mediaCount": "1"
+                    },
+                    "record_ID": "nasm_A19990065001",
+                    "unit_code": "NASM"
+                },
+                "provider": {
+                    "@id": "http://dp.la/api/contributor/smithsonian",
+                    "name": "Smithsonian Institution"
+                }
+            },
+            "id": "4f26e70d562f61c4c9c7eeec23d2209a"
+        },
+        {
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/ff0f330ee881abbe2a38f5c4bf4058df",
+            "object": "http://ids.si.edu/ids/deliveryService?id=SIL-39088006065619_0008",
+            "aggregatedCHO": "#sourceResource",
+            "ingestDate": "2018-10-17T22:15:59.113855Z",
+            "@type": "ore:Aggregation",
+            "isShownAt": "http://collections.si.edu/search/results.htm?q=record_ID%3Asilgoi_103948&repo=DPLA",
+            "provider": {
+                "@id": "http://dp.la/api/contributor/smithsonian",
+                "name": "Smithsonian Institution"
+            },
+            "sourceResource": {
+                "publisher": [
+                    "Cady & Burgess"
+                ],
+                "description": [
+                    "Smith's illustrated astronomy : designed for the use of the public or common schools in the United States.",
+                    "Introduction to Astronomy.",
+                    "This map of the solar system from 1849 may look a little different from what you\u0092re used to! The planets Neptune and Uranus were still called Le Verrier and Hershel, and Pluto hadn\u0092t even been discovered as the 9th planet or reclassified as a dwarf planet yet! Though some things have changed since this map was made, the planets are still as far away today as they were then. To measure these distances, scientists use a unit of measurement called a light-year, which is the distance that light travels in one year that equals 9.4607 x 10^12 kilometers or nearly 6 trillion miles! The other planets and the sun are much closer to Earth. The sun is only .000158 light-years away, and Pluto is only .000793 light-years away. Currently, most of the possibly habitable planets outside the solar system that scientists have discovered are up to 300 million light-years away. Although some, like planet Kepler 22-b, are even further out at 600 light-years or 3 and a half quadrillion miles from Earth!"
+                ],
+                "language": [
+                    {
+                        "iso639_3": "eng",
+                        "name": "English"
+                    }
+                ],
+                "title": "Introduction to Astronomy from Smith's illustrated astronomy : designed for the use of the public or common schools in the United States",
+                "@id": "http://dp.la/api/items/ff0f330ee881abbe2a38f5c4bf4058df#sourceResource",
+                "temporal": [
+                    {
+                        "begin": "1849",
+                        "end": "1849",
+                        "displayDate": "1849-1849"
+                    }
+                ],
+                "rights": [
+                    "No Copyright - United States"
+                ],
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/5a5cc9b64ff4f4e0dbb61df1a3c856e1",
+                        "id": "5a5cc9b64ff4f4e0dbb61df1a3c856e1",
+                        "title": "See Wonder"
+                    }
+                ],
+                "stateLocatedIn": [
+                    {
+                        "name": "Washington, D.C."
+                    }
+                ],
+                "creator": [
+                    "Smith, Asa"
+                ],
+                "spatial": [
+                    {
+                        "city": "New York",
+                        "state": "New York",
+                        "name": "New York (New York)",
+                        "coordinates": "40.742185, -73.992602",
+                        "country": "United States"
+                    }
+                ],
+                "date": {
+                    "begin": "1849",
+                    "end": "1849",
+                    "displayDate": "1849-1849"
+                },
+                "identifier": [
+                    "367737"
+                ],
+                "type": [
+                    "image"
+                ],
+                "subject": [
+                    {
+                        "name": "Light-year"
+                    },
+                    {
+                        "name": "Distance"
+                    },
+                    {
+                        "name": "Smith, Asa"
+                    },
+                    {
+                        "name": "Urbain Le Verrier"
+                    },
+                    {
+                        "name": "Uranus"
+                    },
+                    {
+                        "name": "Map"
+                    },
+                    {
+                        "name": "Sun"
+                    },
+                    {
+                        "name": "Solar System"
+                    },
+                    {
+                        "name": "Neptune"
+                    },
+                    {
+                        "name": "Mile"
+                    },
+                    {
+                        "name": "Pluto"
+                    },
+                    {
+                        "name": "William Herschel"
+                    },
+                    {
+                        "name": "Earth"
+                    },
+                    {
+                        "name": "Planets"
+                    },
+                    {
+                        "name": "Measurement"
+                    },
+                    {
+                        "name": "Elliptical orbits"
+                    },
+                    {
+                        "name": "Math and Measurement"
+                    },
+                    {
+                        "name": "Astronomy"
+                    },
+                    {
+                        "name": "Unit"
+                    }
+                ]
+            },
+            "ingestType": "item",
+            "dataProvider": "Smithsonian Libraries",
+            "originalRecord": {
+                "freetext": {
+                    "publisher": {
+                        "#text": "Cady & Burgess",
+                        "@label": "Publisher"
+                    },
+                    "language": {
+                        "#text": "English",
+                        "@label": "Language"
+                    },
+                    "setName": {
+                        "#text": "See Wonder",
+                        "@label": "See more items in"
+                    },
+                    "notes": [
+                        {
+                            "#text": "Smith's illustrated astronomy : designed for the use of the public or common schools in the United States.",
+                            "@label": "Book Title"
+                        },
+                        {
+                            "#text": "Introduction to Astronomy.",
+                            "@label": "Caption"
+                        },
+                        {
+                            "#text": "This map of the solar system from 1849 may look a little different from what you\u0092re used to! The planets Neptune and Uranus were still called Le Verrier and Hershel, and Pluto hadn\u0092t even been discovered as the 9th planet or reclassified as a dwarf planet yet! Though some things have changed since this map was made, the planets are still as far away today as they were then. To measure these distances, scientists use a unit of measurement called a light-year, which is the distance that light travels in one year that equals 9.4607 x 10^12 kilometers or nearly 6 trillion miles! The other planets and the sun are much closer to Earth. The sun is only .000158 light-years away, and Pluto is only .000793 light-years away. Currently, most of the possibly habitable planets outside the solar system that scientists have discovered are up to 300 million light-years away. Although some, like planet Kepler 22-b, are even further out at 600 light-years or 3 and a half quadrillion miles from Earth!",
+                            "@label": "Educational Notes"
+                        }
+                    ],
+                    "name": {
+                        "#text": "Smith, Asa",
+                        "@label": "Creator"
+                    },
+                    "topic": [
+                        {
+                            "#text": "Math and Measurement",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Measurement",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Distance",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Light-year",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Unit",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Solar System",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Planets",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Earth",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Sun",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Neptune",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Uranus",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Mile",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Map",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Pluto",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Astronomy",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "William Herschel",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Urbain Le Verrier",
+                            "@label": "Topic"
+                        }
+                    ],
+                    "place": {
+                        "#text": "New York (New York)",
+                        "@label": "Publication Place"
+                    },
+                    "dataSource": {
+                        "#text": "Smithsonian Libraries",
+                        "@label": "Data Source"
+                    },
+                    "date": [
+                        {
+                            "#text": "1849",
+                            "@label": "Date"
+                        },
+                        {
+                            "#text": "1849",
+                            "@label": "Publication Date"
+                        }
+                    ],
+                    "identifier": [
+                        {
+                            "#text": "SIL-39088006065619_0008",
+                            "@label": "Image ID"
+                        },
+                        {
+                            "#text": "367737",
+                            "@label": "Catalog ID"
+                        }
+                    ],
+                    "objectRights": {
+                        "#text": "No Copyright - United States",
+                        "@label": "Rights"
+                    },
+                    "objectType": {
+                        "#text": "Prints",
+                        "@label": "Type"
+                    }
+                },
+                "indexedStructured": {
+                    "usage_flag": "SeeWonder",
+                    "name": "Smith, Asa",
+                    "language": "English language",
+                    "object_type": "Prints",
+                    "topic": [
+                        "Planets",
+                        "Solar System",
+                        "Astronomy",
+                        "Elliptical orbits"
+                    ],
+                    "place": "New York (New York)",
+                    "date": "1840s",
+                    "online_media_type": "Images"
+                },
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/5a5cc9b64ff4f4e0dbb61df1a3c856e1",
+                        "id": "5a5cc9b64ff4f4e0dbb61df1a3c856e1",
+                        "title": "See Wonder"
+                    }
+                ],
+                "descriptiveNonRepeating": {
+                    "data_source": "Smithsonian Libraries",
+                    "title": {
+                        "#text": "Introduction to Astronomy from Smith's illustrated astronomy : designed for the use of the public or common schools in the United States.",
+                        "@label": "title"
+                    },
+                    "record_link": "http://collections.si.edu/search/results.htm?q=record_ID%3Asilgoi_103948&repo=DPLA",
+                    "title_sort": "INTRODUCTION TO ASTRONOMY FROM SMITHS ILLUSTRATED ASTRONOMY : DESIGNED FOR THE USE OF THE PUBLIC OR COMMON SCHOOLS IN THE UNITED STATES",
+                    "online_media": {
+                        "media": {
+                            "@type": "Images",
+                            "#text": "http://ids.si.edu/ids/deliveryService?id=SIL-39088006065619_0008",
+                            "@idsId": "SIL-39088006065619_0008",
+                            "@thumbnail": "http://ids.si.edu/ids/deliveryService?id=SIL-39088006065619_0008",
+                            "@rights": "No Copyright - United States"
+                        },
+                        "@mediaCount": "1"
+                    },
+                    "record_ID": "silgoi_103948",
+                    "unit_code": "SIL"
+                },
+                "provider": {
+                    "@id": "http://dp.la/api/contributor/smithsonian",
+                    "name": "Smithsonian Institution"
+                }
+            },
+            "id": "ff0f330ee881abbe2a38f5c4bf4058df"
+        },
+        {
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/b01c606d5b29e363b1f80ccce5c7dbdb",
+            "object": "http://ids.si.edu/ids/deliveryService?id=SIL-beautyofheavensp00blun_0015",
+            "aggregatedCHO": "#sourceResource",
+            "ingestDate": "2018-10-17T16:08:57.346931Z",
+            "@type": "ore:Aggregation",
+            "isShownAt": "http://collections.si.edu/search/results.htm?q=record_ID%3Asilgoi_110657&repo=DPLA",
+            "provider": {
+                "@id": "http://dp.la/api/contributor/smithsonian",
+                "name": "Smithsonian Institution"
+            },
+            "sourceResource": {
+                "publisher": [
+                    "Tilt and Bogue"
+                ],
+                "description": [
+                    "The beauty of the heavens : a pictorial display of the astronomical phenomena of the universe : one hundred and four coloured scenes, illustrating a familiar lecture on astronomy",
+                    "The Planetary System",
+                    "If we had to guess, we\u0092d say you\u0092re reading this from somewhere on planet Earth. The ancient Greeks used the word \u0093planet\u0094, which means wanderer, to describe the huge objects they saw in the sky because they appear to move while the stars in the background appear to stand still. While now we know that everything is moving, including the stars, the name \u0093planet\u0094 stuck with us. According to how scientists define the term, there are eight planets in oursolar system, meaning, objects that orbitthe Sun. The sun uses gravity to keep the planets spinning in orbit, and it also provides heat and light to each of them. The four inner planets are Mercury, Venus, Earth, and Mars. Composed of mostly rock and metal and with solid surfaces, these are given the term \u0093terrestiral\u0094 or Earth-like. The four outer planets are Jupiter, Saturn, Uranus, and Neptune. They are all much larger than the inner planets; Jupiter is larger than the seven other planets combined! In addition to their size, they also differ from the inner planets in that they have no solid surfaces; they are made of liquid and gases, and they each have a ring system and several moons. Not such a small world, after all."
+                ],
+                "language": [
+                    {
+                        "iso639_3": "eng",
+                        "name": "English"
+                    }
+                ],
+                "title": "The Planetary System from The beauty of the heavens : a pictorial display of the astronomical phenomena of the universe",
+                "@id": "http://dp.la/api/items/b01c606d5b29e363b1f80ccce5c7dbdb#sourceResource",
+                "temporal": [
+                    {
+                        "begin": "1842",
+                        "end": "1842",
+                        "displayDate": "1842-1842"
+                    }
+                ],
+                "rights": [
+                    "No Copyright - United States"
+                ],
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/5a5cc9b64ff4f4e0dbb61df1a3c856e1",
+                        "id": "5a5cc9b64ff4f4e0dbb61df1a3c856e1",
+                        "title": "See Wonder"
+                    }
+                ],
+                "stateLocatedIn": [
+                    {
+                        "name": "Washington, D.C."
+                    }
+                ],
+                "creator": [
+                    "Blunt, Charles F"
+                ],
+                "spatial": [
+                    {
+                        "city": "London",
+                        "name": "London",
+                        "country": "United Kingdom",
+                        "coordinates": "51.50853, -0.12574",
+                        "county": "Greater London",
+                        "state": "England"
+                    }
+                ],
+                "date": {
+                    "begin": "1842",
+                    "end": "1842",
+                    "displayDate": "1842-1842"
+                },
+                "identifier": [
+                    "283188"
+                ],
+                "type": [
+                    "image"
+                ],
+                "subject": [
+                    {
+                        "name": "Solar System"
+                    },
+                    {
+                        "name": "Planetary systems"
+                    },
+                    {
+                        "name": "Blunt, Charles F"
+                    },
+                    {
+                        "name": "Planetary System"
+                    },
+                    {
+                        "name": "Gravity, Galaxy"
+                    },
+                    {
+                        "name": "Stars"
+                    },
+                    {
+                        "name": "Solar system"
+                    },
+                    {
+                        "name": "Galaxy"
+                    }
+                ]
+            },
+            "ingestType": "item",
+            "dataProvider": "Smithsonian Libraries",
+            "originalRecord": {
+                "freetext": {
+                    "publisher": {
+                        "#text": "Tilt and Bogue",
+                        "@label": "Publisher"
+                    },
+                    "language": {
+                        "#text": "English",
+                        "@label": "Language"
+                    },
+                    "setName": {
+                        "#text": "See Wonder",
+                        "@label": "See more items in"
+                    },
+                    "notes": [
+                        {
+                            "#text": "The beauty of the heavens : a pictorial display of the astronomical phenomena of the universe : one hundred and four coloured scenes, illustrating a familiar lecture on astronomy",
+                            "@label": "Book Title"
+                        },
+                        {
+                            "#text": "The Planetary System",
+                            "@label": "Caption"
+                        },
+                        {
+                            "#text": "If we had to guess, we\u0092d say you\u0092re reading this from somewhere on planet Earth. The ancient Greeks used the word \u0093planet\u0094, which means wanderer, to describe the huge objects they saw in the sky because they appear to move while the stars in the background appear to stand still. While now we know that everything is moving, including the stars, the name \u0093planet\u0094 stuck with us. According to how scientists define the term, there are eight planets in oursolar system, meaning, objects that orbitthe Sun. The sun uses gravity to keep the planets spinning in orbit, and it also provides heat and light to each of them. The four inner planets are Mercury, Venus, Earth, and Mars. Composed of mostly rock and metal and with solid surfaces, these are given the term \u0093terrestiral\u0094 or Earth-like. The four outer planets are Jupiter, Saturn, Uranus, and Neptune. They are all much larger than the inner planets; Jupiter is larger than the seven other planets combined! In addition to their size, they also differ from the inner planets in that they have no solid surfaces; they are made of liquid and gases, and they each have a ring system and several moons. Not such a small world, after all.",
+                            "@label": "Educational Notes"
+                        }
+                    ],
+                    "name": {
+                        "#text": "Blunt, Charles F.",
+                        "@label": "Creator"
+                    },
+                    "topic": [
+                        {
+                            "#text": "Planetary System",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Stars",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Solar System",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Gravity, Galaxy",
+                            "@label": "Topic"
+                        }
+                    ],
+                    "place": {
+                        "#text": "London",
+                        "@label": "Publication Place"
+                    },
+                    "dataSource": {
+                        "#text": "Smithsonian Libraries",
+                        "@label": "Data Source"
+                    },
+                    "date": [
+                        {
+                            "#text": "1842",
+                            "@label": "Date"
+                        },
+                        {
+                            "#text": "1842",
+                            "@label": "Publication Date"
+                        }
+                    ],
+                    "identifier": [
+                        {
+                            "#text": "SIL-beautyofheavensp00blun_0015",
+                            "@label": "Image ID"
+                        },
+                        {
+                            "#text": "283188",
+                            "@label": "Catalog ID"
+                        }
+                    ],
+                    "objectRights": {
+                        "#text": "No Copyright - United States",
+                        "@label": "Rights"
+                    },
+                    "objectType": {
+                        "#text": "Prints",
+                        "@label": "Type"
+                    }
+                },
+                "indexedStructured": {
+                    "usage_flag": "SeeWonder",
+                    "name": "Blunt, Charles F.",
+                    "language": "English language",
+                    "object_type": "Prints",
+                    "topic": [
+                        "Galaxy",
+                        "Solar system",
+                        "Planetary systems"
+                    ],
+                    "place": "London",
+                    "date": "1840s",
+                    "online_media_type": "Images"
+                },
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/5a5cc9b64ff4f4e0dbb61df1a3c856e1",
+                        "id": "5a5cc9b64ff4f4e0dbb61df1a3c856e1",
+                        "title": "See Wonder"
+                    }
+                ],
+                "descriptiveNonRepeating": {
+                    "data_source": "Smithsonian Libraries",
+                    "title": {
+                        "#text": "The Planetary System from The beauty of the heavens : a pictorial display of the astronomical phenomena of the universe",
+                        "@label": "title"
+                    },
+                    "record_link": "http://collections.si.edu/search/results.htm?q=record_ID%3Asilgoi_110657&repo=DPLA",
+                    "title_sort": "THE PLANETARY SYSTEM FROM THE BEAUTY OF THE HEAVENS : A PICTORIAL DISPLAY OF THE ASTRONOMICAL PHENOMENA OF THE UNIVERSE",
+                    "online_media": {
+                        "media": {
+                            "@type": "Images",
+                            "#text": "http://ids.si.edu/ids/deliveryService?id=SIL-beautyofheavensp00blun_0015",
+                            "@idsId": "SIL-beautyofheavensp00blun_0015",
+                            "@thumbnail": "http://ids.si.edu/ids/deliveryService?id=SIL-beautyofheavensp00blun_0015",
+                            "@rights": "No Copyright - United States"
+                        },
+                        "@mediaCount": "1"
+                    },
+                    "record_ID": "silgoi_110657",
+                    "unit_code": "SIL"
+                },
+                "provider": {
+                    "@id": "http://dp.la/api/contributor/smithsonian",
+                    "name": "Smithsonian Institution"
+                }
+            },
+            "id": "b01c606d5b29e363b1f80ccce5c7dbdb"
+        },
+        {
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/3fe065d8d0f6637b38b8eaf239c42ca9",
+            "object": "http://ids.si.edu/ids/deliveryService?id=SIA-MAH-66020&max=150",
+            "aggregatedCHO": "#sourceResource",
+            "ingestDate": "2018-10-17T16:27:07.903037Z",
+            "@type": "ore:Aggregation",
+            "isShownAt": "http://collections.si.edu/search/results.htm?q=record_ID%3Anmah_1451733&repo=DPLA",
+            "provider": {
+                "@id": "http://dp.la/api/contributor/smithsonian",
+                "name": "Smithsonian Institution"
+            },
+            "sourceResource": {
+                "description": [
+                    "William Herschel (1738-1822), a musician from Hamburg, Germany, moved to England and settled in Bath. There he scanned the skies with a series of reflecting telescopes that were built by him or under his supervision. He became famous for having found the first telescopic planet, which he called Georgium Sidus and others called Uranus. This half-length portrait of Herschel is a stipple engraving by James Godby (active 1790-1815) after a painting by Friedrick Rehberg (1758-1835). Rehberg, a Hanoverian portrait and historical painter, worked in England in 1813 and 1814. The engraving was available from Colnaghi & Co., an important art emporium in London that is still in business.",
+                    "The text at bottom reads: \u201cDR HERSCHEL, / Member of the Royal Society of London, Imp Academies of St Petersburg and Vienna, National Intitut at Paris, / Royal Academies of Berlin, Stockholm, &c. &c. Born at Hanover the 15th of November 1738. / The background represents part of the Constellation of Gemini with a telescopic aspect of the Georgium Sidus, as it was discovered by Dr Herschel at Bath, / the 13th of March 1781, in consequence of which he was soon after introduced to the most gracious patronage of His Majesty King George III. / Dedicated to the Rt Honble SIR JOSEPH BANKS, BART Pred of the Royal Society, by his very respectful and obedient Servant, Frederick Rehberg, Member of the Royal Academy of the fine Arts at Berlin, &c. &c. / London, Pubd Nov 1, 1814 by Mr Rehberg, 30 St James\u2019s Street & Colnaghi & Co Cockspur Street.\u201d The signatures read \u201cFr. Rehberg del. ad viv. Windsor 1814\u201d and \u201cJames Godby sculpt.\u201d",
+                    "Ref: Ludmilla Jordanova, Defining Features. Scientific and Medical Portraits 1660-2000 (London, 2000).",
+                    "Currently not on view"
+                ],
+                "title": "William Herschel",
+                "@id": "http://dp.la/api/items/3fe065d8d0f6637b38b8eaf239c42ca9#sourceResource",
+                "temporal": [
+                    {
+                        "begin": "1814",
+                        "end": "1814",
+                        "displayDate": "1814"
+                    }
+                ],
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/a3d21230ebecfbcc70f8766135e60719",
+                        "id": "a3d21230ebecfbcc70f8766135e60719",
+                        "title": "Medicine and Science: Physical Sciences"
+                    },
+                    {
+                        "@id": "http://dp.la/api/collections/9b3be81cf8c0074fde1fc6af318bab08",
+                        "id": "9b3be81cf8c0074fde1fc6af318bab08",
+                        "title": "Science & Mathematics"
+                    },
+                    {
+                        "@id": "http://dp.la/api/collections/125182d04c34cad9a8a8d7fcd02d6b10",
+                        "id": "125182d04c34cad9a8a8d7fcd02d6b10",
+                        "title": "Prints from the Physical Sciences Collection"
+                    }
+                ],
+                "stateLocatedIn": [
+                    {
+                        "name": "Washington, D.C."
+                    }
+                ],
+                "spatial": [
+                    {
+                        "city": "London",
+                        "name": "United Kingdom: England, London",
+                        "country": "United Kingdom",
+                        "coordinates": "51.50853, -0.12574",
+                        "county": "Greater London",
+                        "state": "England"
+                    }
+                ],
+                "date": {
+                    "begin": "1814",
+                    "end": "1814",
+                    "displayDate": "1814"
+                },
+                "type": [
+                    "image"
+                ],
+                "subject": [
+                    {
+                        "name": "Prints from the Physical Sciences Collection"
+                    },
+                    {
+                        "name": "Astronomy"
+                    },
+                    {
+                        "name": "Science & Mathematics"
+                    }
+                ]
+            },
+            "ingestType": "item",
+            "dataProvider": "National Museum of American History",
+            "originalRecord": {
+                "freetext": {
+                    "physicalDescription": [
+                        {
+                            "#text": "paper (overall material)",
+                            "@label": "Physical Description"
+                        },
+                        {
+                            "#text": "overall: 18 in x 13 1/2 in; 45.72 cm x 34.29 cm",
+                            "@label": "Measurements"
+                        }
+                    ],
+                    "setName": [
+                        {
+                            "#text": "Medicine and Science: Physical Sciences",
+                            "@label": "See more items in"
+                        },
+                        {
+                            "#text": "Science & Mathematics",
+                            "@label": "See more items in"
+                        },
+                        {
+                            "#text": "Prints from the Physical Sciences Collection",
+                            "@label": "See more items in"
+                        }
+                    ],
+                    "notes": [
+                        {
+                            "#text": "William Herschel (1738-1822), a musician from Hamburg, Germany, moved to England and settled in Bath. There he scanned the skies with a series of reflecting telescopes that were built by him or under his supervision. He became famous for having found the first telescopic planet, which he called Georgium Sidus and others called Uranus. This half-length portrait of Herschel is a stipple engraving by James Godby (active 1790-1815) after a painting by Friedrick Rehberg (1758-1835). Rehberg, a Hanoverian portrait and historical painter, worked in England in 1813 and 1814. The engraving was available from Colnaghi & Co., an important art emporium in London that is still in business.",
+                            "@label": "Description"
+                        },
+                        {
+                            "#text": "The text at bottom reads: \u201cDR HERSCHEL, / Member of the Royal Society of London, Imp Academies of St Petersburg and Vienna, National Intitut at Paris, / Royal Academies of Berlin, Stockholm, &c. &c. Born at Hanover the 15th of November 1738. / The background represents part of the Constellation of Gemini with a telescopic aspect of the Georgium Sidus, as it was discovered by Dr Herschel at Bath, / the 13th of March 1781, in consequence of which he was soon after introduced to the most gracious patronage of His Majesty King George III. / Dedicated to the Rt Honble SIR JOSEPH BANKS, BART Pred of the Royal Society, by his very respectful and obedient Servant, Frederick Rehberg, Member of the Royal Academy of the fine Arts at Berlin, &c. &c. / London, Pubd Nov 1, 1814 by Mr Rehberg, 30 St James\u2019s Street & Colnaghi & Co Cockspur Street.\u201d The signatures read \u201cFr. Rehberg del. ad viv. Windsor 1814\u201d and \u201cJames Godby sculpt.\u201d",
+                            "@label": "Description"
+                        },
+                        {
+                            "#text": "Ref: Ludmilla Jordanova, Defining Features. Scientific and Medical Portraits 1660-2000 (London, 2000).",
+                            "@label": "Description"
+                        },
+                        {
+                            "#text": "Currently not on view",
+                            "@label": "Location"
+                        }
+                    ],
+                    "topic": {
+                        "#text": "Astronomy",
+                        "@label": "subject"
+                    },
+                    "place": {
+                        "#text": "United Kingdom: England, London",
+                        "@label": "place made"
+                    },
+                    "dataSource": {
+                        "#text": "National Museum of American History",
+                        "@label": "Data Source"
+                    },
+                    "date": {
+                        "#text": "1814",
+                        "@label": "date made"
+                    },
+                    "identifier": [
+                        {
+                            "#text": "PH.329181",
+                            "@label": "ID Number"
+                        },
+                        {
+                            "#text": "329181",
+                            "@label": "catalog number"
+                        },
+                        {
+                            "#text": "280072",
+                            "@label": "accession number"
+                        }
+                    ],
+                    "objectType": {
+                        "#text": "print",
+                        "@label": "Object Name"
+                    }
+                },
+                "indexedStructured": {
+                    "topic": [
+                        "Science & Mathematics",
+                        "Astronomy",
+                        "Prints from the Physical Sciences Collection"
+                    ],
+                    "date": "1810s",
+                    "object_type": "Prints",
+                    "place": [
+                        "England",
+                        "London",
+                        "United Kingdom"
+                    ],
+                    "online_media_type": "Images"
+                },
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/a3d21230ebecfbcc70f8766135e60719",
+                        "id": "a3d21230ebecfbcc70f8766135e60719",
+                        "title": "Medicine and Science: Physical Sciences"
+                    },
+                    {
+                        "@id": "http://dp.la/api/collections/9b3be81cf8c0074fde1fc6af318bab08",
+                        "id": "9b3be81cf8c0074fde1fc6af318bab08",
+                        "title": "Science & Mathematics"
+                    },
+                    {
+                        "@id": "http://dp.la/api/collections/125182d04c34cad9a8a8d7fcd02d6b10",
+                        "id": "125182d04c34cad9a8a8d7fcd02d6b10",
+                        "title": "Prints from the Physical Sciences Collection"
+                    }
+                ],
+                "descriptiveNonRepeating": {
+                    "data_source": "National Museum of American History",
+                    "title": {
+                        "#text": "William Herschel",
+                        "@label": "Title"
+                    },
+                    "title_sort": "WILLIAM HERSCHEL",
+                    "online_media": {
+                        "media": [
+                            {
+                                "#text": "http://ids.si.edu/ids/deliveryService?id=SIA-MAH-66020",
+                                "@idsId": "SIA-MAH-66020",
+                                "@thumbnail": "http://ids.si.edu/ids/deliveryService?id=SIA-MAH-66020&max=150",
+                                "@type": "Images"
+                            },
+                            {
+                                "#text": "http://ids.si.edu/ids/deliveryService?id=NMAH-AHB2017q047725",
+                                "@idsId": "NMAH-AHB2017q047725",
+                                "@thumbnail": "http://ids.si.edu/ids/deliveryService?id=NMAH-AHB2017q047725&max=150",
+                                "@type": "Images"
+                            },
+                            {
+                                "#text": "http://ids.si.edu/ids/deliveryService?id=NMAH-AHB2017q047720",
+                                "@idsId": "NMAH-AHB2017q047720",
+                                "@thumbnail": "http://ids.si.edu/ids/deliveryService?id=NMAH-AHB2017q047720&max=150",
+                                "@type": "Images"
+                            }
+                        ],
+                        "@mediaCount": "3"
+                    },
+                    "record_ID": "nmah_1451733",
+                    "unit_code": "NMAH"
+                },
+                "provider": {
+                    "@id": "http://dp.la/api/contributor/smithsonian",
+                    "name": "Smithsonian Institution"
+                }
+            },
+            "id": "3fe065d8d0f6637b38b8eaf239c42ca9"
+        }
+    ],
+    "facets": []
+}
