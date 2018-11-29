@@ -6,10 +6,10 @@ import os
 
 
 ## putting in my API key
-# keykey = json.load(open('/Users/kwolf10/Desktop/PCH/GitHub/katiewolf-pch/JSON_files/api.json', 'r'))
-dpla_token = 'eaf8cfe93ba9d5f249ba85073fbb7ebd'
+keykey = json.load(open('/Users/kwolf10/Desktop/PCH/GitHub/katiewolf-pch/JSON_files/api.json', 'r'))
 
-print (dpla_token)
+dpla_token = keykey['DPLA_token']
+print(dpla_token)
 
 ## making an empty list so I can fill it with all my search results
 dpla_all_data = []
