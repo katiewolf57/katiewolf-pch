@@ -1,0 +1,32 @@
+[
+    {
+        "collection": {
+            "version": "1.0",
+            "metadata": {
+                "total_hits": 0
+            },
+            "items": [],
+            "href": "https://images-api.nasa.gov/search?q=planetneptune&media_type=image&page=1"
+        }
+    },
+    {
+        "collection": {
+            "version": "1.0",
+            "items": [],
+            "metadata": {
+                "total_hits": 0
+            },
+            "href": "https://images-api.nasa.gov/search?q=planetneptune&media_type=image&page=2"
+        }
+    },
+    {
+        "collection": {
+            "version": "1.0",
+            "metadata": {
+                "total_hits": 0
+            },
+            "items": [],
+            "href": "https://images-api.nasa.gov/search?q=planetneptune&media_type=image&page=3"
+        }
+    }
+]

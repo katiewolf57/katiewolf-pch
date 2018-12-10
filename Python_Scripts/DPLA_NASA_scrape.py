@@ -12,7 +12,7 @@ planets = ['mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturn', 'uranus', '
 ## DPLA SCRAPING ##
 
 ## putting in my API key
-keykey = json.load(open('/Users/kwolf10/Desktop/PCH/GitHub/katiewolf-pch/JSON_files/api.json', 'r'))
+keykey = json.load(open('/Users/diunt-02/Desktop/PCH/katiewolf-pch/JSON_files/api.json', 'r'))
 
 dpla_token = keykey['DPLA_token']
 print(dpla_token)
@@ -60,7 +60,7 @@ for planet in planets:
 
 	## results span more than one page for this one ##
 	## have to loop through the pages ##
-    ## start at page one ## 
+    ## start at page one ##
     page = 1
 
     ## where the data will go for each planet ##
@@ -71,7 +71,7 @@ for planet in planets:
 
     payload = {'q': planet, 'media_type':'image', 'page': page}
     r = requests.get('https://images-api.nasa.gov/search', params=payload)
-    
+
     print(payload)
     print(r.text)
 
@@ -84,7 +84,7 @@ for planet in planets:
 
 
     while page <= total_pages:
-        
+
 
         payload = {'q': 'planet' + planet, 'media_type':'image', 'page': page}
         r = requests.get('https://images-api.nasa.gov/search', params=payload)
@@ -105,4 +105,4 @@ for planet in planets:
 
     nasa_all_data.append(nasa_data)
 
-json.dump(nasa_all_data, open('nasadata.json', 'w'), indent=4) 
+json.dump(nasa_all_data, open('nasadata.json', 'w'), indent=4)

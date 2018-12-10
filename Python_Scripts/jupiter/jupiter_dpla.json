@@ -1,0 +1,1968 @@
+{
+    "count": 13,
+    "start": 1,
+    "limit": 500,
+    "docs": [
+        {
+            "id": "bc80af5727fb6d706077dd6f8f312a14",
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/bc80af5727fb6d706077dd6f8f312a14",
+            "aggregatedCHO": "#sourceResource",
+            "dataProvider": "National Archives at College Park - Still Pictures",
+            "ingestDate": "2018-08-16T14:22:54.868Z",
+            "ingestType": "item",
+            "isShownAt": "http://catalog.archives.gov/id/17471490",
+            "object": "https://nara-media.s3.amazonaws.com/stillpix/255-grc/255_GRC_1979_02325.jpg",
+            "originalRecord": {
+                "stringValue": "<item xmlns=\"http://description.das.nara.gov/\">\n  <accessRestriction>\n    <status>\n      <naId>10031403</naId>\n      <termName>Unrestricted</termName>\n    </status>\n  </accessRestriction>\n  <dataControlGroup>\n    <groupCd>RDSS</groupCd>\n    <groupId>ou=NWCS-S,ou=groups</groupId>\n  </dataControlGroup>\n  <digitalObjectArray>\n    <digitalObject>\n      <accessFileSize>21742279</accessFileSize>\n      <accessFilename>\n        https://nara-media.s3.amazonaws.com/stillpix/255-grc/255_GRC_1979_02325.jpg\n      </accessFilename>\n      <labelFlag/>\n      <objectDescription/>\n      <objectType>\n        <naId>10052385</naId>\n        <termName>Image (JPG)</termName>\n      </objectType>\n      <thumbnailFileSize>1234</thumbnailFileSize>\n      <thumbnailFilename>http://media.nara.gov/dc-metro/jpg_t.jpg</thumbnailFilename>\n      <objectIdentifier>17484976</objectIdentifier>\n    </digitalObject>\n  </digitalObjectArray>\n  <generalRecordsTypeArray>\n    <generalRecordsType>\n      <naId>10035674</naId>\n      <termName>Photographs and other Graphic Materials</termName>\n    </generalRecordsType>\n  </generalRecordsTypeArray>\n  <localIdentifier>255_GRC_1979_02325.jpg</localIdentifier>\n  <physicalOccurrenceArray>\n    <itemPhysicalOccurrence>\n      <copyStatus>\n        <naId>10031431</naId>\n        <termName>Preservation</termName>\n      </copyStatus>\n      <locationArray>\n        <location>\n          <facility>\n            <naId>10048491</naId>\n            <termName>\n              National Archives at College Park - Archives II (College Park, MD)\n            </termName>\n          </facility>\n        </location>\n      </locationArray>\n      <mediaOccurrenceArray>\n        <itemMediaOccurrence>\n          <generalMediaTypeArray>\n            <generalMediaType>\n              <naId>12000010</naId>\n              <termName>Photographic Materials</termName>\n            </generalMediaType>\n          </generalMediaTypeArray>\n          <specificMediaType>\n            <naId>10048292</naId>\n            <termName>Photographic Print</termName>\n          </specificMediaType>\n        </itemMediaOccurrence>\n        <itemMediaOccurrence>\n          <generalMediaTypeArray>\n            <generalMediaType>\n              <naId>12000010</naId>\n              <termName>Photographic Materials</termName>\n            </generalMediaType>\n          </generalMediaTypeArray>\n          <specificMediaType>\n            <naId>10048753</naId>\n            <termName>Negative</termName>\n          </specificMediaType>\n        </itemMediaOccurrence>\n        <itemMediaOccurrence>\n          <generalMediaTypeArray>\n            <generalMediaType>\n              <naId>12000006</naId>\n              <termName>Magnetic Media</termName>\n            </generalMediaType>\n          </generalMediaTypeArray>\n          <specificMediaType>\n            <naId>10048692</naId>\n            <termName>Magnetic Disk</termName>\n          </specificMediaType>\n        </itemMediaOccurrence>\n      </mediaOccurrenceArray>\n      <referenceUnitArray>\n        <referenceUnit>\n          <mailCode xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">RDSS</mailCode>\n          <name xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n            National Archives at College Park - Still Pictures\n          </name>\n          <address1 xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n            National Archives at College Park\n          </address1>\n          <address2 xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n            8601 Adelphi Road\n          </address2>\n          <city xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">College Park</city>\n          <state xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">MD</state>\n          <postCode xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n            20740-6001\n          </postCode>\n          <phone xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n            301-837-0561\n          </phone>\n          <fax xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">301-837-3621</fax>\n          <email xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n            stillpix@nara.gov\n          </email>\n          <naId>31</naId>\n          <termName>National Archives at College Park - Still Pictures</termName>\n        </referenceUnit>\n      </referenceUnitArray>\n    </itemPhysicalOccurrence>\n  </physicalOccurrenceArray>\n  <scopeAndContentNote>\n    The original finding aid described this as:\n\nCapture Date: 6/5/1979\n\nPhotographer: COPY NEGATIVE\n\nKeywords: 1979_02325.jpg c1979_02300s Larsen Scan\n  </scopeAndContentNote>\n  <title>\n    PLANET JUPITER AND ITS SATELLITES PHOTOGRAPHED BY THE VOYAGER SPACECRAFT\n  </title>\n  <useRestriction>\n    <status>\n      <naId>10675400</naId>\n      <termName>Unrestricted</termName>\n    </status>\n  </useRestriction>\n  <recordHistory>\n    <imported>\n      <dateTime>2015-03-30T12:16:53</dateTime>\n    </imported>\n    <created>\n      <dateTime>2015-03-30T12:16:53</dateTime>\n    </created>\n  </recordHistory>\n  <isUnderEdit>false</isUnderEdit>\n  <naId>17471490</naId>\n  <parentSeries>\n    <naId>12005631</naId>\n    <title>\n      Photographs Relating to Agency Activities, Facilities and Personnel\n    </title>\n    <inclusiveDates xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n      <inclusiveEndDate>\n        <year>2013</year>\n        <logicalDate>2013-12-31T00:00:00</logicalDate>\n      </inclusiveEndDate>\n      <inclusiveStartDate>\n        <year>1973</year>\n        <logicalDate>1973-01-01T00:00:00</logicalDate>\n      </inclusiveStartDate>\n    </inclusiveDates>\n    <parentRecordGroup xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n      <naId>582</naId>\n      <title>Records of the National Aeronautics and Space Administration</title>\n      <recordGroupNumber>255</recordGroupNumber>\n      <inclusiveDates xmlns=\"http://description.das.nara.gov/\">\n        <inclusiveEndDate>\n          <year>2006</year>\n          <logicalDate>2006-12-31T00:00:00</logicalDate>\n        </inclusiveEndDate>\n        <inclusiveStartDate>\n          <year>1903</year>\n          <logicalDate>1903-01-01T00:00:00</logicalDate>\n        </inclusiveStartDate>\n      </inclusiveDates>\n    </parentRecordGroup>\n    <formerCollectionArray xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"/>\n    <formerRecordGroupArray xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"/>\n    <creatingIndividualArray xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    </creatingIndividualArray>\n    <creatingOrganizationArray \n    xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n      <creatingOrganization>\n        <creator>\n          <naId>10501290</naId>\n          <termName>\n            National Aeronautics and Space Administration. John H. Glenn Research Center at Lewis Field. 3/1/1999-\n          </termName>\n          <establishDate>\n            <year>1999</year>\n            <month>3</month>\n            <day>1</day>\n            <logicalDate>1999-03-01T00:00:00</logicalDate>\n          </establishDate>\n          <abolishDate/>\n        </creator>\n        <creatorType>\n          <naId>10031465</naId>\n          <termName>Most Recent</termName>\n        </creatorType>\n      </creatingOrganization>\n</creatingOrganizationArray>\n  </parentSeries>\n</item>"
+            },
+            "provider": {
+                "@id": "http://dp.la/api/contributor/nara",
+                "name": "National Archives and Records Administration"
+            },
+            "sourceResource": {
+                "@id": "http://dp.la/api/items/bc80af5727fb6d706077dd6f8f312a14#SourceResource",
+                "collection": [
+                    {
+                        "title": "Records of the National Aeronautics and Space Administration"
+                    }
+                ],
+                "creator": [
+                    "National Aeronautics and Space Administration. John H. Glenn Research Center at Lewis Field. 3/1/1999"
+                ],
+                "description": [
+                    "The original finding aid described this as: Capture Date: 6/5/1979 Photographer: COPY NEGATIVE Keywords: 1979_02325.jpg c1979_02300s Larsen Scan"
+                ],
+                "format": [
+                    "Photographic Print",
+                    "Negative",
+                    "Magnetic Disk",
+                    "Photographic Materials",
+                    "Magnetic Media"
+                ],
+                "identifier": [
+                    "17471490"
+                ],
+                "relation": [
+                    "Records of the National Aeronautics and Space Administration ; Photographs Relating to Agency Activities, Facilities and Personnel"
+                ],
+                "rights": [
+                    "Unrestricted"
+                ],
+                "title": [
+                    "PLANET JUPITER AND ITS SATELLITES PHOTOGRAPHED BY THE VOYAGER SPACECRAFT"
+                ],
+                "type": [
+                    "image"
+                ]
+            },
+            "@type": "ore:Aggregation"
+        },
+        {
+            "id": "e136be80a170f8960722be089d3cc2f8",
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/e136be80a170f8960722be089d3cc2f8",
+            "aggregatedCHO": "#sourceResource",
+            "dataProvider": "California Institute of Technology",
+            "ingestDate": "2018-11-16T02:15:58.805Z",
+            "ingestType": "item",
+            "isShownAt": "http://archives-dc.library.caltech.edu/islandora/object/ct1%3A6442",
+            "object": "https://thumbnails.calisphere.org/clip/150x150/8bd622e9ccb1f05ed5f7291fa00ca36a",
+            "originalRecord": {
+                "stringValue": "{\n  \"collection_url\" : [ \"https://registry.cdlib.org/api/v1/collection/26951/\" ],\n  \"repository_name\" : [ \"California Institute of Technology\" ],\n  \"url_item\" : \"http://archives-dc.library.caltech.edu/islandora/object/ct1%3A6442\",\n  \"repository_data\" : [ \"https://registry.cdlib.org/api/v1/repository/157/::California Institute of Technology\" ],\n  \"description\" : [ \"Jupiter-Voyager mission.\", \"March 1979\" ],\n  \"rights\" : [ \"Materials from the Caltech Archives are made available online for research purposes. Permission for reproduction, distribution, public display, performance, or publication must be obtained in writing from the Head of Archives. The Caltech Archives makes no representation that it is the copyright owner in all of its holdings. It is the responsibility of the user to obtain all necessary rights and clearances for use of materials. For questions, contact Head of Archives.\" ],\n  \"rights_ss\" : [ \"Materials from the Caltech Archives are made available online for research purposes. Permission for reproduction, distribution, public display, performance, or publication must be obtained in writing from the Head of Archives. The Caltech Archives makes no representation that it is the copyright owner in all of its holdings. It is the responsibility of the user to obtain all necessary rights and clearances for use of materials. For questions, contact Head of Archives.\" ],\n  \"reference_image_dimensions\" : \"526:673\",\n  \"format\" : [ \"Photographs\" ],\n  \"format_ss\" : [ \"Photographs\" ],\n  \"collection_name\" : [ \"Image Archive\" ],\n  \"collection_data\" : [ \"https://registry.cdlib.org/api/v1/collection/26951/::Image Archive\" ],\n  \"sort_title\" : \"jupiter and its four planetsize moons called the galilean satellites\",\n  \"date\" : [ \"1979-03\" ],\n  \"date_ss\" : [ \"1979-03\" ],\n  \"reference_image_md5\" : \"8bd622e9ccb1f05ed5f7291fa00ca36a\",\n  \"facet_decade\" : [ \"1970s\" ],\n  \"sort_collection_data\" : [ \"image archive:Image Archive:https://registry.cdlib.org/api/v1/collection/26951/\" ],\n  \"harvest_id_s\" : \"26951--oai:archives-dc.library.caltech.edu:ct1_6442\",\n  \"repository_url\" : [ \"https://registry.cdlib.org/api/v1/repository/157/\" ],\n  \"title\" : [ \"Jupiter and its four planet-size moons, called the Galilean satellites\" ],\n  \"title_ss\" : [ \"Jupiter and its four planet-size moons, called the Galilean satellites\" ],\n  \"identifier\" : [ \"ct1:6442\", \"http://archives-dc.library.caltech.edu/islandora/object/ct1%3A6442\" ],\n  \"identifier_ss\" : [ \"ct1:6442\", \"http://archives-dc.library.caltech.edu/islandora/object/ct1%3A6442\" ],\n  \"type\" : [ \"Image\" ],\n  \"type_ss\" : [ \"Image\" ],\n  \"id\" : \"5f20d1438c80c9b08758e483114cd57c\",\n  \"_version_\" : 1579715093871984640,\n  \"timestamp\" : \"2017-09-27T17:35:12.265Z\"\n}"
+            },
+            "provider": {
+                "@id": "http://dp.la/api/contributor/cdl",
+                "name": "California Digital Library"
+            },
+            "sourceResource": {
+                "@id": "http://dp.la/api/items/e136be80a170f8960722be089d3cc2f8#SourceResource",
+                "collection": [
+                    {
+                        "title": "Image Archive"
+                    }
+                ],
+                "date": [
+                    {
+                        "displayDate": "1979-03"
+                    }
+                ],
+                "description": [
+                    "Jupiter-Voyager mission.",
+                    "March 1979"
+                ],
+                "format": [
+                    "Photographs"
+                ],
+                "identifier": [
+                    "ct1:6442",
+                    "http://archives-dc.library.caltech.edu/islandora/object/ct1%3A6442"
+                ],
+                "rights": [
+                    "Materials from the Caltech Archives are made available online for research purposes. Permission for reproduction, distribution, public display, performance, or publication must be obtained in writing from the Head of Archives. The Caltech Archives makes no representation that it is the copyright owner in all of its holdings. It is the responsibility of the user to obtain all necessary rights and clearances for use of materials. For questions, contact Head of Archives."
+                ],
+                "title": [
+                    "Jupiter and its four planet-size moons, called the Galilean satellites"
+                ],
+                "type": [
+                    "image"
+                ]
+            },
+            "@type": "ore:Aggregation"
+        },
+        {
+            "id": "4732a17d4b264db0c495430cb6d2db6a",
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/4732a17d4b264db0c495430cb6d2db6a",
+            "aggregatedCHO": "#sourceResource",
+            "dataProvider": "Utah State Library",
+            "ingestDate": "2018-12-04T17:01:15.950Z",
+            "ingestType": "item",
+            "isShownAt": "http://utah-primoprod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=MWDL&afterPDS=true&docId=digcoll_usl_22library2_lib/81564",
+            "object": "http://digitallibrary.utah.gov/awweb/pdfopener?did=81564&fp=auto",
+            "originalRecord": {
+                "stringValue": "<sear:DOC \nID=\"3663670\" RANK=\"0.7996718\" NO=\"766475\" SEARCH_ENGINE=\"Local Search Engine\" SEARCH_ENGINE_TYPE=\"Local Search Engine\" xmlns:sear=\"http://www.exlibrisgroup.com/xsd/jaguar/search\">\n  <PrimoNMBib xmlns=\"http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib\">\n    <record>\n      <control>\n        <sourcerecordid>library2_lib/81564</sourcerecordid>\n        <sourceid>digcoll_usl_22</sourceid>\n        <recordid>digcoll_usl_22library2_lib/81564</recordid>\n        <originalsourceid>81564</originalsourceid>\n        <sourcedbandrecordid>library2_lib</sourcedbandrecordid>\n        <addsrcrecordid>usl-22-120-1559</addsrcrecordid>\n        <sourceformat>Digital Entity</sourceformat>\n        <sourcesystem>Other</sourcesystem>\n      </control>\n      <display>\n        <type>Image</type>\n        <title>\n          Europa : discover life under the ice, all ocean views!!! [poster]\n        </title>\n        <contributor>\n          Jet Propulsion Laboratory (U.S.); United States. National Aeronautics and Space Administration; California Institute of Technology\n        </contributor>\n        <publisher>Jet Propulsion Laboratory (U.S.)</publisher>\n        <creationdate>2015</creationdate>\n        <format>application/pdf</format>\n        <identifier>\n          http://digitallibrary.utah.gov/awweb/guest.jsp?smd=1&amp;cl=all_lib&amp;lb_document_id=81564\n        </identifier>\n        <subject>\n          Space tourism; Interplanetary voyages; Space travelers; Jupiter (Planet); Planets--Exploration; Outer planets; Exploration of Jupiter (Planet); Jupiter (Planet)--Europa (Satellite); Recreation and tourism; Industry and technology\n        </subject>\n        <description>\n          Astonishing geology and the potential to host the conditions for simple life make Jupiter\u2019s moon Europa a fascinating destination for future exploration. Beneath its icy surface,Europa is believed to conceal a global ocean of salty liquid water twice the volume of Earth\u2019s oceans. Tugging and flexing from Jupiter\u2019s gravity generates enough heat to keep the ocean from freezing. On Earth, wherever we find water, we find life. What will NASA\u2019s Europa mission find when it heads for this intriguing moon in the 2020s? This poster is from a set of new &quot;travel posters&quot; from NASA's Jet Propulsion Laboratory, Pasadena,\n        </description>\n        <language>eng</language>\n        <relation>Is part of: U.S. Federal Publications</relation>\n        <relation>Has part: NASA Visions of the Future</relation>\n        <coverage>Jupiter (Planet)</coverage>\n        <rights>\n          United States government publications are not subject to copyright in the United States under 17 U.S.C \u00a7105. All informational materials in this government publication are in the public domain, and as such, are not restricted by copyright law unless otherwise stated. For more information please see http://www.gpo.gov/help/index.html#public_domain_copyright_notice.htm\n        </rights>\n        <lds01>Utah State Library</lds01>\n        <lds02>Utah Government Publications Online Digital Library</lds02>\n        <lds03>Utah State Library</lds03>\n        <lds04>Utah Government Digital Library</lds04>\n        <lds05>1 p.</lds05>\n        <lds08>Jupiter (Planet)</lds08>\n        <lds10>\n          Visions of the future posters; Exotic cosmic locales available as space tourism posters\n        </lds10>\n        <lds18>Image</lds18>\n        <lds18>StillImage</lds18>\n        <lds17>image</lds17>\n      </display>\n      <links>\n        <linktorsrc>\n          $$Uhttp://digitallibrary.utah.gov/awweb/guest.jsp?smd=1&amp;cl=all_lib&amp;lb_document_id=81564$$DOpen resource in a new window\n        </linktorsrc>\n        <thumbnail>$$Tdigcoll_usl_22_linktothumb$$DSee Thumbnail</thumbnail>\n      </links>\n      <search>\n        <creatorcontrib>\n          Jet Propulsion Laboratory (U.S.); United States. National Aeronautics and Space Administration; California Institute of Technology\n        </creatorcontrib>\n        <title>\n          Europa : discover life under the ice, all ocean views!!! [poster]\n        </title>\n        <description>\n          Astonishing geology and the potential to host the conditions for simple life make Jupiter\u2019s moon Europa a fascinating destination for future exploration. Beneath its icy surface,Europa is believed to conceal a global ocean of salty liquid water twice the volume of Earth\u2019s oceans. Tugging and flexing from Jupiter\u2019s gravity generates enough heat to keep the ocean from freezing. On Earth, wherever we find water, we find life. What will NASA\u2019s Europa mission find when it heads for this intriguing moon in the 2020s? This poster is from a set of new &quot;travel posters&quot; from NASA's Jet Propulsion Laboratory, Pasadena, California, which envision a day when the creativity of scientists and engineers will allow us to do things we can only dream of now. The posters in the set depict various cosmic destinations including Mars, Jupiter's moon Europa, Saturn's vapor-spewing moon Enceladus, and the dwarf planet Ceres. You can take a virtual trip to 14 alien worlds, and maybe even plaster your living room with planetary art, via the new, futuristic space tourism posters. The posters are the brainchild of The Studio at JPL, a design and strategy team that works with JPL scientists and engineers to visualize and depict complex science and technology topics. Their work is used in designing space missions and in sharing the work of NASA/JPL with the public. The Archive copy is a high resolution TIFF image that can be downloaded from the digital library and printed 20 x 30 inches in high-resolution.\n        </description>\n        <subject>Space tourism</subject>\n        <subject>Interplanetary voyages</subject>\n        <subject>Space travelers</subject>\n        <subject>Jupiter (Planet)</subject>\n        <subject>Planets--Exploration</subject>\n        <subject>Outer planets</subject>\n        <subject>Exploration of Jupiter (Planet)</subject>\n        <subject>Jupiter (Planet)--Europa (Satellite)</subject>\n        <subject>Recreation and tourism</subject>\n        <subject>Industry and technology</subject>\n        <sourceid>digcoll_usl_22</sourceid>\n        <recordid>digcoll_usl_22library2_lib/81564</recordid>\n        <creationdate>2015</creationdate>\n        <addtitle>Is part of: U.S. Federal Publications</addtitle>\n        <addtitle>Has part: NASA Visions of the Future</addtitle>\n        <addtitle>\n          Visions of the future posters; Exotic cosmic locales available as space tourism posters\n        </addtitle>\n        <addsrcrecordid>usl-22-120-1559</addsrcrecordid>\n        <scope>mw</scope>\n        <lsr01>usl</lsr01>\n        <lsr02>22</lsr02>\n        <lsr03>120</lsr03>\n        <lsr04>1559</lsr04>\n        <lsr09>Utah State Library</lsr09>\n        <lsr10>Utah Government Publications Online Digital Library</lsr10>\n        <lsr12>Utah State Library</lsr12>\n        <lsr13>Utah Government Digital Library</lsr13>\n        <lsr14>Jupiter (Planet)</lsr14>\n        <lsr15>U.S. Federal Publications</lsr15>\n        <rsrctype>images</rsrctype>\n      </search>\n      <sort>\n        <title>\n          Europa : discover life under the ice, all ocean views!!! [poster]\n        </title>\n        <creationdate>2015</creationdate>\n      </sort>\n      <facets>\n        <language>eng</language>\n        <creationdate>2015</creationdate>\n        <topic>Space tourism</topic>\n        <topic>Interplanetary voyages</topic>\n        <topic>Space travelers</topic>\n        <topic>Jupiter (Planet)</topic>\n        <topic>Planets--Exploration</topic>\n        <topic>Outer planets</topic>\n        <topic>Exploration of Jupiter (Planet)</topic>\n        <topic>Jupiter (Planet)--Europa (Satellite)</topic>\n        <topic>Recreation and tourism</topic>\n        <topic>Industry and technology</topic>\n        <collection>Digital Collections</collection>\n        <toplevel>online_resources</toplevel>\n        <format>application/pdf</format>\n        <genre>unknown</genre>\n        <lfc01>Utah Government Digital Library</lfc01>\n        <lfc02>Utah State Library</lfc02>\n        <lfc03>Utah State Library</lfc03>\n        <lfc04>Utah Government Publications Online Digital Library</lfc04>\n        <lfc08>Jupiter (Planet)</lfc08>\n        <prefilter>images</prefilter>\n        <rsrctype>images</rsrctype>\n        <newrecords>20170208_801</newrecords>\n        <frbrgroupid>325379772</frbrgroupid>\n        <frbrtype>6</frbrtype>\n      </facets>\n      <delivery>\n        <institution>MWDL</institution>\n        <delcategory>Online Resource</delcategory>\n      </delivery>\n      <ranking>\n        <booster1>1</booster1>\n        <booster2>1</booster2>\n      </ranking>\n      <addata>\n        <date>2015</date>\n        <pub>Jet Propulsion Laboratory (U.S.)</pub>\n      </addata>\n    </record>\n  </PrimoNMBib>\n  <sear:GETIT \n  deliveryCategory=\"Online Resource\" GetIt1=\"http://digitallibrary.utah.gov/awweb/guest.jsp?smd=1&amp;cl=all_lib&amp;lb_document_id=81564\" GetIt2=\"http://1.1.1.1?ctx_ver=Z39.88-2004&amp;ctx_enc=info:ofi/enc:UTF-8&amp;ctx_tim=2018-12-03T19%3A53%3A01IST&amp;url_ver=Z39.88-2004&amp;url_ctx_fmt=infofi/fmt:kev:mtx:ctx&amp;rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Journal-digcoll_usl_22&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:&amp;rft.genre=&amp;rft.atitle=&amp;rft.jtitle=&amp;rft.btitle=&amp;rft.aulast=&amp;rft.auinit=&amp;rft.auinit1=&amp;rft.series=&amp;rft.auinitm=&amp;rft.ausuffix=&amp;rft.au=&amp;rft.aucorp=&amp;rft.volume=&amp;rft.issue=&amp;rft.part=&amp;rft.quarter=&amp;rft.ssn=&amp;rft.spage=&amp;rft.epage=&amp;rft.pages=&amp;rft.artnum=&amp;rft.issn=&amp;rft.eissn=&amp;rft.isbn=&amp;rft.sici=&amp;rft.coden=&amp;rft_id=info:doi/&amp;rft.object_id=&amp;rft.eisbn=&amp;rft_dat=%3Cdigcoll_usl_22%3Elibrary2_lib/81564%3C/digcoll_usl_22%3E%3Cgrp_id%3E325379772%3C/grp_id%3E%3Coa%3E%3C/oa%3E&amp;rft_id=info:oai/&amp;req.language=&amp;rft_pqid=\">\n</sear:GETIT>\n  <sear:LINKS>\n    <sear:linktorsrc>\n      http://digitallibrary.utah.gov/awweb/guest.jsp?smd=1&amp;cl=all_lib&amp;lb_document_id=81564\n    </sear:linktorsrc>\n    <sear:thumbnail>\n      http://digitallibrary.utah.gov/awweb/pdfopener?did=81564&amp;fp=auto\n    </sear:thumbnail>\n    <sear:thumbnail>\n      http://digitallibrary.utah.gov/awweb/pdfopener?did=81564&amp;fp=auto\n    </sear:thumbnail>\n  </sear:LINKS>\n</sear:DOC>\n"
+            },
+            "provider": {
+                "@id": "http://dp.la/api/contributor/mwdl",
+                "name": "Mountain West Digital Library"
+            },
+            "sourceResource": {
+                "@id": "http://dp.la/api/items/4732a17d4b264db0c495430cb6d2db6a#SourceResource",
+                "collection": [
+                    {
+                        "title": "Utah Government Digital Library"
+                    }
+                ],
+                "contributor": [
+                    "Jet Propulsion Laboratory (U.S.)",
+                    "United States. National Aeronautics and Space Administration",
+                    "California Institute of Technology"
+                ],
+                "date": [
+                    {
+                        "displayDate": "2015"
+                    }
+                ],
+                "description": [
+                    "Astonishing geology and the potential to host the conditions for simple life make Jupiter\u2019s moon Europa a fascinating destination for future exploration. Beneath its icy surface,Europa is believed to conceal a global ocean of salty liquid water twice the volume of Earth\u2019s oceans. Tugging and flexing from Jupiter\u2019s gravity generates enough heat to keep the ocean from freezing. On Earth, wherever we find water, we find life. What will NASA\u2019s Europa mission find when it heads for this intriguing moon in the 2020s? This poster is from a set of new \"travel posters\" from NASA's Jet Propulsion Laboratory, Pasadena, California, which envision a day when the creativity of scientists and engineers will allow us to do things we can only dream of now. The posters in the set depict various cosmic destinations including Mars, Jupiter's moon Europa, Saturn's vapor-spewing moon Enceladus, and the dwarf planet Ceres. You can take a virtual trip to 14 alien worlds, and maybe even plaster your"
+                ],
+                "extent": [
+                    "1 p."
+                ],
+                "identifier": [
+                    "digcoll_usl_22library2_lib/81564"
+                ],
+                "language": [
+                    {
+                        "name": "English",
+                        "iso639_3": "English"
+                    }
+                ],
+                "relation": [
+                    "Is part of: U.S. Federal Publications",
+                    "Has part: NASA Visions of the Future"
+                ],
+                "rights": [
+                    "United States government publications are not subject to copyright in the United States under 17 U.S.C \u00a7105. All informational materials in this government publication are in the public domain, and as such, are not restricted by copyright law unless otherwise stated. For more information please see http://www.gpo.gov/help/index.html#public_domain_copyright_notice.htm"
+                ],
+                "spatial": [
+                    {
+                        "name": "Jupiter (Planet)"
+                    }
+                ],
+                "subject": [
+                    {
+                        "name": "Space tourism"
+                    },
+                    {
+                        "name": "Interplanetary voyages"
+                    },
+                    {
+                        "name": "Space travelers"
+                    },
+                    {
+                        "name": "Jupiter (Planet)"
+                    },
+                    {
+                        "name": "Planets--Exploration"
+                    },
+                    {
+                        "name": "Outer planets"
+                    },
+                    {
+                        "name": "Exploration of Jupiter (Planet)"
+                    },
+                    {
+                        "name": "Jupiter (Planet)--Europa (Satellite)"
+                    },
+                    {
+                        "name": "Recreation and tourism"
+                    },
+                    {
+                        "name": "Industry and technology"
+                    }
+                ],
+                "title": [
+                    "Europa : discover life under the ice, all ocean views!!! [poster]"
+                ],
+                "type": [
+                    "image"
+                ]
+            },
+            "@type": "ore:Aggregation"
+        },
+        {
+            "id": "964d38afaa2765c9ba8da7553000102b",
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/964d38afaa2765c9ba8da7553000102b",
+            "aggregatedCHO": "#sourceResource",
+            "dataProvider": "Utah State Library",
+            "ingestDate": "2018-12-04T17:01:15.950Z",
+            "ingestType": "item",
+            "isShownAt": "http://utah-primoprod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=MWDL&afterPDS=true&docId=digcoll_usl_22library2_lib/81565",
+            "object": "http://digitallibrary.utah.gov/awweb/pdfopener?did=81565&fp=auto",
+            "originalRecord": {
+                "stringValue": "<sear:DOC \nID=\"3663767\" RANK=\"0.7996718\" NO=\"766559\" SEARCH_ENGINE=\"Local Search Engine\" SEARCH_ENGINE_TYPE=\"Local Search Engine\" xmlns:sear=\"http://www.exlibrisgroup.com/xsd/jaguar/search\">\n  <PrimoNMBib xmlns=\"http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib\">\n    <record>\n      <control>\n        <sourcerecordid>library2_lib/81565</sourcerecordid>\n        <sourceid>digcoll_usl_22</sourceid>\n        <recordid>digcoll_usl_22library2_lib/81565</recordid>\n        <originalsourceid>81565</originalsourceid>\n        <sourcedbandrecordid>library2_lib</sourcedbandrecordid>\n        <addsrcrecordid>usl-22-120-1559</addsrcrecordid>\n        <sourceformat>Digital Entity</sourceformat>\n        <sourcesystem>Other</sourcesystem>\n      </control>\n      <display>\n        <type>Image</type>\n        <title>\n          The grand tour : a once in a life-time getaway : Jupiter, Saturn, Uranus, Neptune [poster]\n        </title>\n        <contributor>\n          Jet Propulsion Laboratory (U.S.); United States. National Aeronautics and Space Administration; California Institute of Technology\n        </contributor>\n        <publisher>Jet Propulsion Laboratory (U.S.)</publisher>\n        <creationdate>2016</creationdate>\n        <format>application/pdf</format>\n        <identifier>\n          http://digitallibrary.utah.gov/awweb/guest.jsp?smd=1&amp;cl=all_lib&amp;lb_document_id=81565\n        </identifier>\n        <subject>\n          Space tourism; Outer planets; Exploration of Jupiter (Planet); Exploration of Uranus (Planet); Exploration of Saturn (Planet); Interplanetary voyages; Space travelers; Jupiter (Planet); Neptune (Planet); Saturn (Planet); Exploration of Neptune (Planet); Uranus (Planet); Planets--Exploration; Recreation and tourism; Industry and technology\n        </subject>\n        <description>\n          NASA\u2019s Voyager mission took advantage of a once-every-175-year alignment of the outer planets for a grand tour of the solar system. The twin spacecraft revealed stunning details about Jupiter, Saturn, Uranus and Neptune - using each planet\u2019s gravity to send them on to the next destination. Voyager set the stage for such ambitious orbiter missions as Galileo to Jupiter and Cassini to Saturn. Today both Voyager spacecraft continue to return valuable science from the far reaches of our solar system. This poster is from a set of new &quot;travel posters&quot; from NASA's Jet Propulsion Laboratory, Pasadena, California, which envision\n        </description>\n        <language>eng</language>\n        <relation>Is part of: U.S. Federal Publications</relation>\n        <relation>Has part: NASA Visions of the Future</relation>\n        <coverage>\n          Jupiter (Planet); Saturn (Planet); Uranus (Planet); Neptune (Planet)\n        </coverage>\n        <rights>\n          United States government publications are not subject to copyright in the United States under 17 U.S.C \u00a7105. All informational materials in this government publication are in the public domain, and as such, are not restricted by copyright law unless otherwise stated. For more information please see http://www.gpo.gov/help/index.html#public_domain_copyright_notice.htm\n        </rights>\n        <lds01>Utah State Library</lds01>\n        <lds02>Utah Government Publications Online Digital Library</lds02>\n        <lds03>Utah State Library</lds03>\n        <lds04>Utah Government Digital Library</lds04>\n        <lds05>1 p.</lds05>\n        <lds08>\n          Jupiter (Planet); Saturn (Planet); Uranus (Planet); Neptune (Planet)\n        </lds08>\n        <lds10>\n          Visions of the future posters; Exotic cosmic locales available as space tourism posters\n        </lds10>\n        <lds18>Image</lds18>\n        <lds18>StillImage</lds18>\n        <lds17>image</lds17>\n      </display>\n      <links>\n        <linktorsrc>\n          $$Uhttp://digitallibrary.utah.gov/awweb/guest.jsp?smd=1&amp;cl=all_lib&amp;lb_document_id=81565$$DOpen resource in a new window\n        </linktorsrc>\n        <thumbnail>$$Tdigcoll_usl_22_linktothumb$$DSee Thumbnail</thumbnail>\n      </links>\n      <search>\n        <creatorcontrib>\n          Jet Propulsion Laboratory (U.S.); United States. National Aeronautics and Space Administration; California Institute of Technology\n        </creatorcontrib>\n        <title>\n          The grand tour : a once in a life-time getaway : Jupiter, Saturn, Uranus, Neptune [poster]\n        </title>\n        <description>\n          NASA\u2019s Voyager mission took advantage of a once-every-175-year alignment of the outer planets for a grand tour of the solar system. The twin spacecraft revealed stunning details about Jupiter, Saturn, Uranus and Neptune - using each planet\u2019s gravity to send them on to the next destination. Voyager set the stage for such ambitious orbiter missions as Galileo to Jupiter and Cassini to Saturn. Today both Voyager spacecraft continue to return valuable science from the far reaches of our solar system. This poster is from a set of new &quot;travel posters&quot; from NASA's Jet Propulsion Laboratory, Pasadena, California, which envision a day when the creativity of scientists and engineers will allow us to do things we can only dream of now. The posters in the set depict various cosmic destinations including Mars, Jupiter's moon Europa, Saturn's vapor-spewing moon Enceladus, and the dwarf planet Ceres. You can take a virtual trip to 14 alien worlds, and maybe even plaster your living room with planetary art, via the new, futuristic space tourism posters. The posters are the brainchild of The Studio at JPL, a design and strategy team that works with JPL scientists and engineers to visualize and depict complex science and technology topics. Their work is used in designing space missions and in sharing the work of NASA/JPL with the public. The Archive copy is a high resolution TIFF image that can be downloaded from the digital library and printed 20 x 30 inches in high-resolution.\n        </description>\n        <subject>Space tourism</subject>\n        <subject>Outer planets</subject>\n        <subject>Exploration of Jupiter (Planet)</subject>\n        <subject>Exploration of Uranus (Planet)</subject>\n        <subject>Exploration of Saturn (Planet)</subject>\n        <subject>Interplanetary voyages</subject>\n        <subject>Space travelers</subject>\n        <subject>Jupiter (Planet)</subject>\n        <subject>Neptune (Planet)</subject>\n        <subject>Saturn (Planet)</subject>\n        <subject>Exploration of Neptune (Planet)</subject>\n        <subject>Uranus (Planet)</subject>\n        <subject>Planets--Exploration</subject>\n        <subject>Recreation and tourism</subject>\n        <subject>Industry and technology</subject>\n        <sourceid>digcoll_usl_22</sourceid>\n        <recordid>digcoll_usl_22library2_lib/81565</recordid>\n        <creationdate>2016</creationdate>\n        <addtitle>Is part of: U.S. Federal Publications</addtitle>\n        <addtitle>Has part: NASA Visions of the Future</addtitle>\n        <addtitle>\n          Visions of the future posters; Exotic cosmic locales available as space tourism posters\n        </addtitle>\n        <addsrcrecordid>usl-22-120-1559</addsrcrecordid>\n        <scope>mw</scope>\n        <lsr01>usl</lsr01>\n        <lsr02>22</lsr02>\n        <lsr03>120</lsr03>\n        <lsr04>1559</lsr04>\n        <lsr09>Utah State Library</lsr09>\n        <lsr10>Utah Government Publications Online Digital Library</lsr10>\n        <lsr12>Utah State Library</lsr12>\n        <lsr13>Utah Government Digital Library</lsr13>\n        <lsr14>Jupiter (Planet)</lsr14>\n        <lsr14>Saturn (Planet)</lsr14>\n        <lsr14>Uranus (Planet)</lsr14>\n        <lsr14>Neptune (Planet)</lsr14>\n        <lsr15>U.S. Federal Publications</lsr15>\n        <rsrctype>images</rsrctype>\n      </search>\n      <sort>\n        <title>\n          The grand tour : a once in a life-time getaway : Jupiter, Saturn, Uranus, Neptune [poster]\n        </title>\n        <creationdate>2016</creationdate>\n      </sort>\n      <facets>\n        <language>eng</language>\n        <creationdate>2016</creationdate>\n        <topic>Space tourism</topic>\n        <topic>Outer planets</topic>\n        <topic>Exploration of Jupiter (Planet)</topic>\n        <topic>Exploration of Uranus (Planet)</topic>\n        <topic>Exploration of Saturn (Planet)</topic>\n        <topic>Interplanetary voyages</topic>\n        <topic>Space travelers</topic>\n        <topic>Jupiter (Planet)</topic>\n        <topic>Neptune (Planet)</topic>\n        <topic>Saturn (Planet)</topic>\n        <topic>Exploration of Neptune (Planet)</topic>\n        <topic>Uranus (Planet)</topic>\n        <topic>Planets--Exploration</topic>\n        <topic>Recreation and tourism</topic>\n        <topic>Industry and technology</topic>\n        <collection>Digital Collections</collection>\n        <toplevel>online_resources</toplevel>\n        <format>application/pdf</format>\n        <genre>unknown</genre>\n        <lfc01>Utah Government Digital Library</lfc01>\n        <lfc02>Utah State Library</lfc02>\n        <lfc03>Utah State Library</lfc03>\n        <lfc04>Utah Government Publications Online Digital Library</lfc04>\n        <lfc08>Jupiter (Planet)</lfc08>\n        <lfc08>Saturn (Planet)</lfc08>\n        <lfc08>Uranus (Planet)</lfc08>\n        <lfc08>Neptune (Planet)</lfc08>\n        <prefilter>images</prefilter>\n        <rsrctype>images</rsrctype>\n        <newrecords>20170208_800</newrecords>\n        <frbrgroupid>325379766</frbrgroupid>\n        <frbrtype>6</frbrtype>\n      </facets>\n      <delivery>\n        <institution>MWDL</institution>\n        <delcategory>Online Resource</delcategory>\n      </delivery>\n      <ranking>\n        <booster1>1</booster1>\n        <booster2>1</booster2>\n      </ranking>\n      <addata>\n        <date>2016</date>\n        <pub>Jet Propulsion Laboratory (U.S.)</pub>\n      </addata>\n    </record>\n  </PrimoNMBib>\n  <sear:GETIT \n  deliveryCategory=\"Online Resource\" GetIt1=\"http://digitallibrary.utah.gov/awweb/guest.jsp?smd=1&amp;cl=all_lib&amp;lb_document_id=81565\" GetIt2=\"http://1.1.1.1?ctx_ver=Z39.88-2004&amp;ctx_enc=info:ofi/enc:UTF-8&amp;ctx_tim=2018-12-03T19%3A53%3A05IST&amp;url_ver=Z39.88-2004&amp;url_ctx_fmt=infofi/fmt:kev:mtx:ctx&amp;rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Journal-digcoll_usl_22&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:&amp;rft.genre=&amp;rft.atitle=&amp;rft.jtitle=&amp;rft.btitle=&amp;rft.aulast=&amp;rft.auinit=&amp;rft.auinit1=&amp;rft.series=&amp;rft.auinitm=&amp;rft.ausuffix=&amp;rft.au=&amp;rft.aucorp=&amp;rft.volume=&amp;rft.issue=&amp;rft.part=&amp;rft.quarter=&amp;rft.ssn=&amp;rft.spage=&amp;rft.epage=&amp;rft.pages=&amp;rft.artnum=&amp;rft.issn=&amp;rft.eissn=&amp;rft.isbn=&amp;rft.sici=&amp;rft.coden=&amp;rft_id=info:doi/&amp;rft.object_id=&amp;rft.eisbn=&amp;rft_dat=%3Cdigcoll_usl_22%3Elibrary2_lib/81565%3C/digcoll_usl_22%3E%3Cgrp_id%3E325379766%3C/grp_id%3E%3Coa%3E%3C/oa%3E&amp;rft_id=info:oai/&amp;req.language=&amp;rft_pqid=\">\n</sear:GETIT>\n  <sear:LINKS>\n    <sear:linktorsrc>\n      http://digitallibrary.utah.gov/awweb/guest.jsp?smd=1&amp;cl=all_lib&amp;lb_document_id=81565\n    </sear:linktorsrc>\n    <sear:thumbnail>\n      http://digitallibrary.utah.gov/awweb/pdfopener?did=81565&amp;fp=auto\n    </sear:thumbnail>\n    <sear:thumbnail>\n      http://digitallibrary.utah.gov/awweb/pdfopener?did=81565&amp;fp=auto\n    </sear:thumbnail>\n  </sear:LINKS>\n</sear:DOC>\n"
+            },
+            "provider": {
+                "@id": "http://dp.la/api/contributor/mwdl",
+                "name": "Mountain West Digital Library"
+            },
+            "sourceResource": {
+                "@id": "http://dp.la/api/items/964d38afaa2765c9ba8da7553000102b#SourceResource",
+                "collection": [
+                    {
+                        "title": "Utah Government Digital Library"
+                    }
+                ],
+                "contributor": [
+                    "Jet Propulsion Laboratory (U.S.)",
+                    "United States. National Aeronautics and Space Administration",
+                    "California Institute of Technology"
+                ],
+                "date": [
+                    {
+                        "displayDate": "2016"
+                    }
+                ],
+                "description": [
+                    "NASA\u2019s Voyager mission took advantage of a once-every-175-year alignment of the outer planets for a grand tour of the solar system. The twin spacecraft revealed stunning details about Jupiter, Saturn, Uranus and Neptune - using each planet\u2019s gravity to send them on to the next destination. Voyager set the stage for such ambitious orbiter missions as Galileo to Jupiter and Cassini to Saturn. Today both Voyager spacecraft continue to return valuable science from the far reaches of our solar system. This poster is from a set of new \"travel posters\" from NASA's Jet Propulsion Laboratory, Pasadena, California, which envision a day when the creativity of scientists and engineers will allow us to do things we can only dream of now. The posters in the set depict various cosmic destinations including Mars, Jupiter's moon Europa, Saturn's vapor-spewing moon Enceladus, and the dwarf planet Ceres. You can take a virtual trip to 14 alien worlds, and maybe even plaster your living room wi"
+                ],
+                "extent": [
+                    "1 p."
+                ],
+                "identifier": [
+                    "digcoll_usl_22library2_lib/81565"
+                ],
+                "language": [
+                    {
+                        "name": "English",
+                        "iso639_3": "English"
+                    }
+                ],
+                "relation": [
+                    "Is part of: U.S. Federal Publications",
+                    "Has part: NASA Visions of the Future"
+                ],
+                "rights": [
+                    "United States government publications are not subject to copyright in the United States under 17 U.S.C \u00a7105. All informational materials in this government publication are in the public domain, and as such, are not restricted by copyright law unless otherwise stated. For more information please see http://www.gpo.gov/help/index.html#public_domain_copyright_notice.htm"
+                ],
+                "spatial": [
+                    {
+                        "name": "Jupiter (Planet)"
+                    },
+                    {
+                        "name": "Saturn (Planet)"
+                    },
+                    {
+                        "name": "Uranus (Planet)"
+                    },
+                    {
+                        "name": "Neptune (Planet)"
+                    }
+                ],
+                "subject": [
+                    {
+                        "name": "Space tourism"
+                    },
+                    {
+                        "name": "Outer planets"
+                    },
+                    {
+                        "name": "Exploration of Jupiter (Planet)"
+                    },
+                    {
+                        "name": "Exploration of Uranus (Planet)"
+                    },
+                    {
+                        "name": "Exploration of Saturn (Planet)"
+                    },
+                    {
+                        "name": "Interplanetary voyages"
+                    },
+                    {
+                        "name": "Space travelers"
+                    },
+                    {
+                        "name": "Jupiter (Planet)"
+                    },
+                    {
+                        "name": "Neptune (Planet)"
+                    },
+                    {
+                        "name": "Saturn (Planet)"
+                    },
+                    {
+                        "name": "Exploration of Neptune (Planet)"
+                    },
+                    {
+                        "name": "Uranus (Planet)"
+                    },
+                    {
+                        "name": "Planets--Exploration"
+                    },
+                    {
+                        "name": "Recreation and tourism"
+                    },
+                    {
+                        "name": "Industry and technology"
+                    }
+                ],
+                "title": [
+                    "The grand tour : a once in a life-time getaway : Jupiter, Saturn, Uranus, Neptune [poster]"
+                ],
+                "type": [
+                    "image"
+                ]
+            },
+            "@type": "ore:Aggregation"
+        },
+        {
+            "id": "15c6ec885fa5129995f0f179c346dd98",
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/15c6ec885fa5129995f0f179c346dd98",
+            "aggregatedCHO": "#sourceResource",
+            "dataProvider": "Utah State Library",
+            "ingestDate": "2018-12-04T17:01:15.950Z",
+            "ingestType": "item",
+            "isShownAt": "http://utah-primoprod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=MWDL&afterPDS=true&docId=digcoll_usl_22library2_lib/81567",
+            "object": "http://digitallibrary.utah.gov/awweb/pdfopener?did=81567&fp=auto",
+            "originalRecord": {
+                "stringValue": "<sear:DOC \nID=\"1853609\" RANK=\"0.7997041\" NO=\"405078\" SEARCH_ENGINE=\"Local Search Engine\" SEARCH_ENGINE_TYPE=\"Local Search Engine\" xmlns:sear=\"http://www.exlibrisgroup.com/xsd/jaguar/search\">\n  <PrimoNMBib xmlns=\"http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib\">\n    <record>\n      <control>\n        <sourcerecordid>library2_lib/81567</sourcerecordid>\n        <sourceid>digcoll_usl_22</sourceid>\n        <recordid>digcoll_usl_22library2_lib/81567</recordid>\n        <originalsourceid>81567</originalsourceid>\n        <sourcedbandrecordid>library2_lib</sourcedbandrecordid>\n        <addsrcrecordid>usl-22-120-1559</addsrcrecordid>\n        <sourceformat>Digital Entity</sourceformat>\n        <sourcesystem>Other</sourcesystem>\n      </control>\n      <display>\n        <type>Image</type>\n        <title>Experience the might auroras of Jupiter [poster]</title>\n        <contributor>\n          Jet Propulsion Laboratory (U.S.); United States. National Aeronautics and Space Administration; California Institute of Technology\n        </contributor>\n        <publisher>Jet Propulsion Laboratory (U.S.)</publisher>\n        <creationdate>2016</creationdate>\n        <format>application/pdf</format>\n        <identifier>\n          http://digitallibrary.utah.gov/awweb/guest.jsp?smd=1&amp;cl=all_lib&amp;lb_document_id=81567\n        </identifier>\n        <subject>\n          Space tourism; Interplanetary voyages; Space travelers; Jupiter (Planet); Planets--Exploration; Outer planets; Exploration of Jupiter (Planet); Recreation and tourism; Industry and technology\n        </subject>\n        <description>\n          The Jovian cloudscape boasts the most spectacular light show in the solar system, with northern and southern lights to dazzle even the most jaded space traveler. Jupiter\u2019s auroras are hundreds of times more powerful than Earth\u2019s, and they form a glowing ring around each pole that\u2019s bigger than our home planet. Revolving outside this auroral oval are the glowing, electric \u201cfootprints\u201d of Jupiter\u2019s three largest moons. NASA\u2019s Juno mission will observe Jupiter\u2019s auroras from above the polar regions, studying them in a way never before possible. This poster is from a set of new &quot;travel posters&quot; from NASA's\n        </description>\n        <language>eng</language>\n        <relation>Is part of: U.S. Federal Publications</relation>\n        <relation>Has part: NASA Visions of the Future</relation>\n        <coverage>Jupiter (Planet)</coverage>\n        <rights>\n          United States government publications are not subject to copyright in the United States under 17 U.S.C \u00a7105. All informational materials in this government publication are in the public domain, and as such, are not restricted by copyright law unless otherwise stated. For more information please see http://www.gpo.gov/help/index.html#public_domain_copyright_notice.htm\n        </rights>\n        <lds01>Utah State Library</lds01>\n        <lds02>Utah Government Publications Online Digital Library</lds02>\n        <lds03>Utah State Library</lds03>\n        <lds04>Utah Government Digital Library</lds04>\n        <lds05>1 p.</lds05>\n        <lds08>Jupiter (Planet)</lds08>\n        <lds10>\n          Visions of the future posters; Exotic cosmic locales available as space tourism posters\n        </lds10>\n        <lds18>Image</lds18>\n        <lds18>StillImage</lds18>\n        <lds17>image</lds17>\n      </display>\n      <links>\n        <linktorsrc>\n          $$Uhttp://digitallibrary.utah.gov/awweb/guest.jsp?smd=1&amp;cl=all_lib&amp;lb_document_id=81567$$DOpen resource in a new window\n        </linktorsrc>\n        <thumbnail>$$Tdigcoll_usl_22_linktothumb$$DSee Thumbnail</thumbnail>\n      </links>\n      <search>\n        <creatorcontrib>\n          Jet Propulsion Laboratory (U.S.); United States. National Aeronautics and Space Administration; California Institute of Technology\n        </creatorcontrib>\n        <title>Experience the might auroras of Jupiter [poster]</title>\n        <description>\n          The Jovian cloudscape boasts the most spectacular light show in the solar system, with northern and southern lights to dazzle even the most jaded space traveler. Jupiter\u2019s auroras are hundreds of times more powerful than Earth\u2019s, and they form a glowing ring around each pole that\u2019s bigger than our home planet. Revolving outside this auroral oval are the glowing, electric \u201cfootprints\u201d of Jupiter\u2019s three largest moons. NASA\u2019s Juno mission will observe Jupiter\u2019s auroras from above the polar regions, studying them in a way never before possible. This poster is from a set of new &quot;travel posters&quot; from NASA's Jet Propulsion Laboratory, Pasadena, California, which envision a day when the creativity of scientists and engineers will allow us to do things we can only dream of now. The posters in the set depict various cosmic destinations including Mars, Jupiter's moon Europa, Saturn's vapor-spewing moon Enceladus, and the dwarf planet Ceres. You can take a virtual trip to 14 alien worlds, and maybe even plaster your living room with planetary art, via the new, futuristic space tourism posters. The posters are the brainchild of The Studio at JPL, a design and strategy team that works with JPL scientists and engineers to visualize and depict complex science and technology topics. Their work is used in designing space missions and in sharing the work of NASA/JPL with the public. The Archive copy is a high resolution TIFF image that can be downloaded from the digital library and printed 20 x 30 inches in high-resolution.\n        </description>\n        <subject>Space tourism</subject>\n        <subject>Interplanetary voyages</subject>\n        <subject>Space travelers</subject>\n        <subject>Jupiter (Planet)</subject>\n        <subject>Planets--Exploration</subject>\n        <subject>Outer planets</subject>\n        <subject>Exploration of Jupiter (Planet)</subject>\n        <subject>Recreation and tourism</subject>\n        <subject>Industry and technology</subject>\n        <sourceid>digcoll_usl_22</sourceid>\n        <recordid>digcoll_usl_22library2_lib/81567</recordid>\n        <creationdate>2016</creationdate>\n        <addtitle>Is part of: U.S. Federal Publications</addtitle>\n        <addtitle>Has part: NASA Visions of the Future</addtitle>\n        <addtitle>\n          Visions of the future posters; Exotic cosmic locales available as space tourism posters\n        </addtitle>\n        <addsrcrecordid>usl-22-120-1559</addsrcrecordid>\n        <scope>mw</scope>\n        <lsr01>usl</lsr01>\n        <lsr02>22</lsr02>\n        <lsr03>120</lsr03>\n        <lsr04>1559</lsr04>\n        <lsr09>Utah State Library</lsr09>\n        <lsr10>Utah Government Publications Online Digital Library</lsr10>\n        <lsr12>Utah State Library</lsr12>\n        <lsr13>Utah Government Digital Library</lsr13>\n        <lsr14>Jupiter (Planet)</lsr14>\n        <lsr15>U.S. Federal Publications</lsr15>\n        <rsrctype>images</rsrctype>\n      </search>\n      <sort>\n        <title>Experience the might auroras of Jupiter [poster]</title>\n        <creationdate>2016</creationdate>\n      </sort>\n      <facets>\n        <language>eng</language>\n        <creationdate>2016</creationdate>\n        <topic>Space tourism</topic>\n        <topic>Interplanetary voyages</topic>\n        <topic>Space travelers</topic>\n        <topic>Jupiter (Planet)</topic>\n        <topic>Planets--Exploration</topic>\n        <topic>Outer planets</topic>\n        <topic>Exploration of Jupiter (Planet)</topic>\n        <topic>Recreation and tourism</topic>\n        <topic>Industry and technology</topic>\n        <collection>Digital Collections</collection>\n        <toplevel>online_resources</toplevel>\n        <format>application/pdf</format>\n        <genre>unknown</genre>\n        <lfc01>Utah Government Digital Library</lfc01>\n        <lfc02>Utah State Library</lfc02>\n        <lfc03>Utah State Library</lfc03>\n        <lfc04>Utah Government Publications Online Digital Library</lfc04>\n        <lfc08>Jupiter (Planet)</lfc08>\n        <prefilter>images</prefilter>\n        <rsrctype>images</rsrctype>\n        <newrecords>20170208_798</newrecords>\n        <frbrgroupid>325379741</frbrgroupid>\n        <frbrtype>6</frbrtype>\n      </facets>\n      <delivery>\n        <institution>MWDL</institution>\n        <delcategory>Online Resource</delcategory>\n      </delivery>\n      <ranking>\n        <booster1>1</booster1>\n        <booster2>1</booster2>\n      </ranking>\n      <addata>\n        <date>2016</date>\n        <pub>Jet Propulsion Laboratory (U.S.)</pub>\n      </addata>\n    </record>\n  </PrimoNMBib>\n  <sear:GETIT \n  deliveryCategory=\"Online Resource\" GetIt1=\"http://digitallibrary.utah.gov/awweb/guest.jsp?smd=1&amp;cl=all_lib&amp;lb_document_id=81567\" GetIt2=\"http://1.1.1.1?ctx_ver=Z39.88-2004&amp;ctx_enc=info:ofi/enc:UTF-8&amp;ctx_tim=2018-12-03T16%3A33%3A33IST&amp;url_ver=Z39.88-2004&amp;url_ctx_fmt=infofi/fmt:kev:mtx:ctx&amp;rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Journal-digcoll_usl_22&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:&amp;rft.genre=&amp;rft.atitle=&amp;rft.jtitle=&amp;rft.btitle=&amp;rft.aulast=&amp;rft.auinit=&amp;rft.auinit1=&amp;rft.series=&amp;rft.auinitm=&amp;rft.ausuffix=&amp;rft.au=&amp;rft.aucorp=&amp;rft.volume=&amp;rft.issue=&amp;rft.part=&amp;rft.quarter=&amp;rft.ssn=&amp;rft.spage=&amp;rft.epage=&amp;rft.pages=&amp;rft.artnum=&amp;rft.issn=&amp;rft.eissn=&amp;rft.isbn=&amp;rft.sici=&amp;rft.coden=&amp;rft_id=info:doi/&amp;rft.object_id=&amp;rft.eisbn=&amp;rft_dat=%3Cdigcoll_usl_22%3Elibrary2_lib/81567%3C/digcoll_usl_22%3E%3Cgrp_id%3E325379741%3C/grp_id%3E%3Coa%3E%3C/oa%3E&amp;rft_id=info:oai/&amp;req.language=&amp;rft_pqid=\">\n</sear:GETIT>\n  <sear:LINKS>\n    <sear:linktorsrc>\n      http://digitallibrary.utah.gov/awweb/guest.jsp?smd=1&amp;cl=all_lib&amp;lb_document_id=81567\n    </sear:linktorsrc>\n    <sear:thumbnail>\n      http://digitallibrary.utah.gov/awweb/pdfopener?did=81567&amp;fp=auto\n    </sear:thumbnail>\n    <sear:thumbnail>\n      http://digitallibrary.utah.gov/awweb/pdfopener?did=81567&amp;fp=auto\n    </sear:thumbnail>\n  </sear:LINKS>\n</sear:DOC>\n"
+            },
+            "provider": {
+                "@id": "http://dp.la/api/contributor/mwdl",
+                "name": "Mountain West Digital Library"
+            },
+            "sourceResource": {
+                "@id": "http://dp.la/api/items/15c6ec885fa5129995f0f179c346dd98#SourceResource",
+                "collection": [
+                    {
+                        "title": "Utah Government Digital Library"
+                    }
+                ],
+                "contributor": [
+                    "Jet Propulsion Laboratory (U.S.)",
+                    "United States. National Aeronautics and Space Administration",
+                    "California Institute of Technology"
+                ],
+                "date": [
+                    {
+                        "displayDate": "2016"
+                    }
+                ],
+                "description": [
+                    "The Jovian cloudscape boasts the most spectacular light show in the solar system, with northern and southern lights to dazzle even the most jaded space traveler. Jupiter\u2019s auroras are hundreds of times more powerful than Earth\u2019s, and they form a glowing ring around each pole that\u2019s bigger than our home planet. Revolving outside this auroral oval are the glowing, electric \u201cfootprints\u201d of Jupiter\u2019s three largest moons. NASA\u2019s Juno mission will observe Jupiter\u2019s auroras from above the polar regions, studying them in a way never before possible. This poster is from a set of new \"travel posters\" from NASA's Jet Propulsion Laboratory, Pasadena, California, which envision a day when the creativity of scientists and engineers will allow us to do things we can only dream of now. The posters in the set depict various cosmic destinations including Mars, Jupiter's moon Europa, Saturn's vapor-spewing moon Enceladus, and the dwarf planet Ceres. You can take a virtual trip to 14 alien worl"
+                ],
+                "extent": [
+                    "1 p."
+                ],
+                "identifier": [
+                    "digcoll_usl_22library2_lib/81567"
+                ],
+                "language": [
+                    {
+                        "name": "English",
+                        "iso639_3": "English"
+                    }
+                ],
+                "relation": [
+                    "Is part of: U.S. Federal Publications",
+                    "Has part: NASA Visions of the Future"
+                ],
+                "rights": [
+                    "United States government publications are not subject to copyright in the United States under 17 U.S.C \u00a7105. All informational materials in this government publication are in the public domain, and as such, are not restricted by copyright law unless otherwise stated. For more information please see http://www.gpo.gov/help/index.html#public_domain_copyright_notice.htm"
+                ],
+                "spatial": [
+                    {
+                        "name": "Jupiter (Planet)"
+                    }
+                ],
+                "subject": [
+                    {
+                        "name": "Space tourism"
+                    },
+                    {
+                        "name": "Interplanetary voyages"
+                    },
+                    {
+                        "name": "Space travelers"
+                    },
+                    {
+                        "name": "Jupiter (Planet)"
+                    },
+                    {
+                        "name": "Planets--Exploration"
+                    },
+                    {
+                        "name": "Outer planets"
+                    },
+                    {
+                        "name": "Exploration of Jupiter (Planet)"
+                    },
+                    {
+                        "name": "Recreation and tourism"
+                    },
+                    {
+                        "name": "Industry and technology"
+                    }
+                ],
+                "title": [
+                    "Experience the might auroras of Jupiter [poster]"
+                ],
+                "type": [
+                    "image"
+                ]
+            },
+            "@type": "ore:Aggregation"
+        },
+        {
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/af1dcf6d499403cedc01e7ef150e336a",
+            "object": "http://ids.si.edu/ids/deliveryService?id=NASM-NASM-7B24156&max=150",
+            "aggregatedCHO": "#sourceResource",
+            "ingestDate": "2018-12-05T03:14:53.593201Z",
+            "@type": "ore:Aggregation",
+            "isShownAt": "http://collections.si.edu/search/results.htm?q=record_ID%3Asiris_arc_369992&repo=DPLA",
+            "provider": {
+                "@id": "http://dp.la/api/contributor/smithsonian",
+                "name": "Smithsonian Institution"
+            },
+            "sourceResource": {
+                "description": [
+                    "Pioneer F/G Jupiter Missions.\" Graphic showing the planned flight paths of the Pioneer F and G spacecraft (renamed Pioneer 10 and 11 after launch) through the Solar System to the planet Jupiter; 1971.",
+                    "National Air and Space Museum, Archives Division, MRC 322, Washington, DC, 20560"
+                ],
+                "title": "Pioneer 10 & Pioneer 11. [photograph]",
+                "@id": "http://dp.la/api/items/af1dcf6d499403cedc01e7ef150e336a#sourceResource",
+                "temporal": [
+                    {
+                        "begin": "1971",
+                        "end": "1971",
+                        "displayDate": "1971"
+                    }
+                ],
+                "creator": [
+                    "National Aeronautics and Space Administration"
+                ],
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/f345d0419dfeff5caba7d2fed0970ed3",
+                        "id": "f345d0419dfeff5caba7d2fed0970ed3",
+                        "title": "Videodisc Imagery Collection"
+                    }
+                ],
+                "stateLocatedIn": [
+                    {
+                        "name": "Washington, D.C."
+                    }
+                ],
+                "date": {
+                    "begin": "1971",
+                    "end": "1971",
+                    "displayDate": "1971"
+                },
+                "type": [
+                    "image"
+                ],
+                "subject": [
+                    {
+                        "name": "Jet Propulsion Laboratory (U.S.)"
+                    },
+                    {
+                        "name": "National Aeronautics and Space Administration"
+                    },
+                    {
+                        "name": "Pioneer 11 (Spacecraft)"
+                    },
+                    {
+                        "name": "Pioneer 10 (Spacecraft)"
+                    },
+                    {
+                        "name": "Astronautics"
+                    },
+                    {
+                        "name": "Satellites"
+                    },
+                    {
+                        "name": "Space flight"
+                    },
+                    {
+                        "name": "Jupiter (Planet)"
+                    }
+                ]
+            },
+            "ingestType": "item",
+            "dataProvider": "National Air and Space Museum Archives",
+            "originalRecord": {
+                "freetext": {
+                    "name": {
+                        "#text": "National Aeronautics and Space Administration",
+                        "@label": "photographer"
+                    },
+                    "setName": {
+                        "#text": "Videodisc Imagery Collection",
+                        "@label": "See more items in"
+                    },
+                    "notes": [
+                        {
+                            "#text": "\"Pioneer F/G Jupiter Missions.\" Graphic showing the planned flight paths of the Pioneer F and G spacecraft (renamed Pioneer 10 and 11 after launch) through the Solar System to the planet Jupiter; 1971.",
+                            "@label": "Summary"
+                        },
+                        {
+                            "#text": "National Air and Space Museum, Archives Division, MRC 322, Washington, DC, 20560",
+                            "@label": "Repository Loc."
+                        }
+                    ],
+                    "topic": [
+                        {
+                            "#text": "Astronautics",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Space flight",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Satellites",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Jet Propulsion Laboratory (U.S.)",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Pioneer 10 (Spacecraft)",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Pioneer 11 (Spacecraft)",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Jupiter (Planet)",
+                            "@label": "Topic"
+                        }
+                    ],
+                    "dataSource": {
+                        "#text": "National Air and Space Museum Archives",
+                        "@label": "Data Source"
+                    },
+                    "date": {
+                        "#text": "1971",
+                        "@label": "Date"
+                    },
+                    "identifier": {
+                        "#text": "NASM-7B24156",
+                        "@label": "Local number"
+                    },
+                    "objectRights": {
+                        "#text": "Images are subject to Smithsonian Institution, National Air and Space Museum, Copyright and Image Use Restrictions. Usage requires prior written permission. Should you wish to use NASM still images in any medium, please submit an Application for Permission to Reproduce NASM Photographs, available at NASM's Permissions webpage: www.nasm.si.edu/research/arch/permissions.cfm",
+                        "@label": "Restrictions & Rights"
+                    },
+                    "objectType": {
+                        "#text": "Photographs",
+                        "@label": "Type"
+                    }
+                },
+                "indexedStructured": {
+                    "topic": [
+                        "Jet Propulsion Laboratory (U.S.)",
+                        "Space flight",
+                        "Pioneer 10 (Spacecraft)",
+                        "Pioneer 11 (Spacecraft)",
+                        "Jupiter (Planet)",
+                        "Satellites",
+                        "Astronautics"
+                    ],
+                    "date": "1970s",
+                    "object_type": [
+                        "Photographs",
+                        "Archival materials"
+                    ],
+                    "name": {
+                        "#text": "National Aeronautics and Space Administration",
+                        "@type": "personal_main"
+                    },
+                    "online_media_type": "Images"
+                },
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/f345d0419dfeff5caba7d2fed0970ed3",
+                        "id": "f345d0419dfeff5caba7d2fed0970ed3",
+                        "title": "Videodisc Imagery Collection"
+                    }
+                ],
+                "descriptiveNonRepeating": {
+                    "data_source": "National Air and Space Museum Archives",
+                    "title": {
+                        "#text": "Pioneer 10 & Pioneer 11. [photograph]",
+                        "@label": "Title"
+                    },
+                    "title_sort": "PIONEER 10 PIONEER 11 PHOTOGRAPH",
+                    "online_media": {
+                        "media": {
+                            "#text": "http://ids.si.edu/ids/deliveryService?id=NASM-NASM-7B24156",
+                            "@idsId": "NASM-NASM-7B24156",
+                            "@thumbnail": "http://ids.si.edu/ids/deliveryService?id=NASM-NASM-7B24156&max=150",
+                            "@type": "Images"
+                        },
+                        "@mediaCount": "1"
+                    },
+                    "record_ID": "siris_arc_369992",
+                    "unit_code": "NASMAC"
+                },
+                "provider": {
+                    "@id": "http://dp.la/api/contributor/smithsonian",
+                    "name": "Smithsonian Institution"
+                }
+            },
+            "id": "af1dcf6d499403cedc01e7ef150e336a"
+        },
+        {
+            "@context": "http://dp.la/api/items/context",
+            "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/",
+            "admin": {
+                "object_status": 1
+            },
+            "@id": "http://dp.la/api/items/09854a6f763dab63f7df398fd47ba5d8",
+            "object": "http://images.nypl.org/index.php?id=57373760&t=t",
+            "aggregatedCHO": "#sourceResource",
+            "ingestDate": "2018-10-04T19:01:16.629206Z",
+            "@type": "ore:Aggregation",
+            "isShownAt": "http://digitalcollections.nypl.org/items/b6e9b8e0-9d6c-0135-2b80-6f3ddc10cd36",
+            "provider": {
+                "@id": "http://dp.la/api/contributor/nypl",
+                "name": "The New York Public Library"
+            },
+            "sourceResource": {
+                "description": [
+                    "Jupiter (Mushtar\u00ee) represented as a seated man reading a book. and the planet Mars (Mirr\u00eekh) is represented as a red-headed youth ."
+                ],
+                "language": [
+                    {
+                        "iso639_3": "per",
+                        "name": "Persian"
+                    }
+                ],
+                "hasType": "",
+                "@id": "http://dp.la/api/items/09854a6f763dab63f7df398fd47ba5d8#sourceResource",
+                "format": [
+                    "Miniatures (Illuminations)",
+                    "Illuminations",
+                    "Manuscripts"
+                ],
+                "collection": {
+                    "@id": "http://dp.la/api/collections/15e071ddc03e23aec2cbc2cbd8f67ec9",
+                    "id": "15e071ddc03e23aec2cbc2cbd8f67ec9",
+                    "title": "Nuzhatn\u00e2mah-i 'Al\u00e2'\u00ee ('Al\u00e2'\u00ee's Book of Pleasures)"
+                },
+                "date": {
+                    "begin": "1526-11-17",
+                    "end": "1526-11-17",
+                    "displayDate": "1526-11-17"
+                },
+                "creator": [
+                    "Shahmard\u0101n ibn Ab\u012b al-Khayr, active 11th century"
+                ],
+                "relation": [
+                    "Nuzhatn\u00e2mah-i 'Al\u00e2'\u00ee ('Al\u00e2'\u00ee's Book of Pleasures)"
+                ],
+                "extent": [
+                    "Two images on one page. 7.5 x 6.8 cm [top]; 6.2 x 5.7 cm [bottom]."
+                ],
+                "stateLocatedIn": [
+                    {
+                        "name": "New York"
+                    }
+                ],
+                "title": "Lead (arz\u00eez) associated with Jupiter (Mushtar\u00ee) [top]; Iron (\u00e2han) associated with the planet Mars (Mirr\u00eekh) [bottom]",
+                "type": [
+                    "text",
+                    "image"
+                ],
+                "subject": [
+                    {
+                        "name": "Manuscripts, Persian"
+                    },
+                    {
+                        "name": "Animals"
+                    },
+                    {
+                        "name": "Birds"
+                    }
+                ]
+            },
+            "ingestType": "item",
+            "dataProvider": "Spencer Collection. The New York Public Library",
+            "originalRecord": {
+                "physicalDescription": {
+                    "extent": "Two images on one page. 7.5 x 6.8 cm [top]; 6.2 x 5.7 cm [bottom]."
+                },
+                "abstract": {
+                    "displayLabel": "",
+                    "#text": "Jupiter (Mushtar\u00ee) represented as a seated man reading a book. and the planet Mars (Mirr\u00eekh) is represented as a red-headed youth .",
+                    "type": "true"
+                },
+                "tmp_rights_statement": "The New York Public Library believes that this item is in the public domain under the laws of the United States, but did not make a determination as to its copyright status under the copyright laws of other countries. This item may not be in the public domain under the laws of other countries. Though not required, if you want to credit us as the source, please use the following statement, \"From The New York Public Library,\" and provide a link back to the item on our Digital Collections site. Doing so helps us track how our collection is used and helps justify freely releasing even more content in the future.",
+                "tmp_item_link": "http://digitalcollections.nypl.org/items/b6e9b8e0-9d6c-0135-2b80-6f3ddc10cd36",
+                "subject": [
+                    {
+                        "topic": {
+                            "#text": "Birds",
+                            "valueURI": "http://id.loc.gov/authorities/subjects/sh85014310",
+                            "authority": "lcsh"
+                        },
+                        "valueURI": "http://id.loc.gov/vocabulary/graphicMaterials/tgm001044",
+                        "authority": "lctgm"
+                    },
+                    {
+                        "topic": {
+                            "#text": "Animals",
+                            "valueURI": "http://id.loc.gov/authorities/childrensSubjects/sj96004766",
+                            "authority": "lcsh"
+                        },
+                        "valueURI": "http://id.loc.gov/vocabulary/graphicMaterials/tgm000354",
+                        "authority": "lctgm"
+                    },
+                    {
+                        "topic": {
+                            "#text": "Manuscripts, Persian",
+                            "valueURI": "http://id.loc.gov/authorities/subjects/sh85080754",
+                            "authority": "lcsh"
+                        },
+                        "valueURI": "http://id.loc.gov/authorities/subjects/sh85080754",
+                        "authority": "lcsh"
+                    }
+                ],
+                "version": "3.4",
+                "location": {
+                    "physicalLocation": [
+                        {
+                            "#text": "nn",
+                            "type": "repository",
+                            "authority": "marcorg"
+                        },
+                        {
+                            "#text": "Spencer Collection",
+                            "type": "division"
+                        },
+                        {
+                            "#text": "Spencer Collection",
+                            "type": "division_short_name"
+                        },
+                        {
+                            "#text": "SPN",
+                            "type": "code"
+                        }
+                    ],
+                    "shelfLocator": "Spencer Coll. Pers. ms. 50"
+                },
+                "provider": {
+                    "@id": "http://dp.la/api/contributor/nypl",
+                    "name": "The New York Public Library"
+                },
+                "originInfo": {
+                    "place": {
+                        "placeTerm": {
+                            "#text": "Sh\u00eer\u00e2z ?",
+                            "type": "text"
+                        }
+                    },
+                    "dateCreated": {
+                        "#text": "1526-11-17",
+                        "encoding": "w3cdtf"
+                    }
+                },
+                "schemaLocation": "http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd",
+                "tmp_high_res_link": "http://link.nypl.org/lVezYw5_Sq2x-eB8jsXkcQv",
+                "identifier": [
+                    {
+                        "displayLabel": "Hades struc ID (legacy)",
+                        "#text": "203498",
+                        "type": "local_hades"
+                    },
+                    {
+                        "displayLabel": "Photo Order",
+                        "#text": "58425",
+                        "type": "local_photo_order"
+                    },
+                    {
+                        "#text": "4d1b60b0-c6d1-012f-369c-58d385a7bc34",
+                        "type": "uuid"
+                    }
+                ],
+                "titleInfo": {
+                    "lang": "",
+                    "script": "",
+                    "title": "Lead (arz\u00eez) associated with Jupiter (Mushtar\u00ee) [top]; Iron (\u00e2han) associated with the planet Mars (Mirr\u00eekh) [bottom]",
+                    "authority": "",
+                    "usage": "primary",
+                    "partNumber": "fol. 58",
+                    "type": ""
+                },
+                "collection": {
+                    "@id": "http://dp.la/api/collections/15e071ddc03e23aec2cbc2cbd8f67ec9",
+                    "id": "15e071ddc03e23aec2cbc2cbd8f67ec9"
+                },
+                "relatedItem": {
+                    "titleInfo": {
+                        "title": "Nuzhatn\u00e2mah-i 'Al\u00e2'\u00ee ('Al\u00e2'\u00ee's Book of Pleasures)"
+                    },
+                    "type": "host",
+                    "identifier": [
+                        {
+                            "#text": "32bbd6b0-c6d1-012f-6ecd-58d385a7bc34",
+                            "type": "uuid"
+                        },
+                        {
+                            "#text": "185842 local_hades_collection",
+                            "type": "local_hades"
+                        }
+                    ]
+                },
+                "genre": [
+                    {
+                        "#text": "Manuscripts",
+                        "valueURI": "http://id.loc.gov/vocabulary/graphicMaterials/tgm012286",
+                        "authority": "lctgm"
+                    },
+                    {
+                        "#text": "Illuminations",
+                        "valueURI": "http://id.loc.gov/vocabulary/graphicMaterials/tgm005307",
+                        "authority": "lctgm"
+                    },
+                    {
+                        "#text": "Miniatures (Illuminations)",
+                        "valueURI": "http://id.loc.gov/vocabulary/graphicMaterials/tgm006636",
+                        "authority": "lctgm"
+                    }
+                ],
+                "name": {
+                    "type": "personal",
+                    "namePart": "Shahmard\u0101n ibn Ab\u012b al-Khayr, active 11th century",
+                    "valueURI": "http://id.loc.gov/authorities/names/n88294171",
+                    "role": {
+                        "roleTerm": [
+                            {
+                                "#text": "aut",
+                                "valueURI": "http://id.loc.gov/vocabulary/relators/aut",
+                                "type": "code",
+                                "authority": "marcrelator"
+                            },
+                            {
+                                "#text": "Author",
+                                "valueURI": "http://id.loc.gov/vocabulary/relators/aut",
+                                "type": "text",
+                                "authority": "marcrelator"
+                            }
+                        ]
+                    },
+                    "authority": "naf"
+                },
+                "language": {
+                    "objectPart": "",
+                    "languageTerm": [
+                        {
+                            "#text": "per",
+                            "valueURI": "http://id.loc.gov/vocabulary/iso639-2/per",
+                            "type": "code",
+                            "authority": "iso639-2b"
+                        },
+                        {
+                            "#text": "Persian",
+                            "valueURI": "http://id.loc.gov/vocabulary/iso639-2/per",
+                            "type": "text",
+                            "authority": "iso639-2b"
+                        }
+                    ]
+                },
+                "rightsStatementURI": "http://rightsstatements.org/vocab/NoC-US/1.0/",
+                "tmp_image_id": "57373760",
+                "typeOfResource": [
+                    "text",
+                    "still image"
+                ]
+            },
+            "id": "09854a6f763dab63f7df398fd47ba5d8"
+        },
+        {
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/e8867082ad225aac748706dfcb175547",
+            "object": "https://airandspace.si.edu/webimages/collections/thumbnails/T20170039000cp01.JPG",
+            "aggregatedCHO": "#sourceResource",
+            "ingestDate": "2018-12-05T16:20:15.780793Z",
+            "@type": "ore:Aggregation",
+            "isShownAt": "http://collections.si.edu/search/results.htm?q=record_ID%3Anasm_T20170039000&repo=DPLA",
+            "provider": {
+                "@id": "http://dp.la/api/contributor/smithsonian",
+                "name": "Smithsonian Institution"
+            },
+            "sourceResource": {
+                "description": [
+                    "Large format acrylic on canvas painting of Jupiter and moons as viewed from space.",
+                    "A post-Pioneer but pre-Voyager view of the giant planet Jupiter and its large moon Io. The Great Red Spot is portrayed as it was seen by Pioneers 10 and 11 but without the complex detail apparent during the subsequent Voyager 1 and 2 encounters. Io is shown as a cratered world, something expected after the Pioneers but before Voyager 1 revealed that no craters but rather active volcanoes are present here. Therefore, the painting is an important time capsule of our growing understanding of the planet and its moons. Artist Ron Miller worked at the NASM Planetarium when this painting was made.",
+                    "This image of Jupiter hung over the Exploring the Planets gallery entrance. It greeted visitors with a dramatic image of the giant planet Jupiter."
+                ],
+                "format": "Acrylic on canvas, Jupiter",
+                "@id": "http://dp.la/api/items/e8867082ad225aac748706dfcb175547#sourceResource",
+                "creator": [
+                    "Ron Miller"
+                ],
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/c349831fbbb138b7176675dc83b12460",
+                        "id": "c349831fbbb138b7176675dc83b12460",
+                        "title": "National Air and Space Museum Collection"
+                    },
+                    {
+                        "@id": "http://dp.la/api/collections/c798664e10194c2c0137bff315a823c9",
+                        "id": "c798664e10194c2c0137bff315a823c9",
+                        "title": "National Air and Space Museum in Washington, DC"
+                    },
+                    {
+                        "@id": "http://dp.la/api/collections/699ed340de473a09c498ead0b6b62ea4",
+                        "id": "699ed340de473a09c498ead0b6b62ea4",
+                        "title": "Exploring the Planets"
+                    }
+                ],
+                "extent": [
+                    "2-D - In Frame (H x W x D): 365.8 \u00d7 313.7 \u00d7 7.6cm (12 ft. \u00d7 10 ft. 3 1/2 in. \u00d7 3 in.)"
+                ],
+                "stateLocatedIn": [
+                    {
+                        "name": "Washington, D.C."
+                    }
+                ],
+                "title": "Acrylic on canvas, Jupiter",
+                "type": [
+                    "image"
+                ],
+                "subject": [
+                    {
+                        "name": "Miller, Ron"
+                    }
+                ]
+            },
+            "ingestType": "item",
+            "dataProvider": "National Air and Space Museum",
+            "originalRecord": {
+                "freetext": {
+                    "physicalDescription": [
+                        {
+                            "#text": "Acrylic on canvas, Jupiter",
+                            "@label": "Medium"
+                        },
+                        {
+                            "#text": "2-D - In Frame (H x W x D): 365.8 \u00d7 313.7 \u00d7 7.6cm (12 ft. \u00d7 10 ft. 3 1/2 in. \u00d7 3 in.)",
+                            "@label": "Dimensions"
+                        }
+                    ],
+                    "name": {
+                        "#text": "Ron Miller",
+                        "@label": "Artist"
+                    },
+                    "setName": [
+                        {
+                            "#text": "National Air and Space Museum Collection",
+                            "@label": "See more items in"
+                        },
+                        {
+                            "#text": "National Air and Space Museum in Washington, DC",
+                            "@label": "Location"
+                        },
+                        {
+                            "#text": "Exploring the Planets",
+                            "@label": "Exhibition"
+                        }
+                    ],
+                    "notes": [
+                        {
+                            "#text": "Large format acrylic on canvas painting of Jupiter and moons as viewed from space.",
+                            "@label": "Physical Description"
+                        },
+                        {
+                            "#text": "A post-Pioneer but pre-Voyager view of the giant planet Jupiter and its large moon Io. The Great Red Spot is portrayed as it was seen by Pioneers 10 and 11 but without the complex detail apparent during the subsequent Voyager 1 and 2 encounters. Io is shown as a cratered world, something expected after the Pioneers but before Voyager 1 revealed that no craters but rather active volcanoes are present here. Therefore, the painting is an important time capsule of our growing understanding of the planet and its moons. Artist Ron Miller worked at the NASM Planetarium when this painting was made.",
+                            "@label": "Physical Description"
+                        },
+                        {
+                            "#text": "This image of Jupiter hung over the Exploring the Planets gallery entrance. It greeted visitors with a dramatic image of the giant planet Jupiter.",
+                            "@label": "Physical Description"
+                        }
+                    ],
+                    "dataSource": {
+                        "#text": "National Air and Space Museum",
+                        "@label": "Data Source"
+                    },
+                    "identifier": {
+                        "#text": "T20170039000",
+                        "@label": "Inventory Number"
+                    },
+                    "objectRights": {
+                        "#text": "Do not reproduce without permission from the Smithsonian Institution, National Air and Space Museum",
+                        "@label": "Restrictions & Rights"
+                    },
+                    "objectType": {
+                        "#text": "ART-Paintings",
+                        "@label": "Type"
+                    }
+                },
+                "indexedStructured": {
+                    "onPhysicalExhibit": "Yes",
+                    "object_type": [
+                        "Paintings",
+                        "Works of art"
+                    ],
+                    "name": "Miller, Ron",
+                    "online_media_type": "Images",
+                    "exhibition": {
+                        "building": "NASM"
+                    }
+                },
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/c349831fbbb138b7176675dc83b12460",
+                        "id": "c349831fbbb138b7176675dc83b12460",
+                        "title": "National Air and Space Museum Collection"
+                    },
+                    {
+                        "@id": "http://dp.la/api/collections/c798664e10194c2c0137bff315a823c9",
+                        "id": "c798664e10194c2c0137bff315a823c9",
+                        "title": "National Air and Space Museum in Washington, DC"
+                    },
+                    {
+                        "@id": "http://dp.la/api/collections/699ed340de473a09c498ead0b6b62ea4",
+                        "id": "699ed340de473a09c498ead0b6b62ea4",
+                        "title": "Exploring the Planets"
+                    }
+                ],
+                "descriptiveNonRepeating": {
+                    "data_source": "National Air and Space Museum",
+                    "title": {
+                        "#text": "Acrylic on canvas, Jupiter",
+                        "@label": "Object Name"
+                    },
+                    "record_link": "http://collections.si.edu/search/results.htm?q=record_ID%3Anasm_T20170039000&repo=DPLA",
+                    "title_sort": "ACRYLIC ON CANVAS, JUPITER",
+                    "online_media": {
+                        "media": {
+                            "#text": "https://airandspace.si.edu/webimages/collections/full/T20170039000cp01.JPG",
+                            "@idsId": "https://airandspace.si.edu/webimages/collections/full/T20170039000cp01.JPG",
+                            "@thumbnail": "https://airandspace.si.edu/webimages/collections/thumbnails/T20170039000cp01.JPG",
+                            "@type": "Images"
+                        },
+                        "@mediaCount": "1"
+                    },
+                    "record_ID": "nasm_T20170039000",
+                    "unit_code": "NASM"
+                },
+                "provider": {
+                    "@id": "http://dp.la/api/contributor/smithsonian",
+                    "name": "Smithsonian Institution"
+                }
+            },
+            "id": "e8867082ad225aac748706dfcb175547"
+        },
+        {
+            "@context": "http://dp.la/api/items/context",
+            "intermediateProvider": "Cooperating Libraries In Consortium (CLIC)",
+            "@id": "http://dp.la/api/items/9ebdfa03a51dc63262d98594b61e533b",
+            "object": "http://cdm16120.contentdm.oclc.org/cgi-bin/thumbnail.exe?CISOROOT=/stain-gls&CISOPTR=119",
+            "aggregatedCHO": "#sourceResource",
+            "ingestDate": "2018-07-24T20:44:02.826129Z",
+            "@type": "ore:Aggregation",
+            "isShownAt": "http://cdm16120.contentdm.oclc.org/cdm/ref/collection/stain-gls/id/119",
+            "provider": {
+                "@id": "http://dp.la/api/contributor/mdl",
+                "name": "Minnesota Digital Library"
+            },
+            "sourceResource": {
+                "rights": "This image may be reproduced and used freely for the purposes of private study, scholarship or research without written permission. However, in order to use the digital reproductions for any other reason users must have the express written consent of the Department of Special Collections, University of St. Thomas Libraries, 2115 Summit Avenue, Saint Paul, MN 55105; (651) 962-5467, e-mail: libweb@stthomas.edu",
+                "description": "Paganism is depicted in this image by symbols from a variety of non-Christian religions and philosophies. Included are imags of the Sacred Eye (Egypt), Yang and Yin (Taoism), the Turtle (Shinto), the Great Spirit (Native Americans), the Wheel of Life (Buddhists), the Sanskrit word \u201cOm\u201d (Hinduism), the sign for the planet Jupiter (chief god of the Romans) and Zeus (the chief god of the Greeks)",
+                "format": "Original format: stained glass",
+                "@id": "http://dp.la/api/items/9ebdfa03a51dc63262d98594b61e533b#sourceResource",
+                "creator": "Conrad Pickel Studio (Waukesha, Wis.)",
+                "collection": {
+                    "description": "The stained glass medallions adorning the windows in the O\u2019Shaughnessy-Frey Library at the University of St. Thomas are some of the most distinctive features of the building. They were designed and executed by two artists from the Conrad Pickel Studio of Waukesha, Wisconsin in 1958. The images and descriptions of these windows are included in this collection",
+                    "@id": "http://dp.la/api/collections/6ad2839f30f94dbc5d0c47f157561634",
+                    "id": "6ad2839f30f94dbc5d0c47f157561634",
+                    "title": "St. Thomas - Conrad Pickel Stained Glass Collection"
+                },
+                "relation": [
+                    "Conrad Pickel Stained Glass Collection"
+                ],
+                "date": [
+                    {
+                        "displayDate": "1958"
+                    }
+                ],
+                "title": "Paganism",
+                "type": [
+                    "image"
+                ],
+                "subject": [
+                    {
+                        "name": "Christian art and symbolism"
+                    },
+                    {
+                        "name": "Glass painting and staining"
+                    },
+                    {
+                        "name": "Library architecture"
+                    },
+                    {
+                        "name": "Library buildings"
+                    },
+                    {
+                        "name": "O'Shaughnessy-Frey Library Center"
+                    },
+                    {
+                        "name": "20th century"
+                    },
+                    {
+                        "name": "Minnesota"
+                    },
+                    {
+                        "name": "Paganism"
+                    },
+                    {
+                        "name": "Saint Paul"
+                    }
+                ]
+            },
+            "ingestType": "item",
+            "dataProvider": "University of St. Thomas",
+            "originalRecord": {
+                "ingested_at": "2018-07-21T09:51:46Z",
+                "tags": [
+                    "dpla_oai2",
+                    "oai",
+                    "dpla",
+                    "dplaingest"
+                ],
+                "import_job_id": 69,
+                "published": true,
+                "import_job_name": "Cooperating Libraries In Consortium (CLIC)",
+                "collection": {
+                    "description": "The stained glass medallions adorning the windows in the O\u2019Shaughnessy-Frey Library at the University of St. Thomas are some of the most distinctive features of the building. They were designed and executed by two artists from the Conrad Pickel Studio of Waukesha, Wisconsin in 1958.  The images and descriptions of these windows are included in this collection.\n",
+                    "@id": "http://dp.la/api/collections/6ad2839f30f94dbc5d0c47f157561634",
+                    "id": "6ad2839f30f94dbc5d0c47f157561634",
+                    "title": "St. Thomas - Conrad Pickel Stained Glass Collection"
+                },
+                "record": {
+                    "dataProvider": "University of St. Thomas",
+                    "intermediateProvider": "Cooperating Libraries In Consortium (CLIC)",
+                    "sourceResource": {
+                        "rights": "This image may be reproduced and used freely for the purposes of private study, scholarship or research without written permission. However, in order to use the digital reproductions for any other reason users must have the express written consent of the Department of Special Collections, University of St. Thomas Libraries, 2115 Summit Avenue, Saint Paul, MN 55105; (651) 962-5467, e-mail: libweb@stthomas.edu",
+                        "description": "Paganism is depicted in this image by symbols from a variety of non-Christian religions and philosophies. Included are imags of the Sacred Eye (Egypt), Yang and Yin (Taoism), the Turtle (Shinto), the Great Spirit (Native Americans), the Wheel of Life (Buddhists), the Sanskrit word \u201cOm\u201d (Hinduism), the sign for the planet Jupiter (chief god of the Romans) and Zeus (the chief god of the Greeks)",
+                        "format": [
+                            "Original format: stained glass"
+                        ],
+                        "creator": "Conrad Pickel Studio (Waukesha, Wis.)",
+                        "collection": {
+                            "description": "The stained glass medallions adorning the windows in the O\u2019Shaughnessy-Frey Library at the University of St. Thomas are some of the most distinctive features of the building. They were designed and executed by two artists from the Conrad Pickel Studio of Waukesha, Wisconsin in 1958.  The images and descriptions of these windows are included in this collection.\n",
+                            "title": "St. Thomas - Conrad Pickel Stained Glass Collection"
+                        },
+                        "relation": [
+                            "Conrad Pickel Stained Glass Collection"
+                        ],
+                        "date": {
+                            "displayDate": "1958"
+                        },
+                        "title": "Paganism",
+                        "type": [
+                            "image"
+                        ],
+                        "subject": [
+                            {
+                                "name": "Christian art and symbolism"
+                            },
+                            {
+                                "name": "Glass painting and staining"
+                            },
+                            {
+                                "name": "Library architecture"
+                            },
+                            {
+                                "name": "Library buildings"
+                            },
+                            {
+                                "name": "O'Shaughnessy-Frey Library Center"
+                            },
+                            {
+                                "name": "20th century"
+                            },
+                            {
+                                "name": "Minnesota"
+                            },
+                            {
+                                "name": "Paganism"
+                            },
+                            {
+                                "name": "Saint Paul"
+                            }
+                        ]
+                    },
+                    "object": "http://cdm16120.contentdm.oclc.org/cgi-bin/thumbnail.exe?CISOROOT=/stain-gls&CISOPTR=119",
+                    "provider": {
+                        "@id": "http://dp.la/api/contributor/umn",
+                        "name": "Minnesota Digital Library"
+                    },
+                    "record_hash": "e97885be0dff515b1bb1aa29346498a577fa181a",
+                    "isShownAt": "http://cdm16120.contentdm.oclc.org/cdm/ref/collection/stain-gls/id/119",
+                    "@context": "http://dp.la/api/items/context",
+                    "identifier": "oai:cdm16120.contentdm.oclc.org:stain-gls/119",
+                    "originalRecord": {
+                        "header": {
+                            "datestamp": "2008-08-21",
+                            "identifier": "oai:cdm16120.contentdm.oclc.org:stain-gls/119",
+                            "setSpec": "stain-gls"
+                        },
+                        "metadata": {
+                            "dc": {
+                                "publisher": "University of St. Thomas",
+                                "rights": "This image may be reproduced and used freely for the purposes of private study, scholarship or research without written permission.   However, in order to use the digital reproductions for any other reason users must have the express written consent of the Department of Special Collections, University of St. Thomas Libraries, 2115 Summit Avenue, Saint Paul, MN 55105; (651) 962-5467, e-mail: libweb@stthomas.edu",
+                                "description": "Paganism is depicted in this image by symbols from a variety of non-Christian religions and philosophies. Included are imags of the Sacred Eye (Egypt), Yang and Yin (Taoism), the Turtle (Shinto), the Great Spirit (Native Americans), the Wheel of Life (Buddhists), the Sanskrit word \u201cOm\u201d (Hinduism), the sign for the planet Jupiter (chief god of the Romans) and Zeus (the chief god of the Greeks)",
+                                "format": "Original format: stained glass",
+                                "type": "Physical Object",
+                                "title": "Paganism",
+                                "xmlns:dc": "http://purl.org/dc/elements/1.1/",
+                                "creator": "Conrad Pickel Studio (Waukesha, Wis.)",
+                                "xmlns:oai_dc": "http://www.openarchives.org/OAI/2.0/oai_dc/",
+                                "relation": "Conrad Pickel Stained Glass Collection",
+                                "coverage": "O'Shaughnessy-Frey Library Center: North stairwell, between the second and third floors; North stairwell, between the second and third floors",
+                                "date": "1958",
+                                "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                "identifier": [
+                                    "051109mej066_007.jpg",
+                                    "http://cdm16120.contentdm.oclc.org/cdm/ref/collection/stain-gls/id/119"
+                                ],
+                                "xsi:schemaLocation": "http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd",
+                                "subject": "Paganism; Christian art and symbolism; Glass painting and staining--Minnesota; Glass painting and staining--20th century; Library buildings--Minnesota--Saint Paul; Library architecture--Minnesota--Saint Paul; O'Shaughnessy-Frey Library Center"
+                            }
+                        }
+                    },
+                    "batch_param": ""
+                },
+                "provider": {
+                    "@id": "http://dp.la/api/contributor/mdl",
+                    "name": "Minnesota Digital Library"
+                },
+                "record_id": "e97885be0dff515b1bb1aa29346498a577fa181a"
+            },
+            "id": "9ebdfa03a51dc63262d98594b61e533b"
+        },
+        {
+            "id": "5d82527036222b6eb0eb0fb8d78f05c3",
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/5d82527036222b6eb0eb0fb8d78f05c3",
+            "aggregatedCHO": "#sourceResource",
+            "dataProvider": "Utah State Library",
+            "ingestDate": "2018-12-04T17:01:15.950Z",
+            "ingestType": "item",
+            "isShownAt": "http://utah-primoprod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=MWDL&afterPDS=true&docId=digcoll_usl_22library2_lib/81566",
+            "object": "http://digitallibrary.utah.gov/awweb/pdfopener?did=81566&fp=auto",
+            "originalRecord": {
+                "stringValue": "<sear:DOC \nID=\"1853658\" RANK=\"0.7997041\" NO=\"405123\" SEARCH_ENGINE=\"Local Search Engine\" SEARCH_ENGINE_TYPE=\"Local Search Engine\" xmlns:sear=\"http://www.exlibrisgroup.com/xsd/jaguar/search\">\n  <PrimoNMBib xmlns=\"http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib\">\n    <record>\n      <control>\n        <sourcerecordid>library2_lib/81566</sourcerecordid>\n        <sourceid>digcoll_usl_22</sourceid>\n        <recordid>digcoll_usl_22library2_lib/81566</recordid>\n        <originalsourceid>81566</originalsourceid>\n        <sourcedbandrecordid>library2_lib</sourcedbandrecordid>\n        <addsrcrecordid>usl-22-120-1559</addsrcrecordid>\n        <sourceformat>Digital Entity</sourceformat>\n        <sourcesystem>Other</sourcesystem>\n      </control>\n      <display>\n        <type>Image</type>\n        <title>\n          Ceres : queen of the astroid belt, gateway to the outer solar system [poster]\n        </title>\n        <contributor>\n          Jet Propulsion Laboratory (U.S.); United States. National Aeronautics and Space Administration; California Institute of Technology\n        </contributor>\n        <publisher>Jet Propulsion Laboratory (U.S.)</publisher>\n        <creationdate>2015</creationdate>\n        <format>application/pdf</format>\n        <identifier>\n          http://digitallibrary.utah.gov/awweb/guest.jsp?smd=1&amp;cl=all_lib&amp;lb_document_id=81566\n        </identifier>\n        <subject>\n          Space tourism; Interplanetary voyages; Space travelers; Planets--Exploration; Space flight to asteroids; Asteroids; Recreation and tourism; Industry and technology\n        </subject>\n        <description>\n          Ceres is the closest dwarf planet to the Sun. It is the largest object in the main asteroid belt between Mars and Jupiter, with an equatorial diameter of about 965 kilometers. After being studied with telescopes for more than two centuries, Ceres became the first dwarf planet to be explored by a spacecraft, when NASA\u2019s Dawn probe arrived in orbit in March 2015. Dawn\u2019s ongoing detailed observations are revealing intriguing insights into the nature of this mysterious world of ice and rock. This poster is from a set of new &quot;travel posters&quot; from NASA's Jet Propulsion Laboratory, Pasadena, California,\n        </description>\n        <language>eng</language>\n        <relation>Is part of: U.S. Federal Publications</relation>\n        <relation>Has part: NASA Visions of the Future</relation>\n        <coverage>Ceres (Asteroid)</coverage>\n        <rights>\n          United States government publications are not subject to copyright in the United States under 17 U.S.C \u00a7105. All informational materials in this government publication are in the public domain, and as such, are not restricted by copyright law unless otherwise stated. For more information please see http://www.gpo.gov/help/index.html#public_domain_copyright_notice.htm\n        </rights>\n        <lds01>Utah State Library</lds01>\n        <lds02>Utah Government Publications Online Digital Library</lds02>\n        <lds03>Utah State Library</lds03>\n        <lds04>Utah Government Digital Library</lds04>\n        <lds05>1 p.</lds05>\n        <lds08>Ceres (Asteroid)</lds08>\n        <lds10>\n          Visions of the future posters; Exotic cosmic locales available as space tourism posters\n        </lds10>\n        <lds18>Image</lds18>\n        <lds18>StillImage</lds18>\n        <lds17>image</lds17>\n      </display>\n      <links>\n        <linktorsrc>\n          $$Uhttp://digitallibrary.utah.gov/awweb/guest.jsp?smd=1&amp;cl=all_lib&amp;lb_document_id=81566$$DOpen resource in a new window\n        </linktorsrc>\n        <thumbnail>$$Tdigcoll_usl_22_linktothumb$$DSee Thumbnail</thumbnail>\n      </links>\n      <search>\n        <creatorcontrib>\n          Jet Propulsion Laboratory (U.S.); United States. National Aeronautics and Space Administration; California Institute of Technology\n        </creatorcontrib>\n        <title>\n          Ceres : queen of the astroid belt, gateway to the outer solar system [poster]\n        </title>\n        <description>\n          Ceres is the closest dwarf planet to the Sun. It is the largest object in the main asteroid belt between Mars and Jupiter, with an equatorial diameter of about 965 kilometers. After being studied with telescopes for more than two centuries, Ceres became the first dwarf planet to be explored by a spacecraft, when NASA\u2019s Dawn probe arrived in orbit in March 2015. Dawn\u2019s ongoing detailed observations are revealing intriguing insights into the nature of this mysterious world of ice and rock. This poster is from a set of new &quot;travel posters&quot; from NASA's Jet Propulsion Laboratory, Pasadena, California, which envision a day when the creativity of scientists and engineers will allow us to do things we can only dream of now. The posters in the set depict various cosmic destinations including Mars, Jupiter's moon Europa, Saturn's vapor-spewing moon Enceladus, and the dwarf planet Ceres. You can take a virtual trip to 14 alien worlds, and maybe even plaster your living room with planetary art, via the new, futuristic space tourism posters. The posters are the brainchild of The Studio at JPL, a design and strategy team that works with JPL scientists and engineers to visualize and depict complex science and technology topics. Their work is used in designing space missions and in sharing the work of NASA/JPL with the public. The Archive copy is a high resolution TIFF image that can be downloaded from the digital library and printed 20 x 30 inches in high-resolution.\n        </description>\n        <subject>Space tourism</subject>\n        <subject>Interplanetary voyages</subject>\n        <subject>Space travelers</subject>\n        <subject>Planets--Exploration</subject>\n        <subject>Space flight to asteroids</subject>\n        <subject>Asteroids</subject>\n        <subject>Recreation and tourism</subject>\n        <subject>Industry and technology</subject>\n        <sourceid>digcoll_usl_22</sourceid>\n        <recordid>digcoll_usl_22library2_lib/81566</recordid>\n        <creationdate>2015</creationdate>\n        <addtitle>Is part of: U.S. Federal Publications</addtitle>\n        <addtitle>Has part: NASA Visions of the Future</addtitle>\n        <addtitle>\n          Visions of the future posters; Exotic cosmic locales available as space tourism posters\n        </addtitle>\n        <addsrcrecordid>usl-22-120-1559</addsrcrecordid>\n        <scope>mw</scope>\n        <lsr01>usl</lsr01>\n        <lsr02>22</lsr02>\n        <lsr03>120</lsr03>\n        <lsr04>1559</lsr04>\n        <lsr09>Utah State Library</lsr09>\n        <lsr10>Utah Government Publications Online Digital Library</lsr10>\n        <lsr12>Utah State Library</lsr12>\n        <lsr13>Utah Government Digital Library</lsr13>\n        <lsr14>Ceres (Asteroid)</lsr14>\n        <lsr15>U.S. Federal Publications</lsr15>\n        <rsrctype>images</rsrctype>\n      </search>\n      <sort>\n        <title>\n          Ceres : queen of the astroid belt, gateway to the outer solar system [poster]\n        </title>\n        <creationdate>2015</creationdate>\n      </sort>\n      <facets>\n        <language>eng</language>\n        <creationdate>2015</creationdate>\n        <topic>Space tourism</topic>\n        <topic>Interplanetary voyages</topic>\n        <topic>Space travelers</topic>\n        <topic>Planets--Exploration</topic>\n        <topic>Space flight to asteroids</topic>\n        <topic>Asteroids</topic>\n        <topic>Recreation and tourism</topic>\n        <topic>Industry and technology</topic>\n        <collection>Digital Collections</collection>\n        <toplevel>online_resources</toplevel>\n        <format>application/pdf</format>\n        <genre>unknown</genre>\n        <lfc01>Utah Government Digital Library</lfc01>\n        <lfc02>Utah State Library</lfc02>\n        <lfc03>Utah State Library</lfc03>\n        <lfc04>Utah Government Publications Online Digital Library</lfc04>\n        <lfc08>Ceres (Asteroid)</lfc08>\n        <prefilter>images</prefilter>\n        <rsrctype>images</rsrctype>\n        <newrecords>20170208_799</newrecords>\n        <frbrgroupid>325379750</frbrgroupid>\n        <frbrtype>6</frbrtype>\n      </facets>\n      <delivery>\n        <institution>MWDL</institution>\n        <delcategory>Online Resource</delcategory>\n      </delivery>\n      <ranking>\n        <booster1>1</booster1>\n        <booster2>1</booster2>\n      </ranking>\n      <addata>\n        <date>2015</date>\n        <pub>Jet Propulsion Laboratory (U.S.)</pub>\n      </addata>\n    </record>\n  </PrimoNMBib>\n  <sear:GETIT \n  deliveryCategory=\"Online Resource\" GetIt1=\"http://digitallibrary.utah.gov/awweb/guest.jsp?smd=1&amp;cl=all_lib&amp;lb_document_id=81566\" GetIt2=\"http://1.1.1.1?ctx_ver=Z39.88-2004&amp;ctx_enc=info:ofi/enc:UTF-8&amp;ctx_tim=2018-12-03T16%3A33%3A35IST&amp;url_ver=Z39.88-2004&amp;url_ctx_fmt=infofi/fmt:kev:mtx:ctx&amp;rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Journal-digcoll_usl_22&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:&amp;rft.genre=&amp;rft.atitle=&amp;rft.jtitle=&amp;rft.btitle=&amp;rft.aulast=&amp;rft.auinit=&amp;rft.auinit1=&amp;rft.series=&amp;rft.auinitm=&amp;rft.ausuffix=&amp;rft.au=&amp;rft.aucorp=&amp;rft.volume=&amp;rft.issue=&amp;rft.part=&amp;rft.quarter=&amp;rft.ssn=&amp;rft.spage=&amp;rft.epage=&amp;rft.pages=&amp;rft.artnum=&amp;rft.issn=&amp;rft.eissn=&amp;rft.isbn=&amp;rft.sici=&amp;rft.coden=&amp;rft_id=info:doi/&amp;rft.object_id=&amp;rft.eisbn=&amp;rft_dat=%3Cdigcoll_usl_22%3Elibrary2_lib/81566%3C/digcoll_usl_22%3E%3Cgrp_id%3E325379750%3C/grp_id%3E%3Coa%3E%3C/oa%3E&amp;rft_id=info:oai/&amp;req.language=&amp;rft_pqid=\">\n</sear:GETIT>\n  <sear:LINKS>\n    <sear:linktorsrc>\n      http://digitallibrary.utah.gov/awweb/guest.jsp?smd=1&amp;cl=all_lib&amp;lb_document_id=81566\n    </sear:linktorsrc>\n    <sear:thumbnail>\n      http://digitallibrary.utah.gov/awweb/pdfopener?did=81566&amp;fp=auto\n    </sear:thumbnail>\n    <sear:thumbnail>\n      http://digitallibrary.utah.gov/awweb/pdfopener?did=81566&amp;fp=auto\n    </sear:thumbnail>\n  </sear:LINKS>\n</sear:DOC>\n"
+            },
+            "provider": {
+                "@id": "http://dp.la/api/contributor/mwdl",
+                "name": "Mountain West Digital Library"
+            },
+            "sourceResource": {
+                "@id": "http://dp.la/api/items/5d82527036222b6eb0eb0fb8d78f05c3#SourceResource",
+                "collection": [
+                    {
+                        "title": "Utah Government Digital Library"
+                    }
+                ],
+                "contributor": [
+                    "Jet Propulsion Laboratory (U.S.)",
+                    "United States. National Aeronautics and Space Administration",
+                    "California Institute of Technology"
+                ],
+                "date": [
+                    {
+                        "displayDate": "2015"
+                    }
+                ],
+                "description": [
+                    "Ceres is the closest dwarf planet to the Sun. It is the largest object in the main asteroid belt between Mars and Jupiter, with an equatorial diameter of about 965 kilometers. After being studied with telescopes for more than two centuries, Ceres became the first dwarf planet to be explored by a spacecraft, when NASA\u2019s Dawn probe arrived in orbit in March 2015. Dawn\u2019s ongoing detailed observations are revealing intriguing insights into the nature of this mysterious world of ice and rock. This poster is from a set of new \"travel posters\" from NASA's Jet Propulsion Laboratory, Pasadena, California, which envision a day when the creativity of scientists and engineers will allow us to do things we can only dream of now. The posters in the set depict various cosmic destinations including Mars, Jupiter's moon Europa, Saturn's vapor-spewing moon Enceladus, and the dwarf planet Ceres. You can take a virtual trip to 14 alien worlds, and maybe even plaster your living room with planet"
+                ],
+                "extent": [
+                    "1 p."
+                ],
+                "identifier": [
+                    "digcoll_usl_22library2_lib/81566"
+                ],
+                "language": [
+                    {
+                        "name": "English",
+                        "iso639_3": "English"
+                    }
+                ],
+                "relation": [
+                    "Is part of: U.S. Federal Publications",
+                    "Has part: NASA Visions of the Future"
+                ],
+                "rights": [
+                    "United States government publications are not subject to copyright in the United States under 17 U.S.C \u00a7105. All informational materials in this government publication are in the public domain, and as such, are not restricted by copyright law unless otherwise stated. For more information please see http://www.gpo.gov/help/index.html#public_domain_copyright_notice.htm"
+                ],
+                "spatial": [
+                    {
+                        "name": "Ceres (Asteroid)"
+                    }
+                ],
+                "subject": [
+                    {
+                        "name": "Space tourism"
+                    },
+                    {
+                        "name": "Interplanetary voyages"
+                    },
+                    {
+                        "name": "Space travelers"
+                    },
+                    {
+                        "name": "Planets--Exploration"
+                    },
+                    {
+                        "name": "Space flight to asteroids"
+                    },
+                    {
+                        "name": "Asteroids"
+                    },
+                    {
+                        "name": "Recreation and tourism"
+                    },
+                    {
+                        "name": "Industry and technology"
+                    }
+                ],
+                "title": [
+                    "Ceres : queen of the astroid belt, gateway to the outer solar system [poster]"
+                ],
+                "type": [
+                    "image"
+                ]
+            },
+            "@type": "ore:Aggregation"
+        },
+        {
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/b01c606d5b29e363b1f80ccce5c7dbdb",
+            "object": "http://ids.si.edu/ids/deliveryService?id=SIL-beautyofheavensp00blun_0015",
+            "aggregatedCHO": "#sourceResource",
+            "ingestDate": "2018-12-05T17:23:19.333579Z",
+            "@type": "ore:Aggregation",
+            "isShownAt": "http://collections.si.edu/search/results.htm?q=record_ID%3Asilgoi_110657&repo=DPLA",
+            "provider": {
+                "@id": "http://dp.la/api/contributor/smithsonian",
+                "name": "Smithsonian Institution"
+            },
+            "sourceResource": {
+                "publisher": [
+                    "Tilt and Bogue"
+                ],
+                "description": [
+                    "The beauty of the heavens : a pictorial display of the astronomical phenomena of the universe : one hundred and four coloured scenes, illustrating a familiar lecture on astronomy",
+                    "The Planetary System",
+                    "If we had to guess, we\u0092d say you\u0092re reading this from somewhere on planet Earth. The ancient Greeks used the word \u0093planet\u0094, which means wanderer, to describe the huge objects they saw in the sky because they appear to move while the stars in the background appear to stand still. While now we know that everything is moving, including the stars, the name \u0093planet\u0094 stuck with us. According to how scientists define the term, there are eight planets in oursolar system, meaning, objects that orbitthe Sun. The sun uses gravity to keep the planets spinning in orbit, and it also provides heat and light to each of them. The four inner planets are Mercury, Venus, Earth, and Mars. Composed of mostly rock and metal and with solid surfaces, these are given the term \u0093terrestiral\u0094 or Earth-like. The four outer planets are Jupiter, Saturn, Uranus, and Neptune. They are all much larger than the inner planets; Jupiter is larger than the seven other planets combined! In addition to their size, they also differ from the inner planets in that they have no solid surfaces; they are made of liquid and gases, and they each have a ring system and several moons. Not such a small world, after all."
+                ],
+                "language": [
+                    {
+                        "iso639_3": "eng",
+                        "name": "English"
+                    }
+                ],
+                "title": "The Planetary System from The beauty of the heavens : a pictorial display of the astronomical phenomena of the universe",
+                "@id": "http://dp.la/api/items/b01c606d5b29e363b1f80ccce5c7dbdb#sourceResource",
+                "temporal": [
+                    {
+                        "begin": "1842",
+                        "end": "1842",
+                        "displayDate": "1842-1842"
+                    }
+                ],
+                "rights": [
+                    "No Copyright - United States"
+                ],
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/5a5cc9b64ff4f4e0dbb61df1a3c856e1",
+                        "id": "5a5cc9b64ff4f4e0dbb61df1a3c856e1",
+                        "title": "See Wonder"
+                    }
+                ],
+                "stateLocatedIn": [
+                    {
+                        "name": "Washington, D.C."
+                    }
+                ],
+                "creator": [
+                    "Blunt, Charles F"
+                ],
+                "spatial": [
+                    {
+                        "city": "London",
+                        "name": "London",
+                        "country": "United Kingdom",
+                        "coordinates": "51.50853, -0.12574",
+                        "county": "Greater London",
+                        "state": "England"
+                    }
+                ],
+                "date": {
+                    "begin": "1842",
+                    "end": "1842",
+                    "displayDate": "1842-1842"
+                },
+                "identifier": [
+                    "283188"
+                ],
+                "type": [
+                    "image"
+                ],
+                "subject": [
+                    {
+                        "name": "Solar System"
+                    },
+                    {
+                        "name": "Planetary systems"
+                    },
+                    {
+                        "name": "Blunt, Charles F"
+                    },
+                    {
+                        "name": "Planetary System"
+                    },
+                    {
+                        "name": "Gravity, Galaxy"
+                    },
+                    {
+                        "name": "Stars"
+                    },
+                    {
+                        "name": "Solar system"
+                    },
+                    {
+                        "name": "Galaxy"
+                    }
+                ]
+            },
+            "ingestType": "item",
+            "dataProvider": "Smithsonian Libraries",
+            "originalRecord": {
+                "freetext": {
+                    "publisher": {
+                        "#text": "Tilt and Bogue",
+                        "@label": "Publisher"
+                    },
+                    "language": {
+                        "#text": "English",
+                        "@label": "Language"
+                    },
+                    "setName": {
+                        "#text": "See Wonder",
+                        "@label": "See more items in"
+                    },
+                    "notes": [
+                        {
+                            "#text": "The beauty of the heavens : a pictorial display of the astronomical phenomena of the universe : one hundred and four coloured scenes, illustrating a familiar lecture on astronomy",
+                            "@label": "Book Title"
+                        },
+                        {
+                            "#text": "The Planetary System",
+                            "@label": "Caption"
+                        },
+                        {
+                            "#text": "If we had to guess, we\u0092d say you\u0092re reading this from somewhere on planet Earth. The ancient Greeks used the word \u0093planet\u0094, which means wanderer, to describe the huge objects they saw in the sky because they appear to move while the stars in the background appear to stand still. While now we know that everything is moving, including the stars, the name \u0093planet\u0094 stuck with us. According to how scientists define the term, there are eight planets in oursolar system, meaning, objects that orbitthe Sun. The sun uses gravity to keep the planets spinning in orbit, and it also provides heat and light to each of them. The four inner planets are Mercury, Venus, Earth, and Mars. Composed of mostly rock and metal and with solid surfaces, these are given the term \u0093terrestiral\u0094 or Earth-like. The four outer planets are Jupiter, Saturn, Uranus, and Neptune. They are all much larger than the inner planets; Jupiter is larger than the seven other planets combined! In addition to their size, they also differ from the inner planets in that they have no solid surfaces; they are made of liquid and gases, and they each have a ring system and several moons. Not such a small world, after all.",
+                            "@label": "Educational Notes"
+                        }
+                    ],
+                    "name": {
+                        "#text": "Blunt, Charles F.",
+                        "@label": "Creator"
+                    },
+                    "topic": [
+                        {
+                            "#text": "Planetary System",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Stars",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Solar System",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Gravity, Galaxy",
+                            "@label": "Topic"
+                        }
+                    ],
+                    "place": {
+                        "#text": "London",
+                        "@label": "Publication Place"
+                    },
+                    "dataSource": {
+                        "#text": "Smithsonian Libraries",
+                        "@label": "Data Source"
+                    },
+                    "date": [
+                        {
+                            "#text": "1842",
+                            "@label": "Date"
+                        },
+                        {
+                            "#text": "1842",
+                            "@label": "Publication Date"
+                        }
+                    ],
+                    "identifier": [
+                        {
+                            "#text": "SIL-beautyofheavensp00blun_0015",
+                            "@label": "Image ID"
+                        },
+                        {
+                            "#text": "283188",
+                            "@label": "Catalog ID"
+                        }
+                    ],
+                    "objectRights": {
+                        "#text": "No Copyright - United States",
+                        "@label": "Rights"
+                    },
+                    "objectType": {
+                        "#text": "Prints",
+                        "@label": "Type"
+                    }
+                },
+                "indexedStructured": {
+                    "usage_flag": "SeeWonder",
+                    "name": "Blunt, Charles F.",
+                    "language": "English language",
+                    "object_type": "Prints",
+                    "topic": [
+                        "Galaxy",
+                        "Solar system",
+                        "Planetary systems"
+                    ],
+                    "place": "London",
+                    "date": "1840s",
+                    "online_media_type": "Images"
+                },
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/5a5cc9b64ff4f4e0dbb61df1a3c856e1",
+                        "id": "5a5cc9b64ff4f4e0dbb61df1a3c856e1",
+                        "title": "See Wonder"
+                    }
+                ],
+                "descriptiveNonRepeating": {
+                    "data_source": "Smithsonian Libraries",
+                    "title": {
+                        "#text": "The Planetary System from The beauty of the heavens : a pictorial display of the astronomical phenomena of the universe",
+                        "@label": "title"
+                    },
+                    "record_link": "http://collections.si.edu/search/results.htm?q=record_ID%3Asilgoi_110657&repo=DPLA",
+                    "title_sort": "THE PLANETARY SYSTEM FROM THE BEAUTY OF THE HEAVENS : A PICTORIAL DISPLAY OF THE ASTRONOMICAL PHENOMENA OF THE UNIVERSE",
+                    "online_media": {
+                        "media": {
+                            "@type": "Images",
+                            "#text": "http://ids.si.edu/ids/deliveryService?id=SIL-beautyofheavensp00blun_0015",
+                            "@idsId": "SIL-beautyofheavensp00blun_0015",
+                            "@thumbnail": "http://ids.si.edu/ids/deliveryService?id=SIL-beautyofheavensp00blun_0015",
+                            "@rights": "No Copyright - United States"
+                        },
+                        "@mediaCount": "1"
+                    },
+                    "record_ID": "silgoi_110657",
+                    "unit_code": "SIL"
+                },
+                "provider": {
+                    "@id": "http://dp.la/api/contributor/smithsonian",
+                    "name": "Smithsonian Institution"
+                }
+            },
+            "id": "b01c606d5b29e363b1f80ccce5c7dbdb"
+        },
+        {
+            "id": "b3de6344949b0ca2cb9af8ca9116779c",
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/b3de6344949b0ca2cb9af8ca9116779c",
+            "aggregatedCHO": "#sourceResource",
+            "dataProvider": "Utah State Library",
+            "ingestDate": "2018-12-04T17:01:15.950Z",
+            "ingestType": "item",
+            "isShownAt": "http://utah-primoprod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=MWDL&afterPDS=true&docId=digcoll_usl_22library2_lib/81572",
+            "object": "http://digitallibrary.utah.gov/awweb/pdfopener?did=81572&fp=auto",
+            "originalRecord": {
+                "stringValue": "<sear:DOC \nID=\"45348\" RANK=\"0.8000001\" NO=\"43834\" SEARCH_ENGINE=\"Local Search Engine\" SEARCH_ENGINE_TYPE=\"Local Search Engine\" xmlns:sear=\"http://www.exlibrisgroup.com/xsd/jaguar/search\">\n  <PrimoNMBib xmlns=\"http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib\">\n    <record>\n      <control>\n        <sourcerecordid>library2_lib/81572</sourcerecordid>\n        <sourceid>digcoll_usl_22</sourceid>\n        <recordid>digcoll_usl_22library2_lib/81572</recordid>\n        <originalsourceid>81572</originalsourceid>\n        <sourcedbandrecordid>library2_lib</sourcedbandrecordid>\n        <addsrcrecordid>usl-22-120-1559</addsrcrecordid>\n        <sourceformat>Digital Entity</sourceformat>\n        <sourcesystem>Other</sourcesystem>\n      </control>\n      <display>\n        <type>Image</type>\n        <title>51 Pegasi b : greetings from your first exoplanet [poster]</title>\n        <contributor>\n          Jet Propulsion Laboratory (U.S.); United States. National Aeronautics and Space Administration; California Institute of Technology\n        </contributor>\n        <publisher>Jet Propulsion Laboratory (U.S.)</publisher>\n        <creationdate>2016</creationdate>\n        <format>application/pdf</format>\n        <identifier>\n          http://digitallibrary.utah.gov/awweb/guest.jsp?smd=1&amp;cl=all_lib&amp;lb_document_id=81572\n        </identifier>\n        <subject>\n          Space tourism; Interplanetary voyages; Space travelers; Extrasolar planets; 51 Pegasi b (Planet); Exploration of 51 Pegasi b (Planet); Planets--Exploration; Recreation and tourism; Industry and technology\n        </subject>\n        <description>\n          While there is much debate over which exoplanet discovery is considered the &quot;first,&quot; one stands out from the rest. In 1995, scientists discovered 51 Pegasi b, forever changing the way we see the universe and our place in it. The exoplanet is about half the mass of Jupiter, with a seemingly impossible, star-hugging orbit of only 4.2 Earth days. Not only was it the first planet confirmed to orbit a sun-like star; it also ushered in a whole new class of planets called Hot Jupiters: hot, massive planets orbiting closer to their stars than Mercury. Today, powerful observatories like NASA's\n        </description>\n        <language>eng</language>\n        <relation>Is part of: U.S. Federal Publications</relation>\n        <relation>Has part: NASA Visions of the Future</relation>\n        <coverage>51 Pegasi b (Planet)</coverage>\n        <rights>\n          United States government publications are not subject to copyright in the United States under 17 U.S.C \u00a7105. All informational materials in this government publication are in the public domain, and as such, are not restricted by copyright law unless otherwise stated. For more information please see http://www.gpo.gov/help/index.html#public_domain_copyright_notice.htm\n        </rights>\n        <lds01>Utah State Library</lds01>\n        <lds02>Utah Government Publications Online Digital Library</lds02>\n        <lds03>Utah State Library</lds03>\n        <lds04>Utah Government Digital Library</lds04>\n        <lds05>1 p.</lds05>\n        <lds08>51 Pegasi b (Planet)</lds08>\n        <lds10>\n          Visions of the future posters; Exotic cosmic locales available as space tourism posters; Exoplanet travel bureau posters\n        </lds10>\n        <lds18>Image</lds18>\n        <lds18>StillImage</lds18>\n        <lds17>image</lds17>\n      </display>\n      <links>\n        <linktorsrc>\n          $$Uhttp://digitallibrary.utah.gov/awweb/guest.jsp?smd=1&amp;cl=all_lib&amp;lb_document_id=81572$$DOpen resource in a new window\n        </linktorsrc>\n        <thumbnail>$$Tdigcoll_usl_22_linktothumb$$DSee Thumbnail</thumbnail>\n      </links>\n      <search>\n        <creatorcontrib>\n          Jet Propulsion Laboratory (U.S.); United States. National Aeronautics and Space Administration; California Institute of Technology\n        </creatorcontrib>\n        <title>51 Pegasi b : greetings from your first exoplanet [poster]</title>\n        <description>\n          While there is much debate over which exoplanet discovery is considered the &quot;first,&quot; one stands out from the rest. In 1995, scientists discovered 51 Pegasi b, forever changing the way we see the universe and our place in it. The exoplanet is about half the mass of Jupiter, with a seemingly impossible, star-hugging orbit of only 4.2 Earth days. Not only was it the first planet confirmed to orbit a sun-like star; it also ushered in a whole new class of planets called Hot Jupiters: hot, massive planets orbiting closer to their stars than Mercury. Today, powerful observatories like NASA's Kepler space telescope, will continue the hunt of distant planets. This poster is from a set of new &quot;travel posters&quot; from NASA's Jet Propulsion Laboratory, Pasadena, California, which envision a day when the creativity of scientists and engineers will allow us to do things we can only dream of now. The posters in the set depict various cosmic destinations including Mars, Jupiter's moon Europa, Saturn's vapor-spewing moon Enceladus, and the dwarf planet Ceres. You can take a virtual trip to 14 alien worlds, and maybe even plaster your living room with planetary art, via the new, futuristic space tourism posters. The posters are the brainchild of The Studio at JPL, a design and strategy team that works with JPL scientists and engineers to visualize and depict complex science and technology topics. Their work is used in designing space missions and in sharing the work of NASA/JPL with the public. The Archive copy is a high resolution TIFF image that can be downloaded from the digital library and printed 20 x 30 inches in high-resolution.\n        </description>\n        <subject>Space tourism</subject>\n        <subject>Interplanetary voyages</subject>\n        <subject>Space travelers</subject>\n        <subject>Extrasolar planets</subject>\n        <subject>51 Pegasi b (Planet)</subject>\n        <subject>Exploration of 51 Pegasi b (Planet)</subject>\n        <subject>Planets--Exploration</subject>\n        <subject>Recreation and tourism</subject>\n        <subject>Industry and technology</subject>\n        <sourceid>digcoll_usl_22</sourceid>\n        <recordid>digcoll_usl_22library2_lib/81572</recordid>\n        <creationdate>2016</creationdate>\n        <addtitle>Is part of: U.S. Federal Publications</addtitle>\n        <addtitle>Has part: NASA Visions of the Future</addtitle>\n        <addtitle>\n          Visions of the future posters; Exotic cosmic locales available as space tourism posters; Exoplanet travel bureau posters\n        </addtitle>\n        <addsrcrecordid>usl-22-120-1559</addsrcrecordid>\n        <scope>mw</scope>\n        <lsr01>usl</lsr01>\n        <lsr02>22</lsr02>\n        <lsr03>120</lsr03>\n        <lsr04>1559</lsr04>\n        <lsr09>Utah State Library</lsr09>\n        <lsr10>Utah Government Publications Online Digital Library</lsr10>\n        <lsr12>Utah State Library</lsr12>\n        <lsr13>Utah Government Digital Library</lsr13>\n        <lsr14>51 Pegasi b (Planet)</lsr14>\n        <lsr15>U.S. Federal Publications</lsr15>\n        <rsrctype>images</rsrctype>\n      </search>\n      <sort>\n        <title>51 Pegasi b : greetings from your first exoplanet [poster]</title>\n        <creationdate>2016</creationdate>\n      </sort>\n      <facets>\n        <language>eng</language>\n        <creationdate>2016</creationdate>\n        <topic>Space tourism</topic>\n        <topic>Interplanetary voyages</topic>\n        <topic>Space travelers</topic>\n        <topic>Extrasolar planets</topic>\n        <topic>51 Pegasi b (Planet)</topic>\n        <topic>Exploration of 51 Pegasi b (Planet)</topic>\n        <topic>Planets--Exploration</topic>\n        <topic>Recreation and tourism</topic>\n        <topic>Industry and technology</topic>\n        <collection>Digital Collections</collection>\n        <toplevel>online_resources</toplevel>\n        <format>application/pdf</format>\n        <genre>unknown</genre>\n        <lfc01>Utah Government Digital Library</lfc01>\n        <lfc02>Utah State Library</lfc02>\n        <lfc03>Utah State Library</lfc03>\n        <lfc04>Utah Government Publications Online Digital Library</lfc04>\n        <lfc08>51 Pegasi b (Planet)</lfc08>\n        <prefilter>images</prefilter>\n        <rsrctype>images</rsrctype>\n        <newrecords>20170208_784</newrecords>\n        <frbrgroupid>325379629</frbrgroupid>\n        <frbrtype>6</frbrtype>\n      </facets>\n      <delivery>\n        <institution>MWDL</institution>\n        <delcategory>Online Resource</delcategory>\n      </delivery>\n      <ranking>\n        <booster1>1</booster1>\n        <booster2>1</booster2>\n      </ranking>\n      <addata>\n        <date>2016</date>\n        <pub>Jet Propulsion Laboratory (U.S.)</pub>\n      </addata>\n    </record>\n  </PrimoNMBib>\n  <sear:GETIT \n  deliveryCategory=\"Online Resource\" GetIt1=\"http://digitallibrary.utah.gov/awweb/guest.jsp?smd=1&amp;cl=all_lib&amp;lb_document_id=81572\" GetIt2=\"http://1.1.1.1?ctx_ver=Z39.88-2004&amp;ctx_enc=info:ofi/enc:UTF-8&amp;ctx_tim=2018-12-03T13%3A34%3A33IST&amp;url_ver=Z39.88-2004&amp;url_ctx_fmt=infofi/fmt:kev:mtx:ctx&amp;rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Journal-digcoll_usl_22&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:&amp;rft.genre=&amp;rft.atitle=&amp;rft.jtitle=&amp;rft.btitle=&amp;rft.aulast=&amp;rft.auinit=&amp;rft.auinit1=&amp;rft.series=&amp;rft.auinitm=&amp;rft.ausuffix=&amp;rft.au=&amp;rft.aucorp=&amp;rft.volume=&amp;rft.issue=&amp;rft.part=&amp;rft.quarter=&amp;rft.ssn=&amp;rft.spage=&amp;rft.epage=&amp;rft.pages=&amp;rft.artnum=&amp;rft.issn=&amp;rft.eissn=&amp;rft.isbn=&amp;rft.sici=&amp;rft.coden=&amp;rft_id=info:doi/&amp;rft.object_id=&amp;rft.eisbn=&amp;rft_dat=%3Cdigcoll_usl_22%3Elibrary2_lib/81572%3C/digcoll_usl_22%3E%3Cgrp_id%3E325379629%3C/grp_id%3E%3Coa%3E%3C/oa%3E&amp;rft_id=info:oai/&amp;req.language=&amp;rft_pqid=\">\n</sear:GETIT>\n  <sear:LINKS>\n    <sear:linktorsrc>\n      http://digitallibrary.utah.gov/awweb/guest.jsp?smd=1&amp;cl=all_lib&amp;lb_document_id=81572\n    </sear:linktorsrc>\n    <sear:thumbnail>\n      http://digitallibrary.utah.gov/awweb/pdfopener?did=81572&amp;fp=auto\n    </sear:thumbnail>\n    <sear:thumbnail>\n      http://digitallibrary.utah.gov/awweb/pdfopener?did=81572&amp;fp=auto\n    </sear:thumbnail>\n  </sear:LINKS>\n</sear:DOC>\n"
+            },
+            "provider": {
+                "@id": "http://dp.la/api/contributor/mwdl",
+                "name": "Mountain West Digital Library"
+            },
+            "sourceResource": {
+                "@id": "http://dp.la/api/items/b3de6344949b0ca2cb9af8ca9116779c#SourceResource",
+                "collection": [
+                    {
+                        "title": "Utah Government Digital Library"
+                    }
+                ],
+                "contributor": [
+                    "Jet Propulsion Laboratory (U.S.)",
+                    "United States. National Aeronautics and Space Administration",
+                    "California Institute of Technology"
+                ],
+                "date": [
+                    {
+                        "displayDate": "2016"
+                    }
+                ],
+                "description": [
+                    "While there is much debate over which exoplanet discovery is considered the \"first,\" one stands out from the rest. In 1995, scientists discovered 51 Pegasi b, forever changing the way we see the universe and our place in it. The exoplanet is about half the mass of Jupiter, with a seemingly impossible, star-hugging orbit of only 4.2 Earth days. Not only was it the first planet confirmed to orbit a sun-like star; it also ushered in a whole new class of planets called Hot Jupiters: hot, massive planets orbiting closer to their stars than Mercury. Today, powerful observatories like NASA's Kepler space telescope, will continue the hunt of distant planets. This poster is from a set of new \"travel posters\" from NASA's Jet Propulsion Laboratory, Pasadena, California, which envision a day when the creativity of scientists and engineers will allow us to do things we can only dream of now. The posters in the set depict various cosmic destinations including Mars, Jupiter's moon Europa,"
+                ],
+                "extent": [
+                    "1 p."
+                ],
+                "identifier": [
+                    "digcoll_usl_22library2_lib/81572"
+                ],
+                "language": [
+                    {
+                        "name": "English",
+                        "iso639_3": "English"
+                    }
+                ],
+                "relation": [
+                    "Is part of: U.S. Federal Publications",
+                    "Has part: NASA Visions of the Future"
+                ],
+                "rights": [
+                    "United States government publications are not subject to copyright in the United States under 17 U.S.C \u00a7105. All informational materials in this government publication are in the public domain, and as such, are not restricted by copyright law unless otherwise stated. For more information please see http://www.gpo.gov/help/index.html#public_domain_copyright_notice.htm"
+                ],
+                "spatial": [
+                    {
+                        "name": "51 Pegasi b (Planet)"
+                    }
+                ],
+                "subject": [
+                    {
+                        "name": "Space tourism"
+                    },
+                    {
+                        "name": "Interplanetary voyages"
+                    },
+                    {
+                        "name": "Space travelers"
+                    },
+                    {
+                        "name": "Extrasolar planets"
+                    },
+                    {
+                        "name": "51 Pegasi b (Planet)"
+                    },
+                    {
+                        "name": "Exploration of 51 Pegasi b (Planet)"
+                    },
+                    {
+                        "name": "Planets--Exploration"
+                    },
+                    {
+                        "name": "Recreation and tourism"
+                    },
+                    {
+                        "name": "Industry and technology"
+                    }
+                ],
+                "title": [
+                    "51 Pegasi b : greetings from your first exoplanet [poster]"
+                ],
+                "type": [
+                    "image"
+                ]
+            },
+            "@type": "ore:Aggregation"
+        },
+        {
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/a0324eb950d351c3a2a779623c8a9ab1",
+            "object": "http://ids.si.edu/ids/deliveryService?id=SIL-39088006072862_065",
+            "aggregatedCHO": "#sourceResource",
+            "ingestDate": "2018-12-06T07:43:02.679908Z",
+            "@type": "ore:Aggregation",
+            "isShownAt": "http://collections.si.edu/search/results.htm?q=record_ID%3Asilgoi_103953&repo=DPLA",
+            "provider": {
+                "@id": "http://dp.la/api/contributor/smithsonian",
+                "name": "Smithsonian Institution"
+            },
+            "sourceResource": {
+                "publisher": [
+                    "The Society for Promoting Christian Knowledge"
+                ],
+                "description": [
+                    "Thirty plates illustrative of natural phenomena.",
+                    "Volcanoes.",
+                    "Have you ever seen a pumice stone at a salon or in your bathtub for removing dry skin? Pumice is a unique kind of igneous rock, which can float in waters, and was originally formed in a volcano! Just one more way to say that volcanoes are one of the most well-known geological features in our world, and they can show up in lots of unexpected places. Did you know that there are volcanoes on the ocean floor? There are even volcanoes, like some in Iceland, that are beneath ice caps. The largest volcano on earth is Mauna Loa on the Hawaii Big Island. The tallest is Mauna Kea which is right next to it. But the tallest volcano we know of in the Solar System isn\u0092t on Earth. It\u0092s called Olympus Mons, and it stands 16 miles tall on the planet Mars! Further out in space, the most active volcano is found on Io, one of Jupiter\u0092s moons. In fact, there\u0092s so much volcanic activity on Io that the landscape is constantly changing. While volcanoes on Earth don\u0092t erupt quite so frequently as on Io, they are still fairly common. In fact, geologists predict that there are 20 volcanoes erupting while you read this paragraph. We\u0092re always learning more about volcanoes. What will we find out next?"
+                ],
+                "language": [
+                    {
+                        "iso639_3": "eng",
+                        "name": "English"
+                    }
+                ],
+                "rights": [
+                    "No Copyright - United States"
+                ],
+                "@id": "http://dp.la/api/items/a0324eb950d351c3a2a779623c8a9ab1#sourceResource",
+                "temporal": [
+                    {
+                        "begin": "1846",
+                        "end": "1846",
+                        "displayDate": "1846-1846"
+                    }
+                ],
+                "title": "Volcanoes from Thirty plates illustrative of natural phenomena",
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/5a5cc9b64ff4f4e0dbb61df1a3c856e1",
+                        "id": "5a5cc9b64ff4f4e0dbb61df1a3c856e1",
+                        "title": "See Wonder"
+                    }
+                ],
+                "stateLocatedIn": [
+                    {
+                        "name": "Washington, D.C."
+                    }
+                ],
+                "spatial": [
+                    {
+                        "city": "London",
+                        "name": "London (England)",
+                        "country": "United Kingdom",
+                        "coordinates": "51.50853, -0.12574",
+                        "county": "Greater London",
+                        "state": "England"
+                    }
+                ],
+                "date": {
+                    "begin": "1846",
+                    "end": "1846",
+                    "displayDate": "1846-1846"
+                },
+                "identifier": [
+                    "368693"
+                ],
+                "type": [
+                    "image"
+                ],
+                "subject": [
+                    {
+                        "name": "Jupiter"
+                    },
+                    {
+                        "name": "Olympus Mons"
+                    },
+                    {
+                        "name": "Volcanoes"
+                    },
+                    {
+                        "name": "Pumice"
+                    },
+                    {
+                        "name": "Geology"
+                    },
+                    {
+                        "name": "Mauna Kea"
+                    },
+                    {
+                        "name": "Mars"
+                    },
+                    {
+                        "name": "Mauna Loa"
+                    },
+                    {
+                        "name": "Igneous"
+                    }
+                ]
+            },
+            "ingestType": "item",
+            "dataProvider": "Smithsonian Libraries",
+            "originalRecord": {
+                "freetext": {
+                    "publisher": {
+                        "#text": "The Society for Promoting Christian Knowledge",
+                        "@label": "Publisher"
+                    },
+                    "language": {
+                        "#text": "English",
+                        "@label": "Language"
+                    },
+                    "setName": {
+                        "#text": "See Wonder",
+                        "@label": "See more items in"
+                    },
+                    "notes": [
+                        {
+                            "#text": "Thirty plates illustrative of natural phenomena.",
+                            "@label": "Book Title"
+                        },
+                        {
+                            "#text": "Volcanoes.",
+                            "@label": "Caption"
+                        },
+                        {
+                            "#text": "Have you ever seen a pumice stone at a salon or in your bathtub for removing dry skin? Pumice is a unique kind of igneous rock, which can float in waters, and was originally formed in a volcano! Just one more way to say that volcanoes are one of the most well-known geological features in our world, and they can show up in lots of unexpected places. Did you know that there are volcanoes on the ocean floor? There are even volcanoes, like some in Iceland, that are beneath ice caps. The largest volcano on earth is Mauna Loa on the Hawaii Big Island. The tallest is Mauna Kea which is right next to it. But the tallest volcano we know of in the Solar System isn\u0092t on Earth. It\u0092s called Olympus Mons, and it stands 16 miles tall on the planet Mars! Further out in space, the most active volcano is found on Io, one of Jupiter\u0092s moons. In fact, there\u0092s so much volcanic activity on Io that the landscape is constantly changing. While volcanoes on Earth don\u0092t erupt quite so frequently as on Io, they are still fairly common. In fact, geologists predict that there are 20 volcanoes erupting while you read this paragraph. We\u0092re always learning more about volcanoes. What will we find out next?",
+                            "@label": "Educational Notes"
+                        }
+                    ],
+                    "topic": [
+                        {
+                            "#text": "Pumice",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Geology",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Volcanoes",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Mauna Loa",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Mauna Kea",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Mars",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Jupiter",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Olympus Mons",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Io",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Igneous",
+                            "@label": "Topic"
+                        }
+                    ],
+                    "place": {
+                        "#text": "London (England)",
+                        "@label": "Publication Place"
+                    },
+                    "dataSource": {
+                        "#text": "Smithsonian Libraries",
+                        "@label": "Data Source"
+                    },
+                    "date": [
+                        {
+                            "#text": "1846",
+                            "@label": "Date"
+                        },
+                        {
+                            "#text": "1846",
+                            "@label": "Publication Date"
+                        }
+                    ],
+                    "identifier": [
+                        {
+                            "#text": "SIL-39088006072862_065",
+                            "@label": "Image ID"
+                        },
+                        {
+                            "#text": "368693",
+                            "@label": "Catalog ID"
+                        }
+                    ],
+                    "objectRights": {
+                        "#text": "No Copyright - United States",
+                        "@label": "Rights"
+                    },
+                    "objectType": {
+                        "#text": "Prints",
+                        "@label": "Type"
+                    }
+                },
+                "indexedStructured": {
+                    "usage_flag": "SeeWonder",
+                    "language": "English language",
+                    "object_type": "Prints",
+                    "topic": "Volcanoes",
+                    "place": "London (England)",
+                    "date": "1840s",
+                    "online_media_type": "Images"
+                },
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/5a5cc9b64ff4f4e0dbb61df1a3c856e1",
+                        "id": "5a5cc9b64ff4f4e0dbb61df1a3c856e1",
+                        "title": "See Wonder"
+                    }
+                ],
+                "descriptiveNonRepeating": {
+                    "data_source": "Smithsonian Libraries",
+                    "title": {
+                        "#text": "Volcanoes from Thirty plates illustrative of natural phenomena.",
+                        "@label": "title"
+                    },
+                    "record_link": "http://collections.si.edu/search/results.htm?q=record_ID%3Asilgoi_103953&repo=DPLA",
+                    "title_sort": "VOLCANOES FROM THIRTY PLATES ILLUSTRATIVE OF NATURAL PHENOMENA",
+                    "online_media": {
+                        "media": {
+                            "@type": "Images",
+                            "#text": "http://ids.si.edu/ids/deliveryService?id=SIL-39088006072862_065",
+                            "@idsId": "SIL-39088006072862_065",
+                            "@thumbnail": "http://ids.si.edu/ids/deliveryService?id=SIL-39088006072862_065",
+                            "@rights": "No Copyright - United States"
+                        },
+                        "@mediaCount": "1"
+                    },
+                    "record_ID": "silgoi_103953",
+                    "unit_code": "SIL"
+                },
+                "provider": {
+                    "@id": "http://dp.la/api/contributor/smithsonian",
+                    "name": "Smithsonian Institution"
+                }
+            },
+            "id": "a0324eb950d351c3a2a779623c8a9ab1"
+        }
+    ],
+    "facets": []
+}

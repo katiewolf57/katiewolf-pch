@@ -172,48 +172,60 @@ import math
 #     os.rename(planet + '.json', './' + planet + '/' + planet + '_nasa' + '.json')
 
 
-
-
-nasa_all_data = []
-
+#
+#
+# nasa_all_data = []
+#
+#
+# planets = ['mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune', 'pluto']
+#
+# ## looping thorugh each planet ##
+# for planet in planets:
+#
+#     ## start at page one ##
+#
+#
+#     ## where the data will go ##
+#     planet_data = []
+#
+#
+#     print('Looking at ' + planet + '!\n')
+#
+#     payload = {'q':planet, 'media_type': 'image', 'page': page}
+#     r = requests.get('https://images-api.nasa.gov/search', params=payload)
+#
+#     nasa_data = json.loads(r.text)
+#
+#     ## adding up how many pages are needed: total hits, rounded up, and then divided by 100 (total items per page)
+#     total_hits = nasa_data['collection']['metadata']['total_hits']
+#     total_pages = math.ceil(total_hits / 100)
+#
+#     page = 1
+#
+#     while page <= total_pages:
+#
+#
+#         payload = {'q': planet, 'media_type': 'image', 'page': page}
+#         r = requests.get('https://images-api.nasa.gov/search', params=payload)
+#
+#         nasa_data = json.loads(r.text)
+#
+#         # add  in the data
+#         planet_data.append(nasa_data)
+#
+#
+#
+#     json.dump(planet_data, open(planet + '.json', 'w'), indent=4)
 
 planets = ['mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune', 'pluto']
-
-## looping thorugh each planet ##
 for planet in planets:
-
-    ## start at page one ## 
-    
-
-    ## where the data will go ##
     planet_data = []
-
-
     print('Looking at ' + planet + '!\n')
 
-    payload = {'q':planet, 'media_type': 'image', 'page': page}
+    payload = {'q': planet, 'media_type':'image'}
     r = requests.get('https://images-api.nasa.gov/search', params=payload)
-
     nasa_data = json.loads(r.text)
-
-    ## adding up how many pages are needed: total hits, rounded up, and then divided by 100 (total items per page)
     total_hits = nasa_data['collection']['metadata']['total_hits']
-    total_pages = math.ceil(total_hits / 100)
+    total_pages = math.ceil(total_hits/100)
 
-    page = 1
-
-    while page <= total_pages:
-        
-
-        payload = {'q': planet, 'media_type': 'image', 'page': page}
-        r = requests.get('https://images-api.nasa.gov/search', params=payload)
-
-        nasa_data = json.loads(r.text)
-
-        # add  in the data
-        planet_data.append(nasa_data)
-
-
-
-    json.dump(planet_data, open(planet + '.json', 'w'), indent=4)
-
+    

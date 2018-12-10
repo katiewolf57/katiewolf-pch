@@ -1,0 +1,333 @@
+{
+    "count": 1,
+    "start": 1,
+    "limit": 500,
+    "docs": [
+        {
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/ff0f330ee881abbe2a38f5c4bf4058df",
+            "object": "http://ids.si.edu/ids/deliveryService?id=SIL-39088006065619_0008",
+            "aggregatedCHO": "#sourceResource",
+            "ingestDate": "2018-12-06T07:43:02.128999Z",
+            "@type": "ore:Aggregation",
+            "isShownAt": "http://collections.si.edu/search/results.htm?q=record_ID%3Asilgoi_103948&repo=DPLA",
+            "provider": {
+                "@id": "http://dp.la/api/contributor/smithsonian",
+                "name": "Smithsonian Institution"
+            },
+            "sourceResource": {
+                "publisher": [
+                    "Cady & Burgess"
+                ],
+                "description": [
+                    "Smith's illustrated astronomy : designed for the use of the public or common schools in the United States.",
+                    "Introduction to Astronomy.",
+                    "This map of the solar system from 1849 may look a little different from what you\u0092re used to! The planets Neptune and Uranus were still called Le Verrier and Hershel, and Pluto hadn\u0092t even been discovered as the 9th planet or reclassified as a dwarf planet yet! Though some things have changed since this map was made, the planets are still as far away today as they were then. To measure these distances, scientists use a unit of measurement called a light-year, which is the distance that light travels in one year that equals 9.4607 x 10^12 kilometers or nearly 6 trillion miles! The other planets and the sun are much closer to Earth. The sun is only .000158 light-years away, and Pluto is only .000793 light-years away. Currently, most of the possibly habitable planets outside the solar system that scientists have discovered are up to 300 million light-years away. Although some, like planet Kepler 22-b, are even further out at 600 light-years or 3 and a half quadrillion miles from Earth!"
+                ],
+                "language": [
+                    {
+                        "iso639_3": "eng",
+                        "name": "English"
+                    }
+                ],
+                "title": "Introduction to Astronomy from Smith's illustrated astronomy : designed for the use of the public or common schools in the United States",
+                "@id": "http://dp.la/api/items/ff0f330ee881abbe2a38f5c4bf4058df#sourceResource",
+                "temporal": [
+                    {
+                        "begin": "1849",
+                        "end": "1849",
+                        "displayDate": "1849-1849"
+                    }
+                ],
+                "rights": [
+                    "No Copyright - United States"
+                ],
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/5a5cc9b64ff4f4e0dbb61df1a3c856e1",
+                        "id": "5a5cc9b64ff4f4e0dbb61df1a3c856e1",
+                        "title": "See Wonder"
+                    }
+                ],
+                "stateLocatedIn": [
+                    {
+                        "name": "Washington, D.C."
+                    }
+                ],
+                "creator": [
+                    "Smith, Asa"
+                ],
+                "spatial": [
+                    {
+                        "city": "New York",
+                        "state": "New York",
+                        "name": "New York (New York)",
+                        "coordinates": "40.742185, -73.992602",
+                        "country": "United States"
+                    }
+                ],
+                "date": {
+                    "begin": "1849",
+                    "end": "1849",
+                    "displayDate": "1849-1849"
+                },
+                "identifier": [
+                    "367737"
+                ],
+                "type": [
+                    "image"
+                ],
+                "subject": [
+                    {
+                        "name": "Light-year"
+                    },
+                    {
+                        "name": "Distance"
+                    },
+                    {
+                        "name": "Smith, Asa"
+                    },
+                    {
+                        "name": "Urbain Le Verrier"
+                    },
+                    {
+                        "name": "Uranus"
+                    },
+                    {
+                        "name": "Map"
+                    },
+                    {
+                        "name": "Sun"
+                    },
+                    {
+                        "name": "Solar System"
+                    },
+                    {
+                        "name": "Neptune"
+                    },
+                    {
+                        "name": "Mile"
+                    },
+                    {
+                        "name": "Pluto"
+                    },
+                    {
+                        "name": "William Herschel"
+                    },
+                    {
+                        "name": "Earth"
+                    },
+                    {
+                        "name": "Planets"
+                    },
+                    {
+                        "name": "Measurement"
+                    },
+                    {
+                        "name": "Elliptical orbits"
+                    },
+                    {
+                        "name": "Math and Measurement"
+                    },
+                    {
+                        "name": "Astronomy"
+                    },
+                    {
+                        "name": "Unit"
+                    }
+                ]
+            },
+            "ingestType": "item",
+            "dataProvider": "Smithsonian Libraries",
+            "originalRecord": {
+                "freetext": {
+                    "publisher": {
+                        "#text": "Cady & Burgess",
+                        "@label": "Publisher"
+                    },
+                    "language": {
+                        "#text": "English",
+                        "@label": "Language"
+                    },
+                    "setName": {
+                        "#text": "See Wonder",
+                        "@label": "See more items in"
+                    },
+                    "notes": [
+                        {
+                            "#text": "Smith's illustrated astronomy : designed for the use of the public or common schools in the United States.",
+                            "@label": "Book Title"
+                        },
+                        {
+                            "#text": "Introduction to Astronomy.",
+                            "@label": "Caption"
+                        },
+                        {
+                            "#text": "This map of the solar system from 1849 may look a little different from what you\u0092re used to! The planets Neptune and Uranus were still called Le Verrier and Hershel, and Pluto hadn\u0092t even been discovered as the 9th planet or reclassified as a dwarf planet yet! Though some things have changed since this map was made, the planets are still as far away today as they were then. To measure these distances, scientists use a unit of measurement called a light-year, which is the distance that light travels in one year that equals 9.4607 x 10^12 kilometers or nearly 6 trillion miles! The other planets and the sun are much closer to Earth. The sun is only .000158 light-years away, and Pluto is only .000793 light-years away. Currently, most of the possibly habitable planets outside the solar system that scientists have discovered are up to 300 million light-years away. Although some, like planet Kepler 22-b, are even further out at 600 light-years or 3 and a half quadrillion miles from Earth!",
+                            "@label": "Educational Notes"
+                        }
+                    ],
+                    "name": {
+                        "#text": "Smith, Asa",
+                        "@label": "Creator"
+                    },
+                    "topic": [
+                        {
+                            "#text": "Math and Measurement",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Measurement",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Distance",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Light-year",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Unit",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Solar System",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Planets",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Earth",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Sun",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Neptune",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Uranus",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Mile",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Map",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Pluto",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Astronomy",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "William Herschel",
+                            "@label": "Topic"
+                        },
+                        {
+                            "#text": "Urbain Le Verrier",
+                            "@label": "Topic"
+                        }
+                    ],
+                    "place": {
+                        "#text": "New York (New York)",
+                        "@label": "Publication Place"
+                    },
+                    "dataSource": {
+                        "#text": "Smithsonian Libraries",
+                        "@label": "Data Source"
+                    },
+                    "date": [
+                        {
+                            "#text": "1849",
+                            "@label": "Date"
+                        },
+                        {
+                            "#text": "1849",
+                            "@label": "Publication Date"
+                        }
+                    ],
+                    "identifier": [
+                        {
+                            "#text": "SIL-39088006065619_0008",
+                            "@label": "Image ID"
+                        },
+                        {
+                            "#text": "367737",
+                            "@label": "Catalog ID"
+                        }
+                    ],
+                    "objectRights": {
+                        "#text": "No Copyright - United States",
+                        "@label": "Rights"
+                    },
+                    "objectType": {
+                        "#text": "Prints",
+                        "@label": "Type"
+                    }
+                },
+                "indexedStructured": {
+                    "usage_flag": "SeeWonder",
+                    "name": "Smith, Asa",
+                    "language": "English language",
+                    "object_type": "Prints",
+                    "topic": [
+                        "Planets",
+                        "Solar System",
+                        "Astronomy",
+                        "Elliptical orbits"
+                    ],
+                    "place": "New York (New York)",
+                    "date": "1840s",
+                    "online_media_type": "Images"
+                },
+                "collection": [
+                    {
+                        "@id": "http://dp.la/api/collections/5a5cc9b64ff4f4e0dbb61df1a3c856e1",
+                        "id": "5a5cc9b64ff4f4e0dbb61df1a3c856e1",
+                        "title": "See Wonder"
+                    }
+                ],
+                "descriptiveNonRepeating": {
+                    "data_source": "Smithsonian Libraries",
+                    "title": {
+                        "#text": "Introduction to Astronomy from Smith's illustrated astronomy : designed for the use of the public or common schools in the United States.",
+                        "@label": "title"
+                    },
+                    "record_link": "http://collections.si.edu/search/results.htm?q=record_ID%3Asilgoi_103948&repo=DPLA",
+                    "title_sort": "INTRODUCTION TO ASTRONOMY FROM SMITHS ILLUSTRATED ASTRONOMY : DESIGNED FOR THE USE OF THE PUBLIC OR COMMON SCHOOLS IN THE UNITED STATES",
+                    "online_media": {
+                        "media": {
+                            "@type": "Images",
+                            "#text": "http://ids.si.edu/ids/deliveryService?id=SIL-39088006065619_0008",
+                            "@idsId": "SIL-39088006065619_0008",
+                            "@thumbnail": "http://ids.si.edu/ids/deliveryService?id=SIL-39088006065619_0008",
+                            "@rights": "No Copyright - United States"
+                        },
+                        "@mediaCount": "1"
+                    },
+                    "record_ID": "silgoi_103948",
+                    "unit_code": "SIL"
+                },
+                "provider": {
+                    "@id": "http://dp.la/api/contributor/smithsonian",
+                    "name": "Smithsonian Institution"
+                }
+            },
+            "id": "ff0f330ee881abbe2a38f5c4bf4058df"
+        }
+    ],
+    "facets": []
+}
