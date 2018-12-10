@@ -3,8 +3,8 @@
 
 /*index styling*/
 
-#homebody{
-	background-color: black
+body{
+	background-color: #0D051E;
 
 }
 
@@ -18,67 +18,118 @@
   	display: flex;
 
   	font-family: "Lucida Sanss Unicode", Lucida Grande, sans-serif;
-	background-color:black;
 
 }
 
 #sun{
-	margin-top:100px;
-	height:500px;
-	width: 500px;
-	background-color: yellow;
+	margin-top:-250px;
+	height:1000px;
+	width: 1000px;
+	background: radial-gradient(red, orange, yellow);
 	border-radius: 50%;
 	font-size:100pt;
-	
+
 }
 
-
+/* 1516 mi radius */
+/* 35.98 million miles from the sun */
 #mercury{
-	margin-top:100px;
-	height:100px;
-	width: 100px;
-	background-color: orange;
+	margin-top:719.6px;
+	height:76.5px;
+	width: 76.5px;
+	background: linear-gradient(-45deg, black, brown, #B78E7C);
 	border-radius: 50%;
-	font-size: 10pt;
-	
+	font-size: 8pt;
 }
 
-
-
-/* Planet Page Styling */
-
-#planetbody{
-	background:white;
+/* 3760 mi radius */
+/* 67.24 million miles from sun */
+#venus{
+    margin-top:625.2px;
+    height:190px;
+    width:190px;
+    border-radius:50%;
+    background: linear-gradient(-45deg, black, #A4771E,  #E1A33A, #C1B895);
+    font-size:15pt;
 }
 
-#intro{
-	margin-top: 50px;
- 	justify-content: center;
- 	align-items: center;
- 	text-align:center;
-	vertical-align:middle;
-  	display: flex;
+/* 3959 mi */
+/* 92.96 million miles from sun */
+#earth{
+    margin-top:514.4px;
+    height: 200px;
+    width: 200px;
+    border-radius:50%;
+    background: linear-gradient(-45deg, white, #1F278E, #20732B, blue, white);
+}
+
+/* 2106 mi */
+/* 141.6 million miles from the sun */
+#mars{
+    margin-top: 972.8px;
+    height:106.4px;
+    width: 106.4px;
+    border-radius: 50%;
+    background:linear-gradient(-45deg, black, brown, #C35E11, brown);
+}
+
+#belt{
+	margin-top: 972.8px;
+    height:106.4px;
+    width: 106.4px;
+    border-radius: 50%;
+    background:linear-gradient(-45deg, black, brown, #C35E11, brown);
+}
+
+/* 43441 mi */
+/* 483.8 million miles from the sun */
+#jupiter{
+    margin-top:2500px;
+    height: 800.5px;
+    width: 800.5px;
+    border-radius: 50%;
+    background: linear-gradient(-45deg, #A48A36, #A8ACC0, #DBAD68, #A97917, #876B10, #A8ACC0, #DFB96C, #876B10, #DBAD68);
+}
+
+/* 36184 mi */
+/* 890.8 million miles from the sun */
+#saturn{
+    margin-top: 2750px;
+    height: 650px;
+    width: 650px;
+    border-radius: 50%;
+    background: linear-gradient(-45deg, #D0B96D, #AB9C75, #D4BD7E, #AB9C75, #A69B7B, #D4BD7E);
 
 }
 
-.image_row{
-	display: flex;
-	flex-wrap: wrap;
-	padding: 4px;
-	justify-content: center;
-	margin-top: 50px;
- 	align-items: center;
-	vertical-align: middle;
-}
-
-.column {
-	padding: 4px;
-}
-
-.image_row img{
-	height: 300px;
-	margin-top: 8px;
-	padding: 4px;
+/* 15759 mi */
+/* 1784 million miles from the sun */
+#uranus{
+    margin-top: 4000px;
+    height: 796.1px;
+    width: 796.1px;
+    border-radius: 50%;
+    background: linear-gradient(-45deg, #B0E0E6, #7B9CA1, #20B2AA, #4682B4);
 
 }
 
+/* 15299 mi */
+/* 2793 million miles from the sun */
+#neptune{
+    margin-top: 4000px;
+    height: 770px;
+    width: 770px;
+    border-radius: 50%;
+    background:linear-gradient(-45deg, #191970, #4682B4, #014E89);
+}
+
+/* 738.4 mi */
+/* 3670 million miles from the sun */
+#pluto{
+    margin-top: 2000px;
+	bottom: 100px;
+    height: 60px;
+    width:60px;
+    border-radius: 50%;
+    background: linear-gradient(-45deg, #A0522D, #DEB887, #CD853F);
+}
