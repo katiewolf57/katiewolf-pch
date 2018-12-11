@@ -20,9 +20,6 @@ print(dpla_token)
 ## making an empty list so I can fill it with all my search results
 dpla_all_data = []
 
-
-
-
 ## page size is 500 and there are NOT more than 500 results for each planet --> don't have to loop through multiple pages
 for planet in planets:
 
@@ -53,56 +50,70 @@ json.dump(dpla_all_data, open('dpla_data.json', 'w'), indent=4)
 
 ## NASA SCRAPING ##
 
+## where I'm putting all the data ##
 nasa_all_data = []
 
+## where I'm putting planet data (clears after each planet loop) ##
+planet_data = []
 
 for planet in planets:
 
-	## results span more than one page for this one ##
-	## have to loop through the pages ##
-    ## start at page one ##
+	## looping through pages for this search ##
     page = 1
 
-    ## where the data will go for each planet ##
-    planet_data = []
-
-
-    print('Looking at ' + planet + ' in NASA!\n')
-
-    payload = {'q': planet, 'media_type':'image', 'page': page}
+    print('Looking at ' + planet)
+    payload = {'q': planet, 'media_type': 'image', 'page': page}
     r = requests.get('https://images-api.nasa.gov/search', params=payload)
-
-    print(payload)
-    print(r.text)
 
     nasa_data = json.loads(r.text)
 
-    ## adding up how many pages are needed: total hits, rounded up, and then divided by 100 (total items per page)
+	## need to determine how many pages to loop through for each plaent##
     total_hits = nasa_data['collection']['metadata']['total_hits']
-    total_pages = math.ceil(total_hits / 100)
-    print(f'There are {total_hits} hits meaning there should be {total_pages} pages.')
+    print(total_hits)
+	## how many hits are there ##
+	## 100 hits per page -> hits/100 = pages needed ##
+    total_pages = math.ceil(total_hits/100)
+    print(total_pages)
+
+	## if LESS THAN 100 pages needed, then no problem ##
+    if total_pages <=100:
+        while page <= total_pages:
+            payload = {'q': planet, 'media_type': 'image', 'page': page}
+            r = requests.get('https://images-api.nasa.gov/search', params=payload)
+
+            nasa_data = json.loads(r.text)
+
+            planet_data.append(nasa_data)
+            nasa_all_data.append(nasa_data)
+            print('Finished ' + planet + ' page ' + str(page))
+
+            page = page + 1
+
+        json.dump(planet_data, open('./' + planet + '/' + planet + '_nasa.json', 'w'), indent = 4)
+        print('Made a ' + planet + ' JSON file\n')
+
+        planet_data.clear()
 
 
-    while page <= total_pages:
+	## it won't let me load more than 100 pages per search ##
+	## making sure that planets (earth and mars) with more than 100 pages don't exceed that limit ##
+    else:
+        while page <= 100:
+            payload = {'q': planet, 'media_type': 'image', 'page': page}
+            r = requests.get('https://images-api.nasa.gov/search', params=payload)
 
+            nasa_data = json.loads(r.text)
 
-        payload = {'q': 'planet' + planet, 'media_type':'image', 'page': page}
-        r = requests.get('https://images-api.nasa.gov/search', params=payload)
+            planet_data.append(nasa_data)
+            nasa_all_data.append(nasa_data)
+            print('Finished ' + planet + ' page ' + str(page))
 
+            page = page + 1
 
-        nasa_data = json.loads(r.text)
+            json.dump(planet_data, open('./' + planet + '/' + planet + '_nasa.json', 'w'), indent = 4)
 
-        # add  in the data
-        planet_data.append(nasa_data)
+        print('Made a ' + planet + ' JSON file\n')
 
-        page = page + 1
+        planet_data.clear()
 
-
-    json.dump(planet_data, open('./' + planet + '/' + planet + '_nasa.json', 'w'), indent=4)
-    print("Made a " + planet + " JSON file\n")
-
-    time.sleep(10)
-
-    nasa_all_data.append(nasa_data)
-
-json.dump(nasa_all_data, open('nasadata.json', 'w'), indent=4)
+json.dump(nasa_all_data, open('nasa_data.json', 'w'), indent=4)

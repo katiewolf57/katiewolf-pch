@@ -8699,6 +8699,108 @@
             "id": "b01c606d5b29e363b1f80ccce5c7dbdb"
         },
         {
+            "id": "ec70116791195f0e11aba62820e0d25d",
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/ec70116791195f0e11aba62820e0d25d",
+            "aggregatedCHO": "#sourceResource",
+            "dataProvider": "Utah State Library",
+            "ingestDate": "2018-12-04T17:01:15.950Z",
+            "ingestType": "item",
+            "isShownAt": "http://utah-primoprod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=MWDL&afterPDS=true&docId=digcoll_usl_22library2_lib/81563",
+            "object": "http://digitallibrary.utah.gov/awweb/pdfopener?did=81563&fp=auto",
+            "originalRecord": {
+                "stringValue": "<sear:DOC \nID=\"45215\" RANK=\"0.8000001\" NO=\"43725\" SEARCH_ENGINE=\"Local Search Engine\" SEARCH_ENGINE_TYPE=\"Local Search Engine\" xmlns:sear=\"http://www.exlibrisgroup.com/xsd/jaguar/search\">\n  <PrimoNMBib xmlns=\"http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib\">\n    <record>\n      <control>\n        <sourcerecordid>library2_lib/81563</sourcerecordid>\n        <sourceid>digcoll_usl_22</sourceid>\n        <recordid>digcoll_usl_22library2_lib/81563</recordid>\n        <originalsourceid>81563</originalsourceid>\n        <sourcedbandrecordid>library2_lib</sourcedbandrecordid>\n        <addsrcrecordid>usl-22-120-1559</addsrcrecordid>\n        <sourceformat>Digital Entity</sourceformat>\n        <sourcesystem>Other</sourcesystem>\n      </control>\n      <display>\n        <type>Image</type>\n        <title>\n          Visit beautiful southern Enceladus : more than 100 breaktaking geysers!, the home of &quot;cold faithful&quot;, book tours now [poster]\n        </title>\n        <contributor>\n          Jet Propulsion Laboratory (U.S.); United States. National Aeronautics and Space Administration; California Institute of Technology\n        </contributor>\n        <publisher>Jet Propulsion Laboratory (U.S.)</publisher>\n        <creationdate>2015</creationdate>\n        <format>application/pdf</format>\n        <identifier>\n          http://digitallibrary.utah.gov/awweb/guest.jsp?smd=1&amp;cl=all_lib&amp;lb_document_id=81563\n        </identifier>\n        <subject>\n          Space tourism; Interplanetary voyages; Space travelers; Saturn (Planet); Planets--Exploration; Outer planets; Saturn (Planet)-- Enceladus (Satellite); Exploration of Saturn (Planet); Recreation and tourism; Industry and technology\n        </subject>\n        <description>\n          The discovery of Enceladus\u2019 icy jets and their role in creating Saturn\u2019s E-ring is one of the top findings of the Cassini mission to Saturn. Further Cassini mission discoveries revealed strong evidence of a global ocean and the first signs of potential hydrothermal activity beyond Earth - making this tiny Saturnian moon one of the leading locations in the search for possible life beyond Earth. This poster is from a set of new &quot;travel posters&quot; from NASA's Jet Propulsion Laboratory, Pasadena, California, which envision a day when the creativity of scientists and engineers will allow us to do things\n        </description>\n        <language>eng</language>\n        <relation>Is part of: U.S. Federal Publications</relation>\n        <relation>Has part: NASA Visions of the Future</relation>\n        <coverage>Saturn (Planet)</coverage>\n        <rights>\n          United States government publications are not subject to copyright in the United States under 17 U.S.C \u00a7105. All informational materials in this government publication are in the public domain, and as such, are not restricted by copyright law unless otherwise stated. For more information please see http://www.gpo.gov/help/index.html#public_domain_copyright_notice.htm\n        </rights>\n        <lds01>Utah State Library</lds01>\n        <lds02>Utah Government Publications Online Digital Library</lds02>\n        <lds03>Utah State Library</lds03>\n        <lds04>Utah Government Digital Library</lds04>\n        <lds05>1 p.</lds05>\n        <lds08>Saturn (Planet)</lds08>\n        <lds10>\n          Visions of the future posters; Exotic cosmic locales available as space tourism posters\n        </lds10>\n        <lds18>Image</lds18>\n        <lds18>StillImage</lds18>\n        <lds17>image</lds17>\n      </display>\n      <links>\n        <linktorsrc>\n          $$Uhttp://digitallibrary.utah.gov/awweb/guest.jsp?smd=1&amp;cl=all_lib&amp;lb_document_id=81563$$DOpen resource in a new window\n        </linktorsrc>\n        <thumbnail>$$Tdigcoll_usl_22_linktothumb$$DSee Thumbnail</thumbnail>\n      </links>\n      <search>\n        <creatorcontrib>\n          Jet Propulsion Laboratory (U.S.); United States. National Aeronautics and Space Administration; California Institute of Technology\n        </creatorcontrib>\n        <title>\n          Visit beautiful southern Enceladus : more than 100 breaktaking geysers!, the home of &quot;cold faithful&quot;, book tours now [poster]\n        </title>\n        <description>\n          The discovery of Enceladus\u2019 icy jets and their role in creating Saturn\u2019s E-ring is one of the top findings of the Cassini mission to Saturn. Further Cassini mission discoveries revealed strong evidence of a global ocean and the first signs of potential hydrothermal activity beyond Earth - making this tiny Saturnian moon one of the leading locations in the search for possible life beyond Earth. This poster is from a set of new &quot;travel posters&quot; from NASA's Jet Propulsion Laboratory, Pasadena, California, which envision a day when the creativity of scientists and engineers will allow us to do things we can only dream of now. The posters in the set depict various cosmic destinations including Mars, Jupiter's moon Europa, Saturn's vapor-spewing moon Enceladus, and the dwarf planet Ceres. You can take a virtual trip to 14 alien worlds, and maybe even plaster your living room with planetary art, via the new, futuristic space tourism posters. The posters are the brainchild of The Studio at JPL, a design and strategy team that works with JPL scientists and engineers to visualize and depict complex science and technology topics. Their work is used in designing space missions and in sharing the work of NASA/JPL with the public. The Archive copy is a high resolution TIFF image that can be downloaded from the digital library and printed 20 x 30 inches in high-resolution.\n        </description>\n        <subject>Space tourism</subject>\n        <subject>Interplanetary voyages</subject>\n        <subject>Space travelers</subject>\n        <subject>Saturn (Planet)</subject>\n        <subject>Planets--Exploration</subject>\n        <subject>Outer planets</subject>\n        <subject>Saturn (Planet)-- Enceladus (Satellite)</subject>\n        <subject>Exploration of Saturn (Planet)</subject>\n        <subject>Recreation and tourism</subject>\n        <subject>Industry and technology</subject>\n        <sourceid>digcoll_usl_22</sourceid>\n        <recordid>digcoll_usl_22library2_lib/81563</recordid>\n        <creationdate>2015</creationdate>\n        <addtitle>Is part of: U.S. Federal Publications</addtitle>\n        <addtitle>Has part: NASA Visions of the Future</addtitle>\n        <addtitle>\n          Visions of the future posters; Exotic cosmic locales available as space tourism posters\n        </addtitle>\n        <addsrcrecordid>usl-22-120-1559</addsrcrecordid>\n        <scope>mw</scope>\n        <lsr01>usl</lsr01>\n        <lsr02>22</lsr02>\n        <lsr03>120</lsr03>\n        <lsr04>1559</lsr04>\n        <lsr09>Utah State Library</lsr09>\n        <lsr10>Utah Government Publications Online Digital Library</lsr10>\n        <lsr12>Utah State Library</lsr12>\n        <lsr13>Utah Government Digital Library</lsr13>\n        <lsr14>Saturn (Planet)</lsr14>\n        <lsr15>U.S. Federal Publications</lsr15>\n        <rsrctype>images</rsrctype>\n      </search>\n      <sort>\n        <title>\n          Visit beautiful southern Enceladus : more than 100 breaktaking geysers!, the home of &quot;cold faithful&quot;, book tours now [poster]\n        </title>\n        <creationdate>2015</creationdate>\n      </sort>\n      <facets>\n        <language>eng</language>\n        <creationdate>2015</creationdate>\n        <topic>Space tourism</topic>\n        <topic>Interplanetary voyages</topic>\n        <topic>Space travelers</topic>\n        <topic>Saturn (Planet)</topic>\n        <topic>Planets--Exploration</topic>\n        <topic>Outer planets</topic>\n        <topic>Saturn (Planet)-- Enceladus (Satellite)</topic>\n        <topic>Exploration of Saturn (Planet)</topic>\n        <topic>Recreation and tourism</topic>\n        <topic>Industry and technology</topic>\n        <collection>Digital Collections</collection>\n        <toplevel>online_resources</toplevel>\n        <format>application/pdf</format>\n        <genre>unknown</genre>\n        <lfc01>Utah Government Digital Library</lfc01>\n        <lfc02>Utah State Library</lfc02>\n        <lfc03>Utah State Library</lfc03>\n        <lfc04>Utah Government Publications Online Digital Library</lfc04>\n        <lfc08>Saturn (Planet)</lfc08>\n        <prefilter>images</prefilter>\n        <rsrctype>images</rsrctype>\n        <newrecords>20170208_802</newrecords>\n        <frbrgroupid>325379779</frbrgroupid>\n        <frbrtype>6</frbrtype>\n      </facets>\n      <delivery>\n        <institution>MWDL</institution>\n        <delcategory>Online Resource</delcategory>\n      </delivery>\n      <ranking>\n        <booster1>1</booster1>\n        <booster2>1</booster2>\n      </ranking>\n      <addata>\n        <date>2015</date>\n        <pub>Jet Propulsion Laboratory (U.S.)</pub>\n      </addata>\n    </record>\n  </PrimoNMBib>\n  <sear:GETIT \n  deliveryCategory=\"Online Resource\" GetIt1=\"http://digitallibrary.utah.gov/awweb/guest.jsp?smd=1&amp;cl=all_lib&amp;lb_document_id=81563\" GetIt2=\"http://1.1.1.1?ctx_ver=Z39.88-2004&amp;ctx_enc=info:ofi/enc:UTF-8&amp;ctx_tim=2018-12-03T13%3A34%3A30IST&amp;url_ver=Z39.88-2004&amp;url_ctx_fmt=infofi/fmt:kev:mtx:ctx&amp;rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Journal-digcoll_usl_22&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:&amp;rft.genre=&amp;rft.atitle=&amp;rft.jtitle=&amp;rft.btitle=&amp;rft.aulast=&amp;rft.auinit=&amp;rft.auinit1=&amp;rft.series=&amp;rft.auinitm=&amp;rft.ausuffix=&amp;rft.au=&amp;rft.aucorp=&amp;rft.volume=&amp;rft.issue=&amp;rft.part=&amp;rft.quarter=&amp;rft.ssn=&amp;rft.spage=&amp;rft.epage=&amp;rft.pages=&amp;rft.artnum=&amp;rft.issn=&amp;rft.eissn=&amp;rft.isbn=&amp;rft.sici=&amp;rft.coden=&amp;rft_id=info:doi/&amp;rft.object_id=&amp;rft.eisbn=&amp;rft_dat=%3Cdigcoll_usl_22%3Elibrary2_lib/81563%3C/digcoll_usl_22%3E%3Cgrp_id%3E325379779%3C/grp_id%3E%3Coa%3E%3C/oa%3E&amp;rft_id=info:oai/&amp;req.language=&amp;rft_pqid=\">\n</sear:GETIT>\n  <sear:LINKS>\n    <sear:linktorsrc>\n      http://digitallibrary.utah.gov/awweb/guest.jsp?smd=1&amp;cl=all_lib&amp;lb_document_id=81563\n    </sear:linktorsrc>\n    <sear:thumbnail>\n      http://digitallibrary.utah.gov/awweb/pdfopener?did=81563&amp;fp=auto\n    </sear:thumbnail>\n    <sear:thumbnail>\n      http://digitallibrary.utah.gov/awweb/pdfopener?did=81563&amp;fp=auto\n    </sear:thumbnail>\n  </sear:LINKS>\n</sear:DOC>\n"
+            },
+            "provider": {
+                "@id": "http://dp.la/api/contributor/mwdl",
+                "name": "Mountain West Digital Library"
+            },
+            "sourceResource": {
+                "@id": "http://dp.la/api/items/ec70116791195f0e11aba62820e0d25d#SourceResource",
+                "collection": [
+                    {
+                        "title": "Utah Government Digital Library"
+                    }
+                ],
+                "contributor": [
+                    "Jet Propulsion Laboratory (U.S.)",
+                    "United States. National Aeronautics and Space Administration",
+                    "California Institute of Technology"
+                ],
+                "date": [
+                    {
+                        "displayDate": "2015"
+                    }
+                ],
+                "description": [
+                    "The discovery of Enceladus\u2019 icy jets and their role in creating Saturn\u2019s E-ring is one of the top findings of the Cassini mission to Saturn. Further Cassini mission discoveries revealed strong evidence of a global ocean and the first signs of potential hydrothermal activity beyond Earth - making this tiny Saturnian moon one of the leading locations in the search for possible life beyond Earth. This poster is from a set of new \"travel posters\" from NASA's Jet Propulsion Laboratory, Pasadena, California, which envision a day when the creativity of scientists and engineers will allow us to do things we can only dream of now. The posters in the set depict various cosmic destinations including Mars, Jupiter's moon Europa, Saturn's vapor-spewing moon Enceladus, and the dwarf planet Ceres. You can take a virtual trip to 14 alien worlds, and maybe even plaster your living room with planetary art, via the new, futuristic space tourism posters. The posters are the brainchild of The St"
+                ],
+                "extent": [
+                    "1 p."
+                ],
+                "identifier": [
+                    "digcoll_usl_22library2_lib/81563"
+                ],
+                "language": [
+                    {
+                        "name": "English",
+                        "iso639_3": "English"
+                    }
+                ],
+                "relation": [
+                    "Is part of: U.S. Federal Publications",
+                    "Has part: NASA Visions of the Future"
+                ],
+                "rights": [
+                    "United States government publications are not subject to copyright in the United States under 17 U.S.C \u00a7105. All informational materials in this government publication are in the public domain, and as such, are not restricted by copyright law unless otherwise stated. For more information please see http://www.gpo.gov/help/index.html#public_domain_copyright_notice.htm"
+                ],
+                "spatial": [
+                    {
+                        "name": "Saturn (Planet)"
+                    }
+                ],
+                "subject": [
+                    {
+                        "name": "Space tourism"
+                    },
+                    {
+                        "name": "Interplanetary voyages"
+                    },
+                    {
+                        "name": "Space travelers"
+                    },
+                    {
+                        "name": "Saturn (Planet)"
+                    },
+                    {
+                        "name": "Planets--Exploration"
+                    },
+                    {
+                        "name": "Outer planets"
+                    },
+                    {
+                        "name": "Saturn (Planet)-- Enceladus (Satellite)"
+                    },
+                    {
+                        "name": "Exploration of Saturn (Planet)"
+                    },
+                    {
+                        "name": "Recreation and tourism"
+                    },
+                    {
+                        "name": "Industry and technology"
+                    }
+                ],
+                "title": [
+                    "Visit beautiful southern Enceladus : more than 100 breaktaking geysers!, the home of \"cold faithful\", book tours now [poster]"
+                ],
+                "type": [
+                    "image"
+                ]
+            },
+            "@type": "ore:Aggregation"
+        },
+        {
             "id": "469560792c04909071c51a39c1c35d5b",
             "@context": "http://dp.la/api/items/context",
             "@id": "http://dp.la/api/items/469560792c04909071c51a39c1c35d5b",
@@ -8907,108 +9009,6 @@
                 ],
                 "title": [
                     "Europa : discover life under the ice, all ocean views!!! [poster]"
-                ],
-                "type": [
-                    "image"
-                ]
-            },
-            "@type": "ore:Aggregation"
-        },
-        {
-            "id": "ec70116791195f0e11aba62820e0d25d",
-            "@context": "http://dp.la/api/items/context",
-            "@id": "http://dp.la/api/items/ec70116791195f0e11aba62820e0d25d",
-            "aggregatedCHO": "#sourceResource",
-            "dataProvider": "Utah State Library",
-            "ingestDate": "2018-12-04T17:01:15.950Z",
-            "ingestType": "item",
-            "isShownAt": "http://utah-primoprod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=MWDL&afterPDS=true&docId=digcoll_usl_22library2_lib/81563",
-            "object": "http://digitallibrary.utah.gov/awweb/pdfopener?did=81563&fp=auto",
-            "originalRecord": {
-                "stringValue": "<sear:DOC \nID=\"45215\" RANK=\"0.8000001\" NO=\"43725\" SEARCH_ENGINE=\"Local Search Engine\" SEARCH_ENGINE_TYPE=\"Local Search Engine\" xmlns:sear=\"http://www.exlibrisgroup.com/xsd/jaguar/search\">\n  <PrimoNMBib xmlns=\"http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib\">\n    <record>\n      <control>\n        <sourcerecordid>library2_lib/81563</sourcerecordid>\n        <sourceid>digcoll_usl_22</sourceid>\n        <recordid>digcoll_usl_22library2_lib/81563</recordid>\n        <originalsourceid>81563</originalsourceid>\n        <sourcedbandrecordid>library2_lib</sourcedbandrecordid>\n        <addsrcrecordid>usl-22-120-1559</addsrcrecordid>\n        <sourceformat>Digital Entity</sourceformat>\n        <sourcesystem>Other</sourcesystem>\n      </control>\n      <display>\n        <type>Image</type>\n        <title>\n          Visit beautiful southern Enceladus : more than 100 breaktaking geysers!, the home of &quot;cold faithful&quot;, book tours now [poster]\n        </title>\n        <contributor>\n          Jet Propulsion Laboratory (U.S.); United States. National Aeronautics and Space Administration; California Institute of Technology\n        </contributor>\n        <publisher>Jet Propulsion Laboratory (U.S.)</publisher>\n        <creationdate>2015</creationdate>\n        <format>application/pdf</format>\n        <identifier>\n          http://digitallibrary.utah.gov/awweb/guest.jsp?smd=1&amp;cl=all_lib&amp;lb_document_id=81563\n        </identifier>\n        <subject>\n          Space tourism; Interplanetary voyages; Space travelers; Saturn (Planet); Planets--Exploration; Outer planets; Saturn (Planet)-- Enceladus (Satellite); Exploration of Saturn (Planet); Recreation and tourism; Industry and technology\n        </subject>\n        <description>\n          The discovery of Enceladus\u2019 icy jets and their role in creating Saturn\u2019s E-ring is one of the top findings of the Cassini mission to Saturn. Further Cassini mission discoveries revealed strong evidence of a global ocean and the first signs of potential hydrothermal activity beyond Earth - making this tiny Saturnian moon one of the leading locations in the search for possible life beyond Earth. This poster is from a set of new &quot;travel posters&quot; from NASA's Jet Propulsion Laboratory, Pasadena, California, which envision a day when the creativity of scientists and engineers will allow us to do things\n        </description>\n        <language>eng</language>\n        <relation>Is part of: U.S. Federal Publications</relation>\n        <relation>Has part: NASA Visions of the Future</relation>\n        <coverage>Saturn (Planet)</coverage>\n        <rights>\n          United States government publications are not subject to copyright in the United States under 17 U.S.C \u00a7105. All informational materials in this government publication are in the public domain, and as such, are not restricted by copyright law unless otherwise stated. For more information please see http://www.gpo.gov/help/index.html#public_domain_copyright_notice.htm\n        </rights>\n        <lds01>Utah State Library</lds01>\n        <lds02>Utah Government Publications Online Digital Library</lds02>\n        <lds03>Utah State Library</lds03>\n        <lds04>Utah Government Digital Library</lds04>\n        <lds05>1 p.</lds05>\n        <lds08>Saturn (Planet)</lds08>\n        <lds10>\n          Visions of the future posters; Exotic cosmic locales available as space tourism posters\n        </lds10>\n        <lds18>Image</lds18>\n        <lds18>StillImage</lds18>\n        <lds17>image</lds17>\n      </display>\n      <links>\n        <linktorsrc>\n          $$Uhttp://digitallibrary.utah.gov/awweb/guest.jsp?smd=1&amp;cl=all_lib&amp;lb_document_id=81563$$DOpen resource in a new window\n        </linktorsrc>\n        <thumbnail>$$Tdigcoll_usl_22_linktothumb$$DSee Thumbnail</thumbnail>\n      </links>\n      <search>\n        <creatorcontrib>\n          Jet Propulsion Laboratory (U.S.); United States. National Aeronautics and Space Administration; California Institute of Technology\n        </creatorcontrib>\n        <title>\n          Visit beautiful southern Enceladus : more than 100 breaktaking geysers!, the home of &quot;cold faithful&quot;, book tours now [poster]\n        </title>\n        <description>\n          The discovery of Enceladus\u2019 icy jets and their role in creating Saturn\u2019s E-ring is one of the top findings of the Cassini mission to Saturn. Further Cassini mission discoveries revealed strong evidence of a global ocean and the first signs of potential hydrothermal activity beyond Earth - making this tiny Saturnian moon one of the leading locations in the search for possible life beyond Earth. This poster is from a set of new &quot;travel posters&quot; from NASA's Jet Propulsion Laboratory, Pasadena, California, which envision a day when the creativity of scientists and engineers will allow us to do things we can only dream of now. The posters in the set depict various cosmic destinations including Mars, Jupiter's moon Europa, Saturn's vapor-spewing moon Enceladus, and the dwarf planet Ceres. You can take a virtual trip to 14 alien worlds, and maybe even plaster your living room with planetary art, via the new, futuristic space tourism posters. The posters are the brainchild of The Studio at JPL, a design and strategy team that works with JPL scientists and engineers to visualize and depict complex science and technology topics. Their work is used in designing space missions and in sharing the work of NASA/JPL with the public. The Archive copy is a high resolution TIFF image that can be downloaded from the digital library and printed 20 x 30 inches in high-resolution.\n        </description>\n        <subject>Space tourism</subject>\n        <subject>Interplanetary voyages</subject>\n        <subject>Space travelers</subject>\n        <subject>Saturn (Planet)</subject>\n        <subject>Planets--Exploration</subject>\n        <subject>Outer planets</subject>\n        <subject>Saturn (Planet)-- Enceladus (Satellite)</subject>\n        <subject>Exploration of Saturn (Planet)</subject>\n        <subject>Recreation and tourism</subject>\n        <subject>Industry and technology</subject>\n        <sourceid>digcoll_usl_22</sourceid>\n        <recordid>digcoll_usl_22library2_lib/81563</recordid>\n        <creationdate>2015</creationdate>\n        <addtitle>Is part of: U.S. Federal Publications</addtitle>\n        <addtitle>Has part: NASA Visions of the Future</addtitle>\n        <addtitle>\n          Visions of the future posters; Exotic cosmic locales available as space tourism posters\n        </addtitle>\n        <addsrcrecordid>usl-22-120-1559</addsrcrecordid>\n        <scope>mw</scope>\n        <lsr01>usl</lsr01>\n        <lsr02>22</lsr02>\n        <lsr03>120</lsr03>\n        <lsr04>1559</lsr04>\n        <lsr09>Utah State Library</lsr09>\n        <lsr10>Utah Government Publications Online Digital Library</lsr10>\n        <lsr12>Utah State Library</lsr12>\n        <lsr13>Utah Government Digital Library</lsr13>\n        <lsr14>Saturn (Planet)</lsr14>\n        <lsr15>U.S. Federal Publications</lsr15>\n        <rsrctype>images</rsrctype>\n      </search>\n      <sort>\n        <title>\n          Visit beautiful southern Enceladus : more than 100 breaktaking geysers!, the home of &quot;cold faithful&quot;, book tours now [poster]\n        </title>\n        <creationdate>2015</creationdate>\n      </sort>\n      <facets>\n        <language>eng</language>\n        <creationdate>2015</creationdate>\n        <topic>Space tourism</topic>\n        <topic>Interplanetary voyages</topic>\n        <topic>Space travelers</topic>\n        <topic>Saturn (Planet)</topic>\n        <topic>Planets--Exploration</topic>\n        <topic>Outer planets</topic>\n        <topic>Saturn (Planet)-- Enceladus (Satellite)</topic>\n        <topic>Exploration of Saturn (Planet)</topic>\n        <topic>Recreation and tourism</topic>\n        <topic>Industry and technology</topic>\n        <collection>Digital Collections</collection>\n        <toplevel>online_resources</toplevel>\n        <format>application/pdf</format>\n        <genre>unknown</genre>\n        <lfc01>Utah Government Digital Library</lfc01>\n        <lfc02>Utah State Library</lfc02>\n        <lfc03>Utah State Library</lfc03>\n        <lfc04>Utah Government Publications Online Digital Library</lfc04>\n        <lfc08>Saturn (Planet)</lfc08>\n        <prefilter>images</prefilter>\n        <rsrctype>images</rsrctype>\n        <newrecords>20170208_802</newrecords>\n        <frbrgroupid>325379779</frbrgroupid>\n        <frbrtype>6</frbrtype>\n      </facets>\n      <delivery>\n        <institution>MWDL</institution>\n        <delcategory>Online Resource</delcategory>\n      </delivery>\n      <ranking>\n        <booster1>1</booster1>\n        <booster2>1</booster2>\n      </ranking>\n      <addata>\n        <date>2015</date>\n        <pub>Jet Propulsion Laboratory (U.S.)</pub>\n      </addata>\n    </record>\n  </PrimoNMBib>\n  <sear:GETIT \n  deliveryCategory=\"Online Resource\" GetIt1=\"http://digitallibrary.utah.gov/awweb/guest.jsp?smd=1&amp;cl=all_lib&amp;lb_document_id=81563\" GetIt2=\"http://1.1.1.1?ctx_ver=Z39.88-2004&amp;ctx_enc=info:ofi/enc:UTF-8&amp;ctx_tim=2018-12-03T13%3A34%3A30IST&amp;url_ver=Z39.88-2004&amp;url_ctx_fmt=infofi/fmt:kev:mtx:ctx&amp;rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Journal-digcoll_usl_22&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:&amp;rft.genre=&amp;rft.atitle=&amp;rft.jtitle=&amp;rft.btitle=&amp;rft.aulast=&amp;rft.auinit=&amp;rft.auinit1=&amp;rft.series=&amp;rft.auinitm=&amp;rft.ausuffix=&amp;rft.au=&amp;rft.aucorp=&amp;rft.volume=&amp;rft.issue=&amp;rft.part=&amp;rft.quarter=&amp;rft.ssn=&amp;rft.spage=&amp;rft.epage=&amp;rft.pages=&amp;rft.artnum=&amp;rft.issn=&amp;rft.eissn=&amp;rft.isbn=&amp;rft.sici=&amp;rft.coden=&amp;rft_id=info:doi/&amp;rft.object_id=&amp;rft.eisbn=&amp;rft_dat=%3Cdigcoll_usl_22%3Elibrary2_lib/81563%3C/digcoll_usl_22%3E%3Cgrp_id%3E325379779%3C/grp_id%3E%3Coa%3E%3C/oa%3E&amp;rft_id=info:oai/&amp;req.language=&amp;rft_pqid=\">\n</sear:GETIT>\n  <sear:LINKS>\n    <sear:linktorsrc>\n      http://digitallibrary.utah.gov/awweb/guest.jsp?smd=1&amp;cl=all_lib&amp;lb_document_id=81563\n    </sear:linktorsrc>\n    <sear:thumbnail>\n      http://digitallibrary.utah.gov/awweb/pdfopener?did=81563&amp;fp=auto\n    </sear:thumbnail>\n    <sear:thumbnail>\n      http://digitallibrary.utah.gov/awweb/pdfopener?did=81563&amp;fp=auto\n    </sear:thumbnail>\n  </sear:LINKS>\n</sear:DOC>\n"
-            },
-            "provider": {
-                "@id": "http://dp.la/api/contributor/mwdl",
-                "name": "Mountain West Digital Library"
-            },
-            "sourceResource": {
-                "@id": "http://dp.la/api/items/ec70116791195f0e11aba62820e0d25d#SourceResource",
-                "collection": [
-                    {
-                        "title": "Utah Government Digital Library"
-                    }
-                ],
-                "contributor": [
-                    "Jet Propulsion Laboratory (U.S.)",
-                    "United States. National Aeronautics and Space Administration",
-                    "California Institute of Technology"
-                ],
-                "date": [
-                    {
-                        "displayDate": "2015"
-                    }
-                ],
-                "description": [
-                    "The discovery of Enceladus\u2019 icy jets and their role in creating Saturn\u2019s E-ring is one of the top findings of the Cassini mission to Saturn. Further Cassini mission discoveries revealed strong evidence of a global ocean and the first signs of potential hydrothermal activity beyond Earth - making this tiny Saturnian moon one of the leading locations in the search for possible life beyond Earth. This poster is from a set of new \"travel posters\" from NASA's Jet Propulsion Laboratory, Pasadena, California, which envision a day when the creativity of scientists and engineers will allow us to do things we can only dream of now. The posters in the set depict various cosmic destinations including Mars, Jupiter's moon Europa, Saturn's vapor-spewing moon Enceladus, and the dwarf planet Ceres. You can take a virtual trip to 14 alien worlds, and maybe even plaster your living room with planetary art, via the new, futuristic space tourism posters. The posters are the brainchild of The St"
-                ],
-                "extent": [
-                    "1 p."
-                ],
-                "identifier": [
-                    "digcoll_usl_22library2_lib/81563"
-                ],
-                "language": [
-                    {
-                        "name": "English",
-                        "iso639_3": "English"
-                    }
-                ],
-                "relation": [
-                    "Is part of: U.S. Federal Publications",
-                    "Has part: NASA Visions of the Future"
-                ],
-                "rights": [
-                    "United States government publications are not subject to copyright in the United States under 17 U.S.C \u00a7105. All informational materials in this government publication are in the public domain, and as such, are not restricted by copyright law unless otherwise stated. For more information please see http://www.gpo.gov/help/index.html#public_domain_copyright_notice.htm"
-                ],
-                "spatial": [
-                    {
-                        "name": "Saturn (Planet)"
-                    }
-                ],
-                "subject": [
-                    {
-                        "name": "Space tourism"
-                    },
-                    {
-                        "name": "Interplanetary voyages"
-                    },
-                    {
-                        "name": "Space travelers"
-                    },
-                    {
-                        "name": "Saturn (Planet)"
-                    },
-                    {
-                        "name": "Planets--Exploration"
-                    },
-                    {
-                        "name": "Outer planets"
-                    },
-                    {
-                        "name": "Saturn (Planet)-- Enceladus (Satellite)"
-                    },
-                    {
-                        "name": "Exploration of Saturn (Planet)"
-                    },
-                    {
-                        "name": "Recreation and tourism"
-                    },
-                    {
-                        "name": "Industry and technology"
-                    }
-                ],
-                "title": [
-                    "Visit beautiful southern Enceladus : more than 100 breaktaking geysers!, the home of \"cold faithful\", book tours now [poster]"
                 ],
                 "type": [
                     "image"
