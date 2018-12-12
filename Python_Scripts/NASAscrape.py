@@ -29,6 +29,7 @@ for planet in planets:
             r = requests.get('https://images-api.nasa.gov/search', params=payload)
 
             nasa_data = json.loads(r.text)
+            nasa_data = nasa_data
 
             planet_data.append(nasa_data)
             nasa_all_data.append(nasa_data)
@@ -54,19 +55,19 @@ for planet in planets:
 
             page = page + 1
 
-    if total_pages > 100:
-        page = 100
-        while page <= total_pages:
-            payload = {'q': planet, 'media_type': 'image', 'page': page}
-            r = requests.get('https://images-api.nasa.gov/search', params=payload)
-
-            nasa_data = json.loads(r.text)
-
-            planet_data.append(nasa_data)
-            nasa_all_data.append(nasa_data)
-            print('Finished ' + planet + ' page ' + str(page))
-
-            page = page + 1
+    # if total_pages > 100:
+    #     page = 100
+    #     while page <= total_pages:
+    #         payload = {'q': planet, 'media_type': 'image', 'page': page}
+    #         r = requests.get('https://images-api.nasa.gov/search', params=payload)
+    #
+    #         nasa_data = json.loads(r.text)
+    #
+    #         planet_data.append(nasa_data)
+    #         nasa_all_data.append(nasa_data)
+    #         print('Finished ' + planet + ' page ' + str(page))
+    #
+    #         page = page + 1
 
         json.dump(planet_data, open(planet + '.json', 'w'), indent = 4)
         print('Made a ' + planet + ' JSON file\n')

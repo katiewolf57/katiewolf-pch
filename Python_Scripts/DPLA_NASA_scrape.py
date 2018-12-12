@@ -9,13 +9,13 @@ import time
 ## all the planets I will be searching over (including pluto b/c it can still look nice)
 planets = ['mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune', 'pluto']
 
+os.mkdir('./planets/')
+
 ## DPLA SCRAPING ##
 
 ## putting in my API key
-keykey = json.load(open('/Users/diunt-02/Desktop/PCH/katiewolf-pch/JSON_files/api.json', 'r'))
-
+keykey = json.load(open('./api.json', 'r'))
 dpla_token = keykey['DPLA_token']
-print(dpla_token)
 
 ## making an empty list so I can fill it with all my search results
 dpla_all_data = []
@@ -24,8 +24,8 @@ dpla_all_data = []
 for planet in planets:
 
 	## making a directory to store files/images in
-	if not os.path.exists('./' + planet):
-		os.mkdir(planet)
+	if not os.path.exists('./planets/' + planet):
+		os.mkdir('./planets/' + planet)
 
 	print("Looking at " + planet + ' in DPLA!\n')
 	payload = {'q': 'planet+AND+' + planet, 'page_size':500,'sourceResource.type':'image', 'api_key': dpla_token}
@@ -37,14 +37,14 @@ for planet in planets:
 
 	## writing out the data for each planet it it's own JSON file for easier searching
 	## adding it to the planet folder
-	json.dump(dpla_data, open('./' + planet + '/' + planet + '_dpla.json', 'w'), indent=4)
+	json.dump(dpla_data, open('./planets/' + planet + '/' + planet + '_dpla.json', 'w'), indent=4)
 
 
 	print("Made a " + planet + " JSON file\n")
 
 
 
-json.dump(dpla_all_data, open('dpla_data.json', 'w'), indent=4)
+json.dump(dpla_all_data, open('./planets/dpla_data.json', 'w'), indent=4)
 
 
 
@@ -89,7 +89,7 @@ for planet in planets:
 
             page = page + 1
 
-        json.dump(planet_data, open('./' + planet + '/' + planet + '_nasa.json', 'w'), indent = 4)
+        json.dump(planet_data, open('./planets/' + planet + '/' + planet + '_nasa.json', 'w'), indent = 4)
         print('Made a ' + planet + ' JSON file\n')
 
         planet_data.clear()
@@ -110,10 +110,10 @@ for planet in planets:
 
             page = page + 1
 
-            json.dump(planet_data, open('./' + planet + '/' + planet + '_nasa.json', 'w'), indent = 4)
+            json.dump(planet_data, open('./planets/' + planet + '/' + planet + '_nasa.json', 'w'), indent = 4)
 
         print('Made a ' + planet + ' JSON file\n')
 
         planet_data.clear()
 
-json.dump(nasa_all_data, open('nasa_data.json', 'w'), indent=4)
+json.dump(nasa_all_data, open('./planets/nasa_data.json', 'w'), indent=4)

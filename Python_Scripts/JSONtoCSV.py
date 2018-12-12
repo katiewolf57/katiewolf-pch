@@ -7,172 +7,138 @@ import os
 planets = ['mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune', 'pluto']
 
 
+dpla_base = 'https://dp.la/thumb/'
+nasa_base = 'https://images-assets.nasa.gov/image/'
 
-## downloading DPLA images, adding DPLA information to relevant CSV files ##
+print("\nMaking CSV files with the item's title and URL")
 
-# print("\nNow we're making CSV files with the item's title and URL! \n")
+titles = []
+object_records = []
+image_ids = []
+image_urls = []
 
-# object_urls = []
-# titles = []
-# images = []
-
-# ## base of the image url for downloading
-# base = 'https://dp.la/thumb/'
-
-
-# for planet in planets:
-
-# 	## opening up the JSON file to search through for relevant info
-# 	f = open('./' + planet + '/' + planet + '_dpla.json', 'r')
-# 	planet_data = json.load(f)
-# 	planet_data = planet_data['docs']
-
-# 	## pulling the collection url for the item
-# 	for item in planet_data:
-# 		l_url = item['isShownAt']
-# 		object_urls.append(l_url)
-
-# 	## pulling the title for the item
-# 	for item in planet_data:
-# 		l_title = item['sourceResource']['title']
-# 		titles.append(l_title)
-
-
-# 	## pulling the image id for the itme
-# 	for item in planet_data:
-# 		image = item['id']
-# 		images.append(image)
-
-# 	## making a csv with the urls, titles, and image ids
-# 	## putting it in the planet folder
-# 	with open('./' + planet + '/' + planet + '.csv', 'w') as results:
-# 		wr = csv.writer(results)
-# 		wr.writerows(zip(object_urls, titles, images))
-
-
-# 	## writing images to the planet folder
-# 	for i in images:
-
-# 	## making sure not to download an image if it's already been downloaded
-# 		if not os.path.isfile('./' + planet + '/' +i+'.jpg'):
-# 			r = requests.get(base + str(i))
-# 			if r.status_code == 200:
-# 				print("Downloading: ", i)
-# 				with open('./' + planet + '/'+ i + '.jpg', 'wb') as f:
-# 					f.write(r.content)
-
-# 	## making sure that if any images aren't found/don't exist any more, it's reported so I can deal with them
-# 			else:
-# 				with open('error_log.txt', 'a') as f:
-# 					f.write("ERROR:" + i + '\n')
-
-# 		else:
-# 			print("ALREADY DOWNLOADED", i)
-
-
-# 	title_count = str(len(titles))
-# 	url_count = str(len(object_urls))
-# 	image_count = str(len(images))
-
-# 	print("\nThere should be " + title_count + " titles and " + url_count + " urls and  " + image_count + " images for " + planet)
-
-# 	## alerting me if there's a discprepancy between title/url/image count
-# 	if title_count > url_count:
-# 		print("WATCH OUT! There are more titles than urls!\n")
-# 	elif title_count > image_count:
-# 		print("WATCH OUT! There are more titles than images!\n")
-# 	elif url_count > title_count:
-# 		print("WATCH OUT! There are more urls than titles!\n")
-# 	elif url_count > image_count:
-# 		print("WATCH OUT! There are more urls than images!\n")
-# 	elif image_count > title_count:
-# 		print("WATCH OUT! There are more images than titles!\n")
-# 	elif image_count > url_count:
-# 		print("WATCH OUT! There are more images than urls!\n")
-# 	else:
-# 		print("Those numbers match! All good!\n")
-
-# 	## clearing out the lists so they can be counted for the next planet
-# 	del object_urls[:]
-# 	del titles[:]
-# 	del images[:]
-
-
-## downloading NASA images and adding info to relevant CSVs ##
-
+## writing DPLA data to csv ##
 for planet in planets:
+    dpla = open('./planets/' + planet + '/' + planet + '_dpla.json', 'r')
+    dpla_data = json.load(dpla)
+    dpla_data = dpla_data['docs']
 
-	## opening up the JSON file to search through for relevant info
-	f = open('./' + planet + '/' + planet + '_nasa.json', 'r')
-	planet_data = json.load(f)
-	planet_data = planet_data['docs']
+    print('Writing ' + planet + ' csv for DPLA JSON file!')
+    ## pulling title info
+    for item in dpla_data:
+        title = item['sourceResource']['title']
+        titles.append(title)
 
-	## pulling the collection url for the item
-	for item in planet_data:
-		l_url = item['isShownAt']
-		object_urls.append(l_url)
+    ## pulling object record url
+    for item in dpla_data:
+        object_record = item['isShownAt']
+        object_records.append(object_record)
 
-	# ## pulling the title for the item
-	# for item in planet_data:
-	# 	l_title = item['sourceResource']['title']
-	# 	titles.append(l_title)
-
-
-	# ## pulling the image id for the itme
-	# for item in planet_data:
-	# 	image = item['id']
-	# 	images.append(image)
-
-	# ## making a csv with the urls, titles, and image ids
-	# ## putting it in the planet folder
-	# with open('./' + planet + '/' + planet + '.csv', 'w') as results:
-	# 	wr = csv.writer(results)
-	# 	wr.writerows(zip(object_urls, titles, images))
+    ## pulling image id
+    for item in dpla_data:
+        image_id = item['id']
+        image_ids.append(image_id)
 
 
-	# ## writing images to the planet folder
-	# for i in images:
+    # pulling image url
+    for item in dpla_data:
+        image_url = item['object']
+        image_urls.append(image_url)
 
-	# ## making sure not to download an image if it's already been downloaded
-	# 	if not os.path.isfile('./' + planet + '/' +i+'.jpg'):
-	# 		r = requests.get(base + str(i))
-	# 		if r.status_code == 200:
-	# 			print("Downloading: ", i)
-	# 			with open('./' + planet + '/'+ i + '.jpg', 'wb') as f:
-	# 				f.write(r.content)
+	## writing to csv ##
+    with open('./planets/' + planet + '/' + planet + '.csv', 'w') as results:
+        writer = csv.writer(results)
+        writer.writerows(zip(titles, object_records, image_ids, image_urls))
 
-	# ## making sure that if any images aren't found/don't exist any more, it's reported so I can deal with them
-	# 		else:
-	# 			with open('error_log.txt', 'a') as f:
-	# 				f.write("ERROR:" + i + '\n')
+	## downloading images ##
+    # for i in image_ids:
+    #     if not os.path.isfile('./' + planet + '/' + i + '.jpg'):
+    #         r = requests.get(dpla_base + str(i))
+    #         if r.status_code == 200:
+    #             print('Downloading: ', i)
+    #             with open('./' + planet + '/' + i +'.jpg', 'wb') as f:
+    #                 f.write(r.content)
+    #         else:
+    #             with open('error_log.txt', 'a') as f:
+    #                 f.write("ERROR: ", i + '\n')
+    #     else:
+    #         print('Already Downloaded: ', i)
 
-	# 	else:
-	# 		print("ALREADY DOWNLOADED", i)
+	## clearing lists! ##
+    del titles[:]
+    del object_records[:]
+    del image_ids[:]
+    del image_urls[:]
+
+results.close()
 
 
-	# title_count = str(len(titles))
-	# url_count = str(len(object_urls))
-	# image_count = str(len(images))
+## writing NASA data to csv ##
+for planet in planets:
+    nasa = open('./planets/' + planet + '/' + planet + '_nasa.json', 'r')
+    nasa_data = json.load(nasa)
 
-	# print("\nThere should be " + title_count + " titles and " + url_count + " urls and  " + image_count + " images for " + planet)
 
-	# ## alerting me if there's a discprepancy between title/url/image count
-	# if title_count > url_count:
-	# 	print("WATCH OUT! There are more titles than urls!\n")
-	# elif title_count > image_count:
-	# 	print("WATCH OUT! There are more titles than images!\n")
-	# elif url_count > title_count:
-	# 	print("WATCH OUT! There are more urls than titles!\n")
-	# elif url_count > image_count:
-	# 	print("WATCH OUT! There are more urls than images!\n")
-	# elif image_count > title_count:
-	# 	print("WATCH OUT! There are more images than titles!\n")
-	# elif image_count > url_count:
-	# 	print("WATCH OUT! There are more images than urls!\n")
-	# else:
-	# 	print("Those numbers match! All good!\n")
+    print('Appending ' + planet + ' csv with NASA JSON info!')
+	## getting the title info ##
+    for section in nasa_data:
+        collection = section['collection']
+        for item in collection['items']:
+            data = item['data']
+            for info in data:
+                title = info['title']
+                titles.append(title)
 
-	# ## clearing out the lists so they can be counted for the next planet
-	# del object_urls[:]
-	# del titles[:]
-	# del images[:]
+	## getting the object record url ##
+    for section in nasa_data:
+        collection = section['collection']
+        for item in collection['items']:
+            data = item['data']
+            for info in data:
+                nasa_id = info['nasa_id']
+                object_record = 'http://images.nasa.gov/details-' + nasa_id + '.html'
+                object_records.append(object_record)
+
+	## getting the image id ##
+    for section in nasa_data:
+        collection = section['collection']
+        for item in collection['items']:
+            data = item['data']
+            for info in data:
+                image_id = info['nasa_id']
+                image_ids.append(image_id)
+
+	## getting the image url ##
+    for section in nasa_data:
+        collection = section['collection']
+        for item in collection['items']:
+            links = item['links']
+            for info in links:
+                image_url = info['href']
+                image_urls.append(image_url)
+
+	## appending the csv ##
+    with open('./planets/' + planet + '/' + planet + '.csv', 'a') as results:
+        writer = csv.writer(results)
+        writer.writerows(zip(titles, object_records, image_ids, image_urls))
+
+	## downloading the images ##
+    # for i in image_ids:
+    #     if not os.path.isfile('./' + planet + '/' + i + '.jpg'):
+    #         r = requests.get(nasa_base + str(i) + '/' + i + '~thumb.jpg')
+    #         if r.status_code == 200:
+    #             print('Downloading: ', i)
+    #             with open('./' + planet + '/' + i +'.jpg', 'wb') as f:
+    #                 f.write(r.content)
+    #         else:
+    #             with open('error_log.txt', 'a') as f:
+    #                 f.write("ERROR: ", i + '\n')
+    #     else:
+    #         print('Already Downloaded: ', i)
+
+    del titles[:]
+    del object_records[:]
+    del image_ids[:]
+    del image_urls[:]
+
+results.close()

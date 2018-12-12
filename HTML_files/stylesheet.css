@@ -1,7 +1,7 @@
 /*stylesheet.css*/
 
 
-/*index styling*/
+/*index - homepage styling styling*/
 
 body{
 	background-color: #0D051E;
@@ -29,6 +29,9 @@ body{
 	border-radius: 50%;
 	font-size:100pt;
 
+}
+#subscript{
+	margin-top: 10px;
 }
 
 /* 1516 mi radius */
@@ -132,4 +135,36 @@ body{
     width:60px;
     border-radius: 50%;
     background: linear-gradient(-45deg, #A0522D, #DEB887, #CD853F);
+}
+
+/* planet page styling */
+
+.image_row {
+	padding: 0 4px;
+	margin-top:20px;
+	display: inline-block;
+}
+
+.image_row img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 300px;
+	display: inline-block;
+
+}
+
+#planetbody {
+	background-color: #0D051E;
+}
+
+#intro {
+	font-family: "Lucida Sanss Unicode", Lucida Grande, sans-serif;
+ 	color:white;
+	justify-content: center;
+	margin: 0 auto;
+	align-items: center;
+	text-align:center;
+	vertical-align:middle;
+	display: flex;
+
 }
