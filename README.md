@@ -7,7 +7,7 @@ After this information has been compiled, I created a small HTML site that allow
 
 # How to Use
 
-To run this yourself you'll need an API key from DPLA. You don't need one for NASA's api. 
+To run this yourself you'll need an API key from DPLA. You don't need one for NASA's API. 
 
 Start by adding in your API key to DPLA_NASA_scrape.py where noted. 
 Save and run the program!
