@@ -18,3 +18,6 @@ When it's finished running, you'll see a folder labled "planets" has been create
 Now, you run the script JSONtoCSV.py. This script will create a single CSV file for each planet containing each item's title, object record URL, image ID, and image URL. This script will also download all of the images if you'd like it to. Be warned, NASA has roughly 30,000 images for Earth!  
 
 Finally, if you'd like to see some stats on how many images appear for each planet, you can run the graph_info.py script. This will read the JSON files and make pie and bar graphs for both DPLA and NASA. 
+
+
+You'll also find all of my HTML pages in the HTML folder if you'd like to see how I built that. 
