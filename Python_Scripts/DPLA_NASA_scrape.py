@@ -17,6 +17,8 @@ os.mkdir('./planets/')
 keykey = json.load(open('./api.json', 'r'))
 dpla_token = keykey['DPLA_token']
 
+# dpla_token = 'YOURKEYHERE'
+
 ## making an empty list so I can fill it with all my search results
 dpla_all_data = []
 
@@ -61,7 +63,7 @@ for planet in planets:
 	## looping through pages for this search ##
     page = 1
 
-    print('Looking at ' + planet)
+    print('Looking at ' + planet + ' in NASA!\n')
     payload = {'q': planet, 'media_type': 'image', 'page': page}
     r = requests.get('https://images-api.nasa.gov/search', params=payload)
 
@@ -69,11 +71,11 @@ for planet in planets:
 
 	## need to determine how many pages to loop through for each plaent##
     total_hits = nasa_data['collection']['metadata']['total_hits']
-    print(total_hits)
+
 	## how many hits are there ##
 	## 100 hits per page -> hits/100 = pages needed ##
     total_pages = math.ceil(total_hits/100)
-    print(total_pages)
+
 
 	## if LESS THAN 100 pages needed, then no problem ##
     if total_pages <=100:

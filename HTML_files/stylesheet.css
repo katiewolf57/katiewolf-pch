@@ -168,3 +168,18 @@ body{
 	display: flex;
 
 }
+
+.graph_image {
+	justify-content: center;
+	margin: 0 auto;
+	align-items: center;
+	text-align:center;
+	vertical-align:middle;
+	display: flex;
+}
+
+.graph_image img {
+	margin-top: 8px;
+	width: 1000px;
+	display: inline-block;
+}

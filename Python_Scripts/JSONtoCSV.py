@@ -23,7 +23,7 @@ for planet in planets:
     dpla_data = json.load(dpla)
     dpla_data = dpla_data['docs']
 
-    print('Writing ' + planet + ' csv for DPLA JSON file!')
+    print('Writing ' + planet + ' csv with DPLA JSON info!')
     ## pulling title info
     for item in dpla_data:
         title = item['sourceResource']['title']
@@ -50,19 +50,22 @@ for planet in planets:
         writer = csv.writer(results)
         writer.writerows(zip(titles, object_records, image_ids, image_urls))
 
+    os.mkdir('./planets/' + planet + '/images')
 	## downloading images ##
-    # for i in image_ids:
-    #     if not os.path.isfile('./' + planet + '/' + i + '.jpg'):
-    #         r = requests.get(dpla_base + str(i))
-    #         if r.status_code == 200:
-    #             print('Downloading: ', i)
-    #             with open('./' + planet + '/' + i +'.jpg', 'wb') as f:
-    #                 f.write(r.content)
-    #         else:
-    #             with open('error_log.txt', 'a') as f:
-    #                 f.write("ERROR: ", i + '\n')
-    #     else:
-    #         print('Already Downloaded: ', i)
+
+    ## NOTE - this takes a long time so feel free to turn it off
+    for i in image_ids:
+        if not os.path.isfile('./planets/' + planet + '/images/' + i + '.jpg'):
+            r = requests.get(dpla_base + str(i))
+            if r.status_code == 200:
+                print('Downloading: ', i)
+                with open('./planets/' + planet + '/images/' + i + '.jpg', 'wb') as f:
+                    f.write(r.content)
+            else:
+                with open('error_log.txt', 'a') as f:
+                    f.write("ERROR: " + i + '\n')
+        else:
+            print('Already Downloaded: ', i)
 
 	## clearing lists! ##
     del titles[:]
@@ -123,18 +126,20 @@ for planet in planets:
         writer.writerows(zip(titles, object_records, image_ids, image_urls))
 
 	## downloading the images ##
-    # for i in image_ids:
-    #     if not os.path.isfile('./' + planet + '/' + i + '.jpg'):
-    #         r = requests.get(nasa_base + str(i) + '/' + i + '~thumb.jpg')
-    #         if r.status_code == 200:
-    #             print('Downloading: ', i)
-    #             with open('./' + planet + '/' + i +'.jpg', 'wb') as f:
-    #                 f.write(r.content)
-    #         else:
-    #             with open('error_log.txt', 'a') as f:
-    #                 f.write("ERROR: ", i + '\n')
-    #     else:
-    #         print('Already Downloaded: ', i)
+
+    ## NOTE - this takes a an even longer time
+    for i in image_ids:
+        if not os.path.isfile('./planets/' + planet + '/images/' + i + '.jpg'):
+            r = requests.get(nasa_base + str(i) + '/' + i + '~thumb.jpg')
+            if r.status_code == 200:
+                print('Downloading: ', i)
+                with open('./planets/' + planet + '/images/' + i + '.jpg', 'wb') as f:
+                    f.write(r.content)
+            else:
+                with open('error_log.txt', 'a') as f:
+                    f.write("ERROR: ", i + '\n')
+        else:
+            print('Already Downloaded: ', i)
 
     del titles[:]
     del object_records[:]
