@@ -1,7 +1,7 @@
 # Katie Wolf - PCH final project
 
 # Description
-This project uses APIs to collect image records from cultural heritage and science institutions. I used DPLA’s API (https://pro.dp.la/developers/api-codex) and NASA’s Image and Video Library API (https://api.nasa.gov/api.html#Images). I've gathered content related to the plants of our solar system (including Pluto), sorted the results by planet, and pulled out relevant information about the image, including but not limited to institution that houses the image, collection or object ID, other identifying information, rights information, and then descriptive metadata. 
+This project uses APIs to collect image records from cultural heritage and science institutions. I used DPLA’s API (https://pro.dp.la/developers/api-codex) and NASA’s Image and Video Library API (https://api.nasa.gov/api.html#Images). I've gathered content related to the planets of our solar system (including Pluto), sorted the results by planet, and pulled out relevant information about the image, including but not limited to institution that houses the image, collection or object ID, other identifying information, rights information, and then descriptive metadata. 
 After this information has been compiled, I created a small HTML site that allows the user to see what images are available for each planet in the solar system. This site can be seen in this repository: https://github.com/katiewolf57/katiewolf57.github.io
 
 
